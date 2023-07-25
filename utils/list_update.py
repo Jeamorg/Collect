@@ -114,24 +114,21 @@ class update_url():
             s = requests.Session()
             s.mount('http://', HTTPAdapter(max_retries=2))
             s.mount('https://', HTTPAdapter(max_retries=2))
-            urllist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/RenaLio/Mux2sub/main/urllist', timeout=4).text.split("\n")))))
             sublist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
                 'https://raw.githubusercontent.com/RenaLio/Mux2sub/main/sub_list', timeout=4).text.split("\n")))))
 
             air_free = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/rxsweet/getAirport/main/config/sublist_free', timeout=4).text.split("\n")))))
+                'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/sublist_mining.txt', timeout=4).text.split("\n")))))
             air_mining = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/rxsweet/getAirport/main/config/sublist_mining', timeout=4).text.split("\n")))))
+                'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/subList_dynamic.txt', timeout=4).text.split("\n")))))
 
-            urllist.extend(sublist)
-            urllist.extend(air_free)
-            urllist.extend(air_mining)
+            sublist.extend(air_free)
+            sublist.extend(air_mining)
 
             # urllist = list(map(lambda x: quote(x, safe=""), urllist))
             # urllist = list(filter(lambda x: str(x).__contains__(
             #    "getafreenode.com") == False, urllist))
-            new_url = "|".join(list(set(urllist)))
+            new_url = "|".join(list(set(sublist)))
             # except Exception as e:
             #     print(e)
         return new_url

@@ -452,7 +452,7 @@ high-speed node quantity: `131`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `131`
+merge nodes w/o dup: `234`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -475,11 +475,20 @@ merge nodes w/o dup: `131`
 
 
 ### node sources
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `131`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `50`
 - [huanongkejizhijia/clashnode](https://github.com/huanongkejizhijia/clashnode), number of nodes: `50`
-- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1265`
+- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1281`
 - [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), number of nodes: `30`
+- [lflflf999/0516](https://github.com/lflflf999/0516), number of nodes: `54`
+- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), number of nodes: `20`
+- [freefq](https://github.com/freefq/free), number of nodes: `54`
+- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), number of nodes: `41`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `8`
+- [flycnb.tk](https://flycnb.tk), number of nodes: `19`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `271`
+- [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), number of nodes: `35`
+- [freefq/free](https://github.com/freefq/free), number of nodes: `24`
+- [sashalsk/V2Ray](https://github.com/sashalsk/V2Ray), number of nodes: `4`
 
 ## Softwares
 

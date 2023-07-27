@@ -168,6 +168,17 @@ class update_url():
             new_url = url_front + \
                 "/".join([this_year, this_month, today]) + url_end
 
+        if id == 16:
+            # https://v2rayshare.com/wp-content/uploads/2022/10/20221025.txt
+            today = datetime.today().strftime('%Y%m%d')
+            this_month = datetime.today().strftime('%m')
+            this_year = datetime.today().strftime('%Y')
+            url_front = 'https://oneclash.cc/wp-content/uploads/'
+            url_end = '.txt'
+            new_url = url_front + \
+                "/".join([this_year, this_month, today]) + url_end
+
+        
         if url_updated(new_url):
             return new_url
         else:

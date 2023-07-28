@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `227`
+merge nodes w/o dup: `1643`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -545,17 +545,40 @@ merge nodes w/o dup: `227`
 
 ### node sources
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `49`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `224`
 - [FiFier/v2rayShare](https://github.com/FiFier/v2rayShare), number of nodes: `49`
 - [huanongkejizhijia/clashnode](https://github.com/huanongkejizhijia/clashnode), number of nodes: `50`
-- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1298`
+- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1232`
 - [xrayfree/free-ssr-ss-v2ray-vpn-clash](https://github.com/xrayfree/free-ssr-ss-v2ray-vpn-clash), number of nodes: `80`
 - [lflflf999/0516](https://github.com/lflflf999/0516), number of nodes: `48`
-- [Jsnzkpg/Jsnzkpg](https://github.com/Jsnzkpg/Jsnzkpg), number of nodes: `15`
+- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `66`
 - [freefq](https://github.com/freefq/free), number of nodes: `119`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), number of nodes: `56`
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `10`
+- [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `22`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `14`
 - [flycnb.tk](https://flycnb.tk), number of nodes: `32`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `77`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `49`
+- [cxr9912/cxr2022](https://github.com/cxr9912/cxr2022), number of nodes: `6`
+- [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), number of nodes: `17`
+- [101.64.235.179](https://101.64.235.179), number of nodes: `286`
+- [47.87.191.86](http://47.87.191.86), number of nodes: `267`
+- [https://jiang.netlify.app/](https://jiang.netlify.app/), number of nodes: `21`
+- [101.64.235.179](https://101.64.235.179), number of nodes: `286`
+- [freefq/free](https://github.com/freefq/free), number of nodes: `39`
+- [proxy.yiun.xyz](https://proxy.yiun.xyz), number of nodes: `408`
+- [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `117`
+- [1.14.59.143](http://1.14.59.143), number of nodes: `63`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `104`
+- [wefound.cc](https://wefound.cc), number of nodes: `49`
+- [dalazhi/v2ray](https://github.com/dalazhi/v2ray), number of nodes: `11`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `306`
+- [proxypool.link](https://proxypool.link), number of nodes: `433`
+- [ss.dosec.cn](https://ss.dosec.cn), number of nodes: `304`
+- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `23`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `638`
+- [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `50`
+- [freenodes/freenodes](https://github.com/freenodes/freenodes), number of nodes: `473`
+- [ZywChannel/free](https://github.com/ZywChannel/free), number of nodes: `250`
 
 ## Softwares
 

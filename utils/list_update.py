@@ -122,8 +122,16 @@ class update_url():
             air_mining = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
                 'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/subList_dynamic.txt', timeout=4).text.split("\n")))))
 
+            air_free1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+                'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_free', timeout=4).text.split("\n")))))
+            air_mining1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+                'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_mining', timeout=4).text.split("\n")))))
+
+
             sublist.extend(air_free)
             sublist.extend(air_mining)
+            sublist.extend(air_free1)
+            sublist.extend(air_mining1)
 
             # urllist = list(map(lambda x: quote(x, safe=""), urllist))
             # urllist = list(filter(lambda x: str(x).__contains__(

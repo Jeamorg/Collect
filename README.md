@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `618`
+merge nodes w/o dup: `634`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -550,16 +550,14 @@ merge nodes w/o dup: `618`
 - [flycnb.tk](https://flycnb.tk), number of nodes: `32`
 - [cxr9912/cxr2022](https://github.com/cxr9912/cxr2022), number of nodes: `6`
 - [Rokate/Proxy-Sub](https://github.com/Rokate/Proxy-Sub), number of nodes: `16`
-- [101.64.235.179](https://101.64.235.179), number of nodes: `306`
-- [47.87.191.86](http://47.87.191.86), number of nodes: `255`
-- [101.64.235.179](https://101.64.235.179), number of nodes: `306`
+- [101.64.235.179](https://101.64.235.179), number of nodes: `290`
+- [47.87.191.86](http://47.87.191.86), number of nodes: `230`
 - [proxy.yiun.xyz](https://proxy.yiun.xyz), number of nodes: `373`
-- [1.14.59.143](http://1.14.59.143), number of nodes: `58`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `92`
+- [1.14.59.143](http://1.14.59.143), number of nodes: `46`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `100`
 - [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `84`
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), number of nodes: `41`
-- [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `77`
-- [hkaa0/permalink](https://github.com/hkaa0/permalink), number of nodes: `35`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `77`
 - [hkaa0/permalink](https://github.com/hkaa0/permalink), number of nodes: `35`
 
 ## Softwares

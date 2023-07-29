@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `584`
+merge nodes w/o dup: `517`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -545,16 +545,14 @@ merge nodes w/o dup: `584`
 
 ### node sources
 - [huanongkejizhijia/clashnode](https://github.com/huanongkejizhijia/clashnode), number of nodes: `50`
-- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1368`
-- [101.64.235.179](https://101.64.235.179), number of nodes: `293`
-- [47.87.191.86](http://47.87.191.86), number of nodes: `262`
-- [http://20.212.248.250:12588](http://20.212.248.250:12588), number of nodes: `326`
+- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1512`
+- [101.64.235.179](https://101.64.235.179), number of nodes: `305`
+- [47.87.191.86](http://47.87.191.86), number of nodes: `258`
+- [http://20.212.248.250:12588](http://20.212.248.250:12588), number of nodes: `332`
 - [proxy.yiun.xyz](https://proxy.yiun.xyz), number of nodes: `382`
-- [1.14.59.143](http://1.14.59.143), number of nodes: `53`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `88`
 - [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `68`
 - [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), number of nodes: `41`
-- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `55`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `41`
 - [hkaa0/permalink](https://github.com/hkaa0/permalink), number of nodes: `35`
 
 ## Softwares

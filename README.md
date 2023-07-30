@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `499`
+merge nodes w/o dup: `1128`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -544,17 +544,29 @@ merge nodes w/o dup: `499`
 
 
 ### node sources
+- [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `50`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `255`
+- [FiFier/v2rayShare](https://github.com/FiFier/v2rayShare), number of nodes: `50`
 - [huanongkejizhijia/clashnode](https://github.com/huanongkejizhijia/clashnode), number of nodes: `50`
-- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1738`
-- [101.64.235.179](https://101.64.235.179), number of nodes: `295`
-- [47.87.191.86](http://47.87.191.86), number of nodes: `264`
-- [https://183.245.52.108:8443/clash/proxies](https://183.245.52.108:8443), number of nodes: `295`
-- [http://20.212.248.250:12588](http://20.212.248.250:12588), number of nodes: `333`
-- [proxy.yiun.xyz](https://proxy.yiun.xyz), number of nodes: `394`
-- [anaer/Sub](https://github.com/anaer/Sub), number of nodes: `34`
-- [aiboboxx/v2rayfree](https://github.com/aiboboxx/v2rayfree), number of nodes: `39`
+- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1758`
+- [ss.dosec.cn](https://ss.dosec.cn), number of nodes: `335`
+- [lflflf999/0516](https://github.com/lflflf999/0516), number of nodes: `53`
+- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `95`
+- [freefq](https://github.com/freefq/free), number of nodes: `20`
+- [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `29`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `9`
+- [flycnb.tk](https://flycnb.tk), number of nodes: `23`
+- [proxypool.link](https://proxypool.link), number of nodes: `464`
+- [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), number of nodes: `34`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `51`
-- [hkaa0/permalink](https://github.com/hkaa0/permalink), number of nodes: `35`
+- [oneclash.cc](https://oneclash.cc), number of nodes: `50`
+- [cxr9912/cxr2022](https://github.com/cxr9912/cxr2022), number of nodes: `6`
+- [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `179`
+- [1.14.59.143](http://1.14.59.143), number of nodes: `39`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `121`
+- [wefound.cc](https://wefound.cc), number of nodes: `50`
+- [dalazhi/v2ray](https://github.com/dalazhi/v2ray), number of nodes: `11`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `467`
 
 ## Softwares
 

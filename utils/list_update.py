@@ -161,7 +161,7 @@ class update_url():
             today = datetime.today().strftime('%Y%m%d')
             this_month = datetime.today().strftime('%m')
             this_year = datetime.today().strftime('%Y')
-            url_front = 'https://oneclash.cc/freenode/'
+            url_front = 'https://oneclash.cc/wp-content/uploads/'
             url_end = '.txt'
             new_url = url_front + \
                 "/".join([this_year, this_month, today]) + url_end
@@ -171,7 +171,7 @@ class update_url():
             today = datetime.today().strftime('%Y%m%d')
             this_month = datetime.today().strftime('%m')
             this_year = datetime.today().strftime('%Y')
-            url_front = 'https://clashnode.com/wp-content/uploads/'
+            url_front = 'https://wefound.cc/freenode/'
             url_end = '.txt'
             new_url = url_front + \
                 "/".join([this_year, this_month, today]) + url_end

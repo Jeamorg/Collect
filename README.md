@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `1128`
+merge nodes w/o dup: `1119`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -549,24 +549,24 @@ merge nodes w/o dup: `1128`
 - [FiFier/v2rayShare](https://github.com/FiFier/v2rayShare), number of nodes: `50`
 - [huanongkejizhijia/clashnode](https://github.com/huanongkejizhijia/clashnode), number of nodes: `50`
 - [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1758`
-- [ss.dosec.cn](https://ss.dosec.cn), number of nodes: `335`
+- [ss.dosec.cn](https://ss.dosec.cn), number of nodes: `338`
 - [lflflf999/0516](https://github.com/lflflf999/0516), number of nodes: `53`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `95`
-- [freefq](https://github.com/freefq/free), number of nodes: `20`
+- [freefq](https://github.com/freefq/free), number of nodes: `26`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `29`
-- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `9`
+- [Pawdroid/Free-servers](https://github.com/Pawdroid/Free-servers), number of nodes: `12`
 - [flycnb.tk](https://flycnb.tk), number of nodes: `23`
-- [proxypool.link](https://proxypool.link), number of nodes: `464`
+- [proxypool.link](https://proxypool.link), number of nodes: `462`
 - [ermaozi/get_subscribe](https://github.com/ermaozi/get_subscribe), number of nodes: `34`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `51`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `50`
 - [cxr9912/cxr2022](https://github.com/cxr9912/cxr2022), number of nodes: `6`
 - [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `179`
 - [1.14.59.143](http://1.14.59.143), number of nodes: `39`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `121`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `102`
 - [wefound.cc](https://wefound.cc), number of nodes: `50`
 - [dalazhi/v2ray](https://github.com/dalazhi/v2ray), number of nodes: `11`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `467`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `463`
 
 ## Softwares
 

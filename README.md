@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `1465`
+merge nodes w/o dup: `1312`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -550,7 +550,6 @@ merge nodes w/o dup: `1465`
 - [wefound.cc](https://wefound.cc), number of nodes: `50`
 - [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1446`
 - [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `38`
-- [ZywChannel/free](https://github.com/ZywChannel/free), number of nodes: `282`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `467`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `50`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `64`
@@ -560,10 +559,10 @@ merge nodes w/o dup: `1465`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `37`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `50`
 - [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `179`
+- [1.14.59.143](http://1.14.59.143), number of nodes: `35`
 - [123.57.192.169](http://123.57.192.169), number of nodes: `106`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `552`
-- [snakem982/proxypool](https://github.com/snakem982/proxypool), number of nodes: `262`
-- [freenodes/freenodes](https://github.com/freenodes/freenodes), number of nodes: `331`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `568`
+- [snakem982/proxypool](https://github.com/snakem982/proxypool), number of nodes: `276`
 
 ## Softwares
 

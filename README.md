@@ -560,7 +560,6 @@ merge nodes w/o dup: `1465`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `37`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `50`
 - [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `179`
-- [1.14.59.143](http://1.14.59.143), number of nodes: `30`
 - [123.57.192.169](http://123.57.192.169), number of nodes: `106`
 - [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `552`
 - [snakem982/proxypool](https://github.com/snakem982/proxypool), number of nodes: `262`

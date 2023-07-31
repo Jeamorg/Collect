@@ -829,7 +829,7 @@ class sub_convert():
 
 
 if __name__ == '__main__':
-    subscribe = 'https://c.jeam.cc/sub/sub_merge.txt'
+    subscribe = 'https://raw.githubusercontent.com/Jeamorg/Collect/master/sub/sub_merge.txt'
     output_path = './output.txt'
 
     content = sub_convert.main(subscribe, 'url', 'YAML')

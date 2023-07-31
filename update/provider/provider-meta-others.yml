@@ -102,7 +102,7 @@ proxy-providers:
 
   airports:
     type: http
-    url: "https://c.jeam.cc/sub/airport_merge_yaml.yml"
+    url: "https://raw.githubusercontent.com/Jeamorg/Collect/master/sub/airport_merge_yaml.yml"
     interval: 86400
     path: ./providers/airports.yaml
     health-check:
@@ -115,7 +115,7 @@ proxy-providers:
 
   aggregator:
     type: http
-    url: "https://c.jeam.cc/sub/sub_merge_yaml.yml"
+    url: "https://raw.githubusercontent.com/Jeamorg/Collect/master/sub/sub_merge_yaml.yml"
     interval: 86400
     path: ./providers/aggregator.yaml
     health-check:

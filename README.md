@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `1671`
+merge nodes w/o dup: `1740`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -545,24 +545,23 @@ merge nodes w/o dup: `1671`
 
 ### node sources
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `50`
-- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `199`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `239`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `50`
 - [wefound.cc](https://wefound.cc), number of nodes: `50`
-- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1375`
+- [RenaLio/Mux2sub](https://github.com/RenaLio/Mux2sub), number of nodes: `1651`
 - [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `22`
-- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `636`
+- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `857`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `50`
-- [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `36`
+- [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `55`
 - [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `275`
 - [flycnb.tk](https://flycnb.tk), number of nodes: `23`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `781`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `1043`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `69`
-- [snakem982/proxypool](https://github.com/snakem982/proxypool), number of nodes: `316`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `50`
 - [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `179`
-- [1.14.59.143](http://1.14.59.143), number of nodes: `80`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `159`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `630`
+- [1.14.59.143](http://1.14.59.143), number of nodes: `65`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `169`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `725`
 
 ## Softwares
 

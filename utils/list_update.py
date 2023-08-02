@@ -114,24 +114,32 @@ class update_url():
             s = requests.Session()
             s.mount('http://', HTTPAdapter(max_retries=2))
             s.mount('https://', HTTPAdapter(max_retries=2))
+            # sublist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/RenaLio/Mux2sub/main/sub_list', timeout=4).text.split("\n")))))
+
+            # air_free = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/sublist_mining.txt', timeout=4).text.split("\n")))))
+            # air_mining = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/subList_dynamic.txt', timeout=4).text.split("\n")))))
+
+            # air_free1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_free', timeout=4).text.split("\n")))))
+            # air_mining1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            #     'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_mining', timeout=4).text.split("\n")))))
+
             sublist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/RenaLio/Mux2sub/main/sub_list', timeout=4).text.split("\n")))))
-
-            air_free = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/sublist_mining.txt', timeout=4).text.split("\n")))))
-            air_mining = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/rxsweet/proxies/main/sub/sources/subList_dynamic.txt', timeout=4).text.split("\n")))))
-
-            air_free1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_free', timeout=4).text.split("\n")))))
-            air_mining1 = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_mining', timeout=4).text.split("\n")))))
+                'https://raw.githubusercontent.com/Jeamcc/CollectAir/master/urllist', timeout=4).text.split("\n")))))
 
 
-            sublist.extend(air_free)
-            sublist.extend(air_mining)
-            sublist.extend(air_free1)
-            sublist.extend(air_mining1)
+            list = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+                'https://raw.githubusercontent.com/Jeamcc/CollectAir/master/sub_list', timeout=4).text.split("\n")))))
+
+
+
+            # sublist.extend(air_free)
+            # sublist.extend(air_mining)
+            # sublist.extend(air_free1)
+            sublist.extend(list)
 
             # urllist = list(map(lambda x: quote(x, safe=""), urllist))
             # urllist = list(filter(lambda x: str(x).__contains__(

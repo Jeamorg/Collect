@@ -131,7 +131,7 @@ class update_url():
                 'https://raw.githubusercontent.com/Jeamcc/CollectAir/master/urllist', timeout=4).text.split("\n")))))
 
 
-            list = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
+            jlist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
                 'https://raw.githubusercontent.com/Jeamcc/CollectAir/master/sub_list', timeout=4).text.split("\n")))))
 
 
@@ -139,7 +139,7 @@ class update_url():
             # sublist.extend(air_free)
             # sublist.extend(air_mining)
             # sublist.extend(air_free1)
-            sublist.extend(list)
+            sublist.extend(jlist)
 
             # urllist = list(map(lambda x: quote(x, safe=""), urllist))
             # urllist = list(filter(lambda x: str(x).__contains__(

@@ -132,7 +132,7 @@ class update_url():
 
 
             jlist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/Jeamcc/CollectAir/master/sub_list', timeout=4).text.split("\n")))))
+                'https://raw.githubusercontent.com/rea-tool/proxy-minging/main/2023/8/8-3.yaml', timeout=4).text.split("\n")))))
 
 
 

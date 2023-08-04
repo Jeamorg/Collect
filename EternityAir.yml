@@ -17,25 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-45.151.132.136-044 | 39.19MB
-  server: maous4.wzgmail.com
-  port: 31235
-  type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: maous4.wzgmail.com
-- name: 🇺🇸US-45.151.132.159-043 | 38.505MB
+- name: 🇺🇸US-45.151.132.159-103 | 40.003MB
   server: maous3.wzgmail.com
   port: 31235
   type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
   alterId: 0
   cipher: auto
   tls: false
@@ -45,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: maous3.wzgmail.com
-- name: 🇯🇵JP-54.248.38.228-002 | 20.815MB
-  server: 54.248.38.228
-  port: 443
+- name: 🇺🇸US-45.151.132.136-104 | 32.762MB
+  server: maous4.wzgmail.com
+  port: 31235
   type: vmess
-  uuid: 9c19470d-2269-4de0-a631-681bb863f8e4
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
   alterId: 0
   cipher: auto
   tls: false
@@ -57,17 +43,31 @@ proxies:
   network: ws
   ws-opts:
     path: /
-- name: 🇰🇷KR-43.202.3.1-012 | 16.538MB
+    headers:
+      Host: maous4.wzgmail.com
+- name: 🇯🇵JP-54.248.38.228-002 | 19.461MB
+  server: 54.248.38.228
+  port: 443
+  type: vmess
+  uuid: 0e4a6b59-6692-4756-b316-1ab0e0cb52b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇰🇷KR-43.202.3.1-012 | 15.624MB
   server: 43.202.3.1
   port: 27684
   type: ss
   cipher: aes-128-gcm
-  password: 9c19470d-2269-4de0-a631-681bb863f8e4
-- name: 🇺🇸US-35.90.251.254-052 | 15.02MB
+  password: 0e4a6b59-6692-4756-b316-1ab0e0cb52b3
+- name: 🇺🇸US-35.90.251.254-112 | 15.447MB
   server: 14.v2-ray.cyou
   port: 23614
   type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
   alterId: 2
   cipher: auto
   tls: false
@@ -77,31 +77,11 @@ proxies:
     path: /
     headers:
       Host: 14.v2-ray.cyou
-- name: 🇨🇳TW-114.37.221.21-014 | 14.006MB
-  server: tw1-vds1.anyhk.co
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: 9c19470d-2269-4de0-a631-681bb863f8e4
-- name: 🇭🇰HK-103.68.62.85-046 | 13.717MB
-  server: hk1.594888.xyz
-  port: 2443
-  type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.594888.xyz
-- name: 🇺🇸US-35.89.248.163-053 | 13.086MB
+- name: 🇺🇸US-35.89.248.163-113 | 13.077MB
   server: 15.v2-ray.cyou
   port: 23615
   type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
   alterId: 2
   cipher: auto
   tls: false
@@ -111,51 +91,11 @@ proxies:
     path: /
     headers:
       Host: 15.v2-ray.cyou
-- name: 🇸🇬SG-18.136.199.62-003 | 12.596MB
-  server: 18.136.199.62
-  port: 443
-  type: vmess
-  uuid: 9c19470d-2269-4de0-a631-681bb863f8e4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇬🇧GB-3.10.217.82-055 | 12.495MB
-  server: 13.v2-ray.cyou
-  port: 23613
-  type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 13.v2-ray.cyou
-- name: 🇬🇧GB-35.177.3.72-054 | 12.332MB
-  server: 5.v2-ray.cyou
-  port: 23605
-  type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 5.v2-ray.cyou
-- name: 🇯🇵JP-43.206.210.55-051 | 12.326MB
+- name: 🇯🇵JP-43.206.210.55-111 | 12.508MB
   server: 19.v2-ray.cyou
   port: 23619
   type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
   alterId: 2
   cipher: auto
   tls: false
@@ -165,11 +105,53 @@ proxies:
     path: /
     headers:
       Host: 19.v2-ray.cyou
-- name: 🇩🇪DE-3.68.149.56-049 | 12.323MB
+- name: 🇭🇰HK-103.68.62.85-106 | 12.497MB
+  server: hk1.594888.xyz
+  port: 2443
+  type: vmess
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk1.594888.xyz
+- name: 🇬🇧GB-35.177.3.72-114 | 12.493MB
+  server: 5.v2-ray.cyou
+  port: 23605
+  type: vmess
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 5.v2-ray.cyou
+- name: 🇬🇧GB-3.10.217.82-115 | 12.471MB
+  server: 13.v2-ray.cyou
+  port: 23613
+  type: vmess
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 13.v2-ray.cyou
+- name: 🇩🇪DE-3.68.149.56-109 | 12.347MB
   server: 18.v2-ray.cyou
   port: 23618
   type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
   alterId: 2
   cipher: auto
   tls: false
@@ -179,11 +161,17 @@ proxies:
     path: /
     headers:
       Host: 18.v2-ray.cyou
-- name: 🇩🇪DE-3.72.38.191-048 | 12.309MB
+- name: 🇨🇳TW-114.37.221.21-014 | 12.337MB
+  server: tw1-vds1.anyhk.co
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: 0e4a6b59-6692-4756-b316-1ab0e0cb52b3
+- name: 🇩🇪DE-3.72.38.191-108 | 12.26MB
   server: 16.v2-ray.cyou
   port: 23616
   type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
   alterId: 2
   cipher: auto
   tls: false
@@ -193,11 +181,23 @@ proxies:
     path: /
     headers:
       Host: 16.v2-ray.cyou
-- name: 🇰🇷KR-43.200.2.34-056 | 11.607MB
+- name: 🇸🇬SG-18.136.199.62-003 | 12.231MB
+  server: 18.136.199.62
+  port: 443
+  type: vmess
+  uuid: 0e4a6b59-6692-4756-b316-1ab0e0cb52b3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- name: 🇰🇷KR-43.200.2.34-116 | 10.954MB
   server: 11.v2-ray.cyou
   port: 23611
   type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
   alterId: 2
   cipher: auto
   tls: false
@@ -207,11 +207,11 @@ proxies:
     path: /
     headers:
       Host: 11.v2-ray.cyou
-- name: 🇸🇬SG-54.254.198.125-050 | 10.858MB
+- name: 🇸🇬SG-54.254.198.125-110 | 10.85MB
   server: 12.v2-ray.cyou
   port: 23612
   type: vmess
-  uuid: d3bb8337-0771-382c-94c7-4583b6a94c72
+  uuid: b560acc1-1b77-3623-8cc5-b5c47e46c16f
   alterId: 2
   cipher: auto
   tls: false
@@ -221,11 +221,11 @@ proxies:
     path: /
     headers:
       Host: 12.v2-ray.cyou
-- name: 🇨🇳TW-61.224.75.214-037 | 8.389MB
+- name: 🇨🇳TW-61.224.75.214-097 | 4.979MB
   server: hinet.henyo.us
   port: 31235
   type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
   alterId: 0
   cipher: auto
   tls: false
@@ -235,39 +235,11 @@ proxies:
     path: /
     headers:
       Host: hinet.henyo.us
-- name: 🇺🇸US-103.30.16.59-041 | 5.94MB
-  server: maous1.wzgmail.com
-  port: 443
-  type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: maous1.wzgmail.com
-- name: 🇨🇳TW-61.222.202.147-038 | 5.565MB
-  server: twtw.henyo.us
-  port: 443
-  type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: twtw.henyo.us
-- name: 🇨🇳TW-61.224.77.28-035 | 4.755MB
+- name: 🇨🇳TW-61.224.77.28-095 | 4.854MB
   server: newtw.henyo.us
   port: 31235
   type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
   alterId: 0
   cipher: auto
   tls: false
@@ -277,11 +249,11 @@ proxies:
     path: /
     headers:
       Host: newtw.henyo.us
-- name: 🇸🇬SG-43.153.192.171-039 | 3.497MB
-  server: sg1.594888.xyz
+- name: 🇨🇳TW-61.222.202.147-098 | 4.749MB
+  server: twtw.henyo.us
   port: 443
   type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
   alterId: 0
   cipher: auto
   tls: true
@@ -290,12 +262,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sg1.594888.xyz
-- name: 🇸🇬SG-43.156.16.221-040 | 3.441MB
-  server: sg2.594888.xyz
+      Host: twtw.henyo.us
+- name: 🇺🇸US-103.30.16.59-101 | 4.082MB
+  server: maous1.wzgmail.com
   port: 443
   type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
   alterId: 0
   cipher: auto
   tls: true
@@ -304,40 +276,12 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: sg2.594888.xyz
-- name: 🇨🇳TW-61.224.91.54-036 | 2.309MB
-  server: tw.henyo.us
-  port: 31235
-  type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tw.henyo.us
-- name: 🇭🇰HK-202.81.235.209-047 | 1.897MB
-  server: hk2.594888.xyz
-  port: 443
-  type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk2.594888.xyz
-- name: 🇺🇸US-43.153.19.100-042 | 0.095MB
+      Host: maous1.wzgmail.com
+- name: 🇺🇸US-43.153.19.100-102 | 3.94MB
   server: maous2.wzgmail.com
   port: 443
   type: vmess
-  uuid: 77dd82f9-b336-3f65-bd62-bc45b2c2b27a
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
   alterId: 0
   cipher: auto
   tls: true
@@ -347,6 +291,62 @@ proxies:
     path: /
     headers:
       Host: maous2.wzgmail.com
+- name: 🇸🇬SG-43.153.192.171-099 | 3.499MB
+  server: sg1.594888.xyz
+  port: 443
+  type: vmess
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg1.594888.xyz
+- name: 🇸🇬SG-43.156.16.221-100 | 3.438MB
+  server: sg2.594888.xyz
+  port: 443
+  type: vmess
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg2.594888.xyz
+- name: 🇨🇳TW-61.224.91.54-096 | 0.915MB
+  server: tw.henyo.us
+  port: 31235
+  type: vmess
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.henyo.us
+- name: 🇭🇰HK-202.81.235.209-107 | 0.532MB
+  server: hk2.594888.xyz
+  port: 443
+  type: vmess
+  uuid: 74d702fb-0b13-3d31-b63a-e696cf690434
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk2.594888.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -403,48 +403,48 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-45.151.132.136-044 | 39.19MB
-  - 🇺🇸US-45.151.132.159-043 | 38.505MB
-  - 🇯🇵JP-54.248.38.228-002 | 20.815MB
-  - 🇰🇷KR-43.202.3.1-012 | 16.538MB
-  - 🇺🇸US-35.90.251.254-052 | 15.02MB
-  - 🇨🇳TW-114.37.221.21-014 | 14.006MB
+  - 🇺🇸US-45.151.132.159-103 | 40.003MB
+  - 🇺🇸US-45.151.132.136-104 | 32.762MB
+  - 🇯🇵JP-54.248.38.228-002 | 19.461MB
+  - 🇰🇷KR-43.202.3.1-012 | 15.624MB
+  - 🇺🇸US-35.90.251.254-112 | 15.447MB
+  - 🇺🇸US-35.89.248.163-113 | 13.077MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-103.68.62.85-046 | 13.717MB
-  - 🇺🇸US-35.89.248.163-053 | 13.086MB
-  - 🇸🇬SG-18.136.199.62-003 | 12.596MB
-  - 🇬🇧GB-3.10.217.82-055 | 12.495MB
-  - 🇬🇧GB-35.177.3.72-054 | 12.332MB
-  - 🇯🇵JP-43.206.210.55-051 | 12.326MB
+  - 🇯🇵JP-43.206.210.55-111 | 12.508MB
+  - 🇭🇰HK-103.68.62.85-106 | 12.497MB
+  - 🇬🇧GB-35.177.3.72-114 | 12.493MB
+  - 🇬🇧GB-3.10.217.82-115 | 12.471MB
+  - 🇩🇪DE-3.68.149.56-109 | 12.347MB
+  - 🇨🇳TW-114.37.221.21-014 | 12.337MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇩🇪DE-3.68.149.56-049 | 12.323MB
-  - 🇩🇪DE-3.72.38.191-048 | 12.309MB
-  - 🇰🇷KR-43.200.2.34-056 | 11.607MB
-  - 🇸🇬SG-54.254.198.125-050 | 10.858MB
-  - 🇨🇳TW-61.224.75.214-037 | 8.389MB
-  - 🇺🇸US-103.30.16.59-041 | 5.94MB
+  - 🇩🇪DE-3.72.38.191-108 | 12.26MB
+  - 🇸🇬SG-18.136.199.62-003 | 12.231MB
+  - 🇰🇷KR-43.200.2.34-116 | 10.954MB
+  - 🇸🇬SG-54.254.198.125-110 | 10.85MB
+  - 🇨🇳TW-61.224.75.214-097 | 4.979MB
+  - 🇨🇳TW-61.224.77.28-095 | 4.854MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳TW-61.222.202.147-038 | 5.565MB
-  - 🇨🇳TW-61.224.77.28-035 | 4.755MB
-  - 🇸🇬SG-43.153.192.171-039 | 3.497MB
-  - 🇸🇬SG-43.156.16.221-040 | 3.441MB
-  - 🇨🇳TW-61.224.91.54-036 | 2.309MB
-  - 🇭🇰HK-202.81.235.209-047 | 1.897MB
-  - 🇺🇸US-43.153.19.100-042 | 0.095MB
+  - 🇨🇳TW-61.222.202.147-098 | 4.749MB
+  - 🇺🇸US-103.30.16.59-101 | 4.082MB
+  - 🇺🇸US-43.153.19.100-102 | 3.94MB
+  - 🇸🇬SG-43.153.192.171-099 | 3.499MB
+  - 🇸🇬SG-43.156.16.221-100 | 3.438MB
+  - 🇨🇳TW-61.224.91.54-096 | 0.915MB
+  - 🇭🇰HK-202.81.235.209-107 | 0.532MB
 rules:
 - MATCH,Global ©️

@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `2646`
+merge nodes w/o dup: `2575`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -552,14 +552,14 @@ merge nodes w/o dup: `2646`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `513`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `48`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `33`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `228`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `244`
 - [flycnb.tk](https://flycnb.tk), number of nodes: `31`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `584`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `509`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `489`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `50`
 - [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `73`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `102`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `2981`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `73`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `3180`
 - [zdyzsb/zdyzsb](https://github.com/zdyzsb/zdyzsb), number of nodes: `37`
 - [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/50d759ae59cd27595811a208159cf00f), number of nodes: `157`
 - [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `17`

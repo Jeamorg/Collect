@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-45.151.132.159-184 | 33.333MB
+- name: 🇺🇸US-45.151.132.159-031 | 36.393MB
   server: maous3.wzgmail.com
   port: 31235
   type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
   alterId: 0
   cipher: auto
   tls: false
@@ -31,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: maous3.wzgmail.com
-- name: 🇺🇸US-45.151.132.136-185 | 25.358MB
+- name: 🇺🇸US-45.151.132.136-032 | 35.604MB
   server: maous4.wzgmail.com
   port: 31235
   type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
   alterId: 0
   cipher: auto
   tls: false
@@ -45,18 +45,32 @@ proxies:
     path: /
     headers:
       Host: maous4.wzgmail.com
-- name: 🇰🇷KR-54.180.140.122-338 | 15.736MB
+- name: 🇰🇷KR-54.180.140.122-158 | 16.105MB
   server: 813krkr.fr99kt.top
   port: 44333
   type: trojan
-  password: 83d65547-014f-4af1-980b-e326a32a6726
+  password: 71324d4f-f170-4d66-9254-d1692fccf21e
   sni: 813krkr.fr99kt.top
   skip-cert-verify: false
-- name: 🇭🇰HK-103.68.62.85-186 | 12.535MB
+- name: 🇹🇼TW-114.37.190.14-045 | 14.048MB
+  server: tw1-vds1.anyhk.co
+  port: 443
+  type: vmess
+  uuid: 32319749-9e8b-4c07-9974-ea48e0604a05
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw1-vds1.anyhk.co
+- name: 🇭🇰HK-103.68.62.85-033 | 12.843MB
   server: hk1.594888.xyz
   port: 2443
   type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
   alterId: 0
   cipher: auto
   tls: false
@@ -66,137 +80,11 @@ proxies:
     path: /
     headers:
       Host: hk1.594888.xyz
-- name: 🇺🇸US-103.30.16.59-182 | 6.356MB
-  server: maous1.wzgmail.com
-  port: 443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: maous1.wzgmail.com
-- name: 🇹🇼TW-61.224.78.189-177 | 5.28MB
-  server: hinet.henyo.us
-  port: 21443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hinet.henyo.us
-- name: 🇹🇼TW-61.224.81.33-175 | 4.955MB
-  server: newtw.henyo.us
-  port: 1443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: newtw.henyo.us
-- name: 🇹🇼TW-61.222.202.147-178 | 4.878MB
-  server: twtw.henyo.us
-  port: 443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: twtw.henyo.us
-- name: 🇭🇰HK-8.217.70.158-339 | 4.039MB
-  server: 619hk1.fr99kt.top
-  port: 8080
-  type: vmess
-  uuid: 83d65547-014f-4af1-980b-e326a32a6726
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 619hk1.fr99kt.top
-- name: 🇺🇸US-43.153.19.100-183 | 3.617MB
-  server: maous2.wzgmail.com
-  port: 443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: maous2.wzgmail.com
-- name: 🇸🇬SG-43.153.192.171-179 | 3.544MB
-  server: sg1.594888.xyz
-  port: 443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg1.594888.xyz
-- name: 🇭🇰HK-202.81.235.209-187 | 0.867MB
-  server: hk2.594888.xyz
-  port: 443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk2.594888.xyz
-- name: 🇹🇼TW-122.118.99.71-176 | 0.412MB
-  server: tw.henyo.us
-  port: 21443
-  type: vmess
-  uuid: ed7a0345-8c07-3636-aa16-9043b413170b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tw.henyo.us
-- name: 🇸🇬SG-13.228.116.121-008 | 0.076MB
+- name: 🇸🇬SG-13.228.116.121-156 | 12.06MB
   server: jdsin01.websitea.xyz
   port: 443
   type: vmess
-  uuid: 68320cab-3435-4519-9e4c-7f579b250296
+  uuid: 73357496-cff9-4186-b00e-271f97bae157
   alterId: 0
   cipher: auto
   tls: true
@@ -206,6 +94,132 @@ proxies:
     path: /
     headers:
       Host: jdsin01.websitea.xyz
+- name: 🇹🇼TW-61.224.78.189-024 | 9.653MB
+  server: hinet.henyo.us
+  port: 21443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hinet.henyo.us
+- name: 🇹🇼TW-61.224.81.33-022 | 5.736MB
+  server: newtw.henyo.us
+  port: 1443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newtw.henyo.us
+- name: 🇺🇸US-103.30.16.59-029 | 5.328MB
+  server: maous1.wzgmail.com
+  port: 443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: maous1.wzgmail.com
+- name: 🇹🇼TW-122.118.99.71-023 | 4.301MB
+  server: tw.henyo.us
+  port: 21443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw.henyo.us
+- name: 🇭🇰HK-8.217.70.158-159 | 4.124MB
+  server: 619hk1.fr99kt.top
+  port: 8080
+  type: vmess
+  uuid: 71324d4f-f170-4d66-9254-d1692fccf21e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 619hk1.fr99kt.top
+- name: 🇺🇸US-43.153.19.100-030 | 3.93MB
+  server: maous2.wzgmail.com
+  port: 443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: maous2.wzgmail.com
+- name: 🇹🇼TW-61.222.202.147-025 | 3.767MB
+  server: twtw.henyo.us
+  port: 443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: twtw.henyo.us
+- name: 🇸🇬SG-43.153.192.171-026 | 3.536MB
+  server: sg1.594888.xyz
+  port: 443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sg1.594888.xyz
+- name: 🇭🇰HK-202.81.235.209-034 | 1.673MB
+  server: hk2.594888.xyz
+  port: 443
+  type: vmess
+  uuid: 74b8934d-82f9-3eed-bd44-f81a3b8f57a2
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk2.594888.xyz
 proxy-groups:
 - name: Global ©️
   type: select
@@ -262,37 +276,38 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-45.151.132.159-184 | 33.333MB
-  - 🇺🇸US-45.151.132.136-185 | 25.358MB
-  - 🇰🇷KR-54.180.140.122-338 | 15.736MB
+  - 🇺🇸US-45.151.132.159-031 | 36.393MB
+  - 🇺🇸US-45.151.132.136-032 | 35.604MB
+  - 🇰🇷KR-54.180.140.122-158 | 16.105MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-103.68.62.85-186 | 12.535MB
-  - 🇺🇸US-103.30.16.59-182 | 6.356MB
-  - 🇹🇼TW-61.224.78.189-177 | 5.28MB
+  - 🇹🇼TW-114.37.190.14-045 | 14.048MB
+  - 🇭🇰HK-103.68.62.85-033 | 12.843MB
+  - 🇸🇬SG-13.228.116.121-156 | 12.06MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇹🇼TW-61.224.81.33-175 | 4.955MB
-  - 🇹🇼TW-61.222.202.147-178 | 4.878MB
-  - 🇭🇰HK-8.217.70.158-339 | 4.039MB
+  - 🇹🇼TW-61.224.78.189-024 | 9.653MB
+  - 🇹🇼TW-61.224.81.33-022 | 5.736MB
+  - 🇺🇸US-103.30.16.59-029 | 5.328MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-43.153.19.100-183 | 3.617MB
-  - 🇸🇬SG-43.153.192.171-179 | 3.544MB
-  - 🇭🇰HK-202.81.235.209-187 | 0.867MB
-  - 🇹🇼TW-122.118.99.71-176 | 0.412MB
-  - 🇸🇬SG-13.228.116.121-008 | 0.076MB
+  - 🇹🇼TW-122.118.99.71-023 | 4.301MB
+  - 🇭🇰HK-8.217.70.158-159 | 4.124MB
+  - 🇺🇸US-43.153.19.100-030 | 3.93MB
+  - 🇹🇼TW-61.222.202.147-025 | 3.767MB
+  - 🇸🇬SG-43.153.192.171-026 | 3.536MB
+  - 🇭🇰HK-202.81.235.209-034 | 1.673MB
 rules:
 - MATCH,Global ©️

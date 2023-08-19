@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `2718`
+merge nodes w/o dup: `2759`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -552,17 +552,17 @@ merge nodes w/o dup: `2718`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `437`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `49`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `109`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `253`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `265`
 - [flycnb.tk](https://flycnb.tk), number of nodes: `31`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `598`
-- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `321`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `605`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `245`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `49`
 - [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `73`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `73`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `3342`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `75`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `3507`
 - [zdyzsb/zdyzsb](https://github.com/zdyzsb/zdyzsb), number of nodes: `37`
 - [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/50d759ae59cd27595811a208159cf00f), number of nodes: `157`
-- [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `17`
+- [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `25`
 - [hkaa0/permalink](https://github.com/hkaa0/permalink), number of nodes: `33`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `24`
 

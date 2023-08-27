@@ -17,25 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇹🇼TW-114.37.227.92-140 | 15.599MB
-  server: tw1-vds1.anyhk.co
-  port: 443
-  type: vmess
-  uuid: a81d958e-25fe-4642-ac33-26496b400e3a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tw1-vds1.anyhk.co
-- name: 🇸🇬SG-54.179.250.36-008 | 11.617MB
+- name: 🇸🇬SG-54.179.250.36-34 | 11.606MB
   server: jdsin01.websitea.xyz
   port: 443
   type: vmess
-  uuid: e8d1fe12-1fb5-4062-8750-3272db0e69f4
+  uuid: 89ed839b-f36b-4cc9-bafa-69db4be9a91f
   alterId: 0
   cipher: auto
   tls: true
@@ -45,11 +31,25 @@ proxies:
     path: /
     headers:
       Host: jdsin01.websitea.xyz
-- name: 🇫🇷FR-193.187.175.211-023 | 4.406MB
+- name: 🇹🇼TW-114.37.227.92-25 | 11.524MB
+  server: tw1-vds1.anyhk.co
+  port: 443
+  type: vmess
+  uuid: 7848da5f-2899-4ee5-915e-4d92a42be0fc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw1-vds1.anyhk.co
+- name: 🇫🇷FR-193.187.175.211-00 | 4.395MB
   server: 193.187.175.211
   port: 44333
   type: vmess
-  uuid: 674ae22c-3553-4c20-925d-91a990f6f669
+  uuid: 983b8571-e1a4-4145-bccd-409ed703f5f0
   alterId: 0
   cipher: auto
   tls: false
@@ -131,8 +131,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇹🇼TW-114.37.227.92-140 | 15.599MB
-  - 🇸🇬SG-54.179.250.36-008 | 11.617MB
-  - 🇫🇷FR-193.187.175.211-023 | 4.406MB
+  - 🇸🇬SG-54.179.250.36-34 | 11.606MB
+  - 🇹🇼TW-114.37.227.92-25 | 11.524MB
+  - 🇫🇷FR-193.187.175.211-00 | 4.395MB
 rules:
 - MATCH,Global ©️

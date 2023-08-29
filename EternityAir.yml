@@ -17,11 +17,18 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇸🇬SG-18.142.202.179-015 | 0.063MB
+- name: 🇨🇳CN-14.215.47.121-010 | 12.968MB
+  server: gzdx01.jcnode.top
+  port: 32631
+  type: trojan
+  password: 3339c162-fadb-46f3-a547-b95edb37810b
+  sni: hk04.ckcloud.info
+  skip-cert-verify: false
+- name: 🇸🇬SG-18.142.202.179-170 | 1.144MB
   server: jdsin01.websitea.xyz
   port: 443
   type: vmess
-  uuid: 7be9fc70-caab-4881-867a-c2eb6ae3c26d
+  uuid: 8568ef43-ef03-43af-b8ca-8676d96860a3
   alterId: 0
   cipher: auto
   tls: true
@@ -105,6 +112,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-18.142.202.179-015 | 0.063MB
+  - 🇨🇳CN-14.215.47.121-010 | 12.968MB
+  - 🇸🇬SG-18.142.202.179-170 | 1.144MB
 rules:
 - MATCH,Global ©️

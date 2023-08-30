@@ -17,20 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇸🇬SG-18.136.191.116-067 | 9.455MB
-  server: jdsin01.websitea.xyz
-  port: 443
-  type: vmess
-  uuid: a65b1a0d-8fb2-4a14-8ab5-cb4acee02e8b
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: jdsin01.websitea.xyz
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -105,6 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-18.136.191.116-067 | 9.455MB
+  - DIRECT
 rules:
 - MATCH,Global ©️

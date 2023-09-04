@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `4072`
+merge nodes w/o dup: `4004`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -544,26 +544,22 @@ merge nodes w/o dup: `4072`
 
 
 ### node sources
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `96`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `44`
 - [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `123`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `44`
 - [wefound.cc](https://wefound.cc), number of nodes: `44`
-- [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `21`
-- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `578`
+- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `778`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `44`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `63`
 - [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `317`
-- [flycnb.tk](https://flycnb.tk), number of nodes: `47`
 - [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `3675`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `111`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `45`
-- [sun9426/sun9426.github.io](https://github.com/sun9426/sun9426.github.io), number of nodes: `73`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `38`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `48`
 - [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `47`
-- [zdyzsb/zdyzsb](https://github.com/zdyzsb/zdyzsb), number of nodes: `103`
-- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/50d759ae59cd27595811a208159cf00f), number of nodes: `157`
+- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `94`
 - [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `5`
-- [hkaa0/permalink](https://github.com/hkaa0/permalink), number of nodes: `3000`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `23`
 
 ## Softwares

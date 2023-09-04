@@ -152,7 +152,7 @@ class update_url():
     def change_date(id, current_url):
         if id == 0:
             today = datetime.today().strftime('%m%d')
-            url_front = 'https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/'
+            url_front = 'https://raw.githubusercontent.com/pojiezhiyuanjun/2023/master/'
             url_end = '.txt'
             new_url = url_front + today + url_end
 

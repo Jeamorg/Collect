@@ -17,11 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-192.18.133.132-111 | 34.567MB
+- name: 🇺🇸US-192.18.133.132-119 | 15.206MB
   server: shs.sdxpay.cn
   port: 8085
   type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
   alterId: 0
   cipher: auto
   tls: false
@@ -31,47 +31,47 @@ proxies:
     path: /
     headers:
       Host: shs.sdxpay.cn
-- name: RELAY-104.21.79.46-078 | 13.865MB
+- name: RELAY-104.21.79.46-067 | 13.634MB
   server: hkv605.nfsq.me
   port: 443
   type: vmess
-  uuid: e5d37048-6ca2-4c86-9d7d-1ff330acd8b8
+  uuid: 353557ec-fd27-4c29-addd-890ad8b6bf90
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-104.21.79.46-078 | 13.865MB
+  servername: RELAY-104.21.79.46-067 | 13.634MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: hkv605.nfsq.me
-- name: RELAY-172.67.141.240-058 | 13.668MB
+- name: RELAY-172.67.141.240-045 | 13.407MB
   server: hkv605.nfsq.me
   port: 443
   type: vmess
-  uuid: 4a56ab51-25aa-4948-95c7-b3b75599bc87
+  uuid: 98bd590a-cdc2-4b19-8fa9-885df0262806
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: false
-  servername: RELAY-172.67.141.240-058 | 13.668MB
+  servername: RELAY-172.67.141.240-045 | 13.407MB
   network: ws
   ws-opts:
     path: /
     headers:
       Host: hkv605.nfsq.me
-- name: 🇰🇷KR-130.162.138.98-120 | 11.487MB
-  server: arm3.gougouvpn.xyz
-  port: 7000
+- name: 🇰🇷KR-146.56.44.225-125 | 10.678MB
+  server: arm.gougouvpn.xyz
+  port: 7706
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-106 | 9.711MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-114 | 10.67MB
   server: arm.gougouvpn.xyz
   port: 7718
   type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
   alterId: 0
   cipher: auto
   tls: false
@@ -81,11 +81,29 @@ proxies:
     path: /
     headers:
       Host: dj2.sdxpay.cn
-- name: 🇸🇬SG-158.178.245.43-107 | 9.593MB
+- name: 🇰🇷KR-130.162.132.133-127 | 10.386MB
+  server: arm2.gougouvpn.xyz
+  port: 7001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-129 | 9.795MB
+  server: arm3.gougouvpn.xyz
+  port: 7001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-128 | 9.789MB
+  server: arm3.gougouvpn.xyz
+  port: 7000
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇸🇬SG-158.178.245.43-115 | 9.284MB
   server: sg-1.gougou.sdxpay.cn
   port: 443
   type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
   alterId: 0
   cipher: auto
   tls: true
@@ -95,55 +113,41 @@ proxies:
     path: /
     headers:
       Host: sg-1.gougou.sdxpay.cn
-- name: 🇰🇷KR-146.56.44.225-117 | 9.516MB
-  server: arm.gougouvpn.xyz
-  port: 7706
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.132.133-119 | 9.044MB
-  server: arm2.gougouvpn.xyz
-  port: 7001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-121 | 8.519MB
-  server: arm3.gougouvpn.xyz
-  port: 7001
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-105 | 7.734MB
-  server: arm.gougouvpn.xyz
-  port: 7717
-  type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dj.sdxpay.cn
-- name: 🇰🇷KR-146.56.44.225-114 | 7.477MB
+- name: 🇰🇷KR-146.56.44.225-122 | 8.001MB
   server: arm.gougouvpn.xyz
   port: 7716
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-123 | 7.417MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-131 | 7.612MB
   server: arm.gougouvpn.xyz
   port: 7708
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-108 | 7.367MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.132.133-133 | 7.089MB
+  server: arm2.gougouvpn.xyz
+  port: 7003
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-153 | 6.837MB
+  server: arm3.gougouvpn.xyz
+  port: 7009
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-130 | 6.729MB
+  server: arm.gougouvpn.xyz
+  port: 7707
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-116 | 6.686MB
   server: arm.gougouvpn.xyz
   port: 7719
   type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
   alterId: 0
   cipher: auto
   tls: false
@@ -153,71 +157,41 @@ proxies:
     path: /
     headers:
       Host: xjp2.sdxpay.cn
-- name: 🇰🇷KR-130.162.132.133-125 | 7.233MB
-  server: arm2.gougouvpn.xyz
+- name: 🇰🇷KR-130.162.138.98-135 | 6.653MB
+  server: arm3.gougouvpn.xyz
   port: 7003
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-132 | 7.127MB
-  server: arm3.gougouvpn.xyz
-  port: 7004
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-140 | 6.991MB
-  server: arm.gougouvpn.xyz
-  port: 7714
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-122 | 6.904MB
-  server: arm.gougouvpn.xyz
-  port: 7707
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-116 | 6.868MB
-  server: arm.gougouvpn.xyz
-  port: 7705
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.132.133-124 | 6.719MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.132.133-150 | 6.651MB
   server: arm2.gougouvpn.xyz
-  port: 7002
+  port: 7009
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-126 | 6.645MB
-  server: arm3.gougouvpn.xyz
-  port: 7002
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-141 | 6.598MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-149 | 6.607MB
   server: arm.gougouvpn.xyz
   port: 7715
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-145 | 6.595MB
-  server: arm3.gougouvpn.xyz
-  port: 7009
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-144 | 6.584MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-152 | 6.577MB
   server: arm3.gougouvpn.xyz
   port: 7008
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-113 | 6.58MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-134 | 6.521MB
+  server: arm3.gougouvpn.xyz
+  port: 7002
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-121 | 6.511MB
   server: arm.gougouvpn.xyz
   port: 7723
   type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
   alterId: 0
   cipher: auto
   tls: false
@@ -227,17 +201,105 @@ proxies:
     path: /
     headers:
       Host: shs.sdxpay.cn
-- name: 🇰🇷KR-130.162.132.133-118 | 6.345MB
+- name: 🇰🇷KR-146.56.44.225-148 | 6.504MB
+  server: arm.gougouvpn.xyz
+  port: 7714
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.132.133-151 | 6.502MB
+  server: arm2.gougouvpn.xyz
+  port: 7010
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-123 | 6.24MB
+  server: arm3.gougouvpn.xyz
+  port: 7010
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-124 | 6.084MB
+  server: arm.gougouvpn.xyz
+  port: 7705
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.132.133-126 | 5.787MB
   server: arm2.gougouvpn.xyz
   port: 7000
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-112 | 5.973MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.132.133-132 | 5.636MB
+  server: arm2.gougouvpn.xyz
+  port: 7002
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-113 | 5.492MB
+  server: arm.gougouvpn.xyz
+  port: 7717
+  type: vmess
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dj.sdxpay.cn
+- name: 🇰🇷KR-130.162.132.133-145 | 4.342MB
+  server: arm2.gougouvpn.xyz
+  port: 7007
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-147 | 4.245MB
+  server: arm3.gougouvpn.xyz
+  port: 7007
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-136 | 4.066MB
+  server: arm.gougouvpn.xyz
+  port: 7711
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-143 | 4.021MB
+  server: arm.gougouvpn.xyz
+  port: 7700
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-117 | 3.747MB
+  server: arm.gougouvpn.xyz
+  port: 7720
+  type: vmess
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: sl.sdxpay.cn
+- name: 🇰🇷KR-130.162.132.133-138 | 2.758MB
+  server: arm2.gougouvpn.xyz
+  port: 7004
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-120 | 2.402MB
   server: arm.gougouvpn.xyz
   port: 7722
   type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
   alterId: 0
   cipher: auto
   tls: false
@@ -247,115 +309,47 @@ proxies:
     path: /
     headers:
       Host: shs.sdxpay.cn
-- name: 🇰🇷KR-130.162.138.98-133 | 5.708MB
+- name: 🇰🇷KR-152.70.244.56-183 | 1.173MB
+  server: fell.gougouvpn.xyz
+  port: 45879
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: f15621ee-741b-466c-ae80-4a5c2975aad1
+- name: 🇰🇷KR-152.70.244.56-111 | 1.159MB
+  server: fell.gougouvpn.xyz
+  port: 45879
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-140 | 0.344MB
   server: arm3.gougouvpn.xyz
-  port: 7005
+  port: 7004
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-127 | 5.658MB
-  server: arm3.gougouvpn.xyz
-  port: 7003
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-135 | 4.318MB
-  server: arm.gougouvpn.xyz
-  port: 7700
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-138 | 4.303MB
-  server: arm3.gougouvpn.xyz
-  port: 7006
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-139 | 4.279MB
-  server: arm3.gougouvpn.xyz
-  port: 7007
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.132.133-137 | 4.152MB
-  server: arm2.gougouvpn.xyz
-  port: 7007
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.132.133-142 | 2.707MB
-  server: arm2.gougouvpn.xyz
-  port: 7009
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.138.98-115 | 2.56MB
-  server: arm3.gougouvpn.xyz
-  port: 7010
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-129 | 1.193MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-137 | 0.341MB
   server: arm.gougouvpn.xyz
   port: 7710
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-152.70.244.56-103 | 1.182MB
-  server: fell.gougouvpn.xyz
-  port: 45879
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-152.70.244.56-228 | 1.173MB
-  server: fell.gougouvpn.xyz
-  port: 45879
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: c3878e20-7af6-4454-ad9c-6e63779e2a95
-- name: 🇰🇷KR-146.56.44.225-110 | 1.079MB
-  server: arm.gougouvpn.xyz
-  port: 7721
-  type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sl.sdxpay.cn
-- name: 🇰🇷KR-130.162.132.133-143 | 0.478MB
-  server: arm2.gougouvpn.xyz
-  port: 7010
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.132.133-131 | 0.469MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.132.133-139 | 0.336MB
   server: arm2.gougouvpn.xyz
   port: 7005
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-128 | 0.328MB
-  server: arm.gougouvpn.xyz
-  port: 7711
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-141 | 0.334MB
+  server: arm3.gougouvpn.xyz
+  port: 7005
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-130.162.132.133-130 | 0.32MB
-  server: arm2.gougouvpn.xyz
-  port: 7004
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-109 | 0.297MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-118 | 0.31MB
   server: arm.gougouvpn.xyz
-  port: 7720
+  port: 7721
   type: vmess
-  uuid: 66887217-5001-4919-96a2-13fd32c11862
+  uuid: 9f182979-081d-4bdf-a236-607f9bc4579a
   alterId: 0
   cipher: auto
   tls: false
@@ -365,24 +359,30 @@ proxies:
     path: /
     headers:
       Host: sl.sdxpay.cn
-- name: 🇰🇷KR-130.162.132.133-136 | 0.125MB
+- name: 🇰🇷KR-130.162.132.133-144 | 0.129MB
   server: arm2.gougouvpn.xyz
   port: 7006
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-134 | 0.116MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-142 | 0.11MB
   server: arm.gougouvpn.xyz
   port: 7701
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
-- name: 🇰🇷KR-146.56.44.225-146 | 0.028MB
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-130.162.138.98-146 | 0.104MB
+  server: arm3.gougouvpn.xyz
+  port: 7006
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
+- name: 🇰🇷KR-146.56.44.225-154 | 0.019MB
   server: arm.gougouvpn.xyz
   port: 7713
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: 66887217-5001-4919-96a2-13fd32c11862
+  password: 9f182979-081d-4bdf-a236-607f9bc4579a
 proxy-groups:
 - name: Global ©️
   type: select
@@ -439,69 +439,69 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-192.18.133.132-111 | 34.567MB
-  - RELAY-104.21.79.46-078 | 13.865MB
-  - RELAY-172.67.141.240-058 | 13.668MB
-  - 🇰🇷KR-130.162.138.98-120 | 11.487MB
-  - 🇰🇷KR-146.56.44.225-106 | 9.711MB
-  - 🇸🇬SG-158.178.245.43-107 | 9.593MB
-  - 🇰🇷KR-146.56.44.225-117 | 9.516MB
-  - 🇰🇷KR-130.162.132.133-119 | 9.044MB
-  - 🇰🇷KR-130.162.138.98-121 | 8.519MB
-  - 🇰🇷KR-146.56.44.225-105 | 7.734MB
-  - 🇰🇷KR-146.56.44.225-114 | 7.477MB
+  - 🇺🇸US-192.18.133.132-119 | 15.206MB
+  - RELAY-104.21.79.46-067 | 13.634MB
+  - RELAY-172.67.141.240-045 | 13.407MB
+  - 🇰🇷KR-146.56.44.225-125 | 10.678MB
+  - 🇰🇷KR-146.56.44.225-114 | 10.67MB
+  - 🇰🇷KR-130.162.132.133-127 | 10.386MB
+  - 🇰🇷KR-130.162.138.98-129 | 9.795MB
+  - 🇰🇷KR-130.162.138.98-128 | 9.789MB
+  - 🇸🇬SG-158.178.245.43-115 | 9.284MB
+  - 🇰🇷KR-146.56.44.225-122 | 8.001MB
+  - 🇰🇷KR-146.56.44.225-131 | 7.612MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷KR-146.56.44.225-123 | 7.417MB
-  - 🇰🇷KR-146.56.44.225-108 | 7.367MB
-  - 🇰🇷KR-130.162.132.133-125 | 7.233MB
-  - 🇰🇷KR-130.162.138.98-132 | 7.127MB
-  - 🇰🇷KR-146.56.44.225-140 | 6.991MB
-  - 🇰🇷KR-146.56.44.225-122 | 6.904MB
-  - 🇰🇷KR-146.56.44.225-116 | 6.868MB
-  - 🇰🇷KR-130.162.132.133-124 | 6.719MB
-  - 🇰🇷KR-130.162.138.98-126 | 6.645MB
-  - 🇰🇷KR-146.56.44.225-141 | 6.598MB
-  - 🇰🇷KR-130.162.138.98-145 | 6.595MB
+  - 🇰🇷KR-130.162.132.133-133 | 7.089MB
+  - 🇰🇷KR-130.162.138.98-153 | 6.837MB
+  - 🇰🇷KR-146.56.44.225-130 | 6.729MB
+  - 🇰🇷KR-146.56.44.225-116 | 6.686MB
+  - 🇰🇷KR-130.162.138.98-135 | 6.653MB
+  - 🇰🇷KR-130.162.132.133-150 | 6.651MB
+  - 🇰🇷KR-146.56.44.225-149 | 6.607MB
+  - 🇰🇷KR-130.162.138.98-152 | 6.577MB
+  - 🇰🇷KR-130.162.138.98-134 | 6.521MB
+  - 🇰🇷KR-146.56.44.225-121 | 6.511MB
+  - 🇰🇷KR-146.56.44.225-148 | 6.504MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷KR-130.162.138.98-144 | 6.584MB
-  - 🇰🇷KR-146.56.44.225-113 | 6.58MB
-  - 🇰🇷KR-130.162.132.133-118 | 6.345MB
-  - 🇰🇷KR-146.56.44.225-112 | 5.973MB
-  - 🇰🇷KR-130.162.138.98-133 | 5.708MB
-  - 🇰🇷KR-130.162.138.98-127 | 5.658MB
-  - 🇰🇷KR-146.56.44.225-135 | 4.318MB
-  - 🇰🇷KR-130.162.138.98-138 | 4.303MB
-  - 🇰🇷KR-130.162.138.98-139 | 4.279MB
-  - 🇰🇷KR-130.162.132.133-137 | 4.152MB
-  - 🇰🇷KR-130.162.132.133-142 | 2.707MB
+  - 🇰🇷KR-130.162.132.133-151 | 6.502MB
+  - 🇰🇷KR-130.162.138.98-123 | 6.24MB
+  - 🇰🇷KR-146.56.44.225-124 | 6.084MB
+  - 🇰🇷KR-130.162.132.133-126 | 5.787MB
+  - 🇰🇷KR-130.162.132.133-132 | 5.636MB
+  - 🇰🇷KR-146.56.44.225-113 | 5.492MB
+  - 🇰🇷KR-130.162.132.133-145 | 4.342MB
+  - 🇰🇷KR-130.162.138.98-147 | 4.245MB
+  - 🇰🇷KR-146.56.44.225-136 | 4.066MB
+  - 🇰🇷KR-146.56.44.225-143 | 4.021MB
+  - 🇰🇷KR-146.56.44.225-117 | 3.747MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷KR-130.162.138.98-115 | 2.56MB
-  - 🇰🇷KR-146.56.44.225-129 | 1.193MB
-  - 🇰🇷KR-152.70.244.56-103 | 1.182MB
-  - 🇰🇷KR-152.70.244.56-228 | 1.173MB
-  - 🇰🇷KR-146.56.44.225-110 | 1.079MB
-  - 🇰🇷KR-130.162.132.133-143 | 0.478MB
-  - 🇰🇷KR-130.162.132.133-131 | 0.469MB
-  - 🇰🇷KR-146.56.44.225-128 | 0.328MB
-  - 🇰🇷KR-130.162.132.133-130 | 0.32MB
-  - 🇰🇷KR-146.56.44.225-109 | 0.297MB
-  - 🇰🇷KR-130.162.132.133-136 | 0.125MB
-  - 🇰🇷KR-146.56.44.225-134 | 0.116MB
-  - 🇰🇷KR-146.56.44.225-146 | 0.028MB
+  - 🇰🇷KR-130.162.132.133-138 | 2.758MB
+  - 🇰🇷KR-146.56.44.225-120 | 2.402MB
+  - 🇰🇷KR-152.70.244.56-183 | 1.173MB
+  - 🇰🇷KR-152.70.244.56-111 | 1.159MB
+  - 🇰🇷KR-130.162.138.98-140 | 0.344MB
+  - 🇰🇷KR-146.56.44.225-137 | 0.341MB
+  - 🇰🇷KR-130.162.132.133-139 | 0.336MB
+  - 🇰🇷KR-130.162.138.98-141 | 0.334MB
+  - 🇰🇷KR-146.56.44.225-118 | 0.31MB
+  - 🇰🇷KR-130.162.132.133-144 | 0.129MB
+  - 🇰🇷KR-146.56.44.225-142 | 0.11MB
+  - 🇰🇷KR-130.162.138.98-146 | 0.104MB
+  - 🇰🇷KR-146.56.44.225-154 | 0.019MB
 rules:
 - MATCH,Global ©️

@@ -1,314 +1,276 @@
-  - {name: 🇨🇳 网址https://gouvpn.cn, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 免费节点, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇯🇵 东京|01|vm, server: arm.gougouvpn.xyz, port: 7717, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj.sdxpay.cn}}}
-  - {name: 🇯🇵 东京|02|vm, server: arm.gougouvpn.xyz, port: 7718, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj2.sdxpay.cn}}}
-  - {name: 🇸🇬 新加坡|01|直连, server: sg-1.gougou.sdxpay.cn, port: 443, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sg-1.gougou.sdxpay.cn}}}
-  - {name: 🇸🇬 新加坡|02|vm, server: arm.gougouvpn.xyz, port: 7719, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: xjp2.sdxpay.cn}}}
-  - {name: 🇰🇷 首尔|01|vm, server: arm.gougouvpn.xyz, port: 7720, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
-  - {name: 🇰🇷 首尔|02|vm, server: arm.gougouvpn.xyz, port: 7721, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
-  - {name: 🇺🇸 美国-圣何塞|01|直连, server: shs.sdxpay.cn, port: 8085, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
-  - {name: 🇺🇸 美国-圣何塞|01|vm, server: arm.gougouvpn.xyz, port: 7722, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
-  - {name: 🇺🇸 美国-圣何塞|02|vm, server: arm.gougouvpn.xyz, port: 7723, type: vmess, uuid: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
-  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇭🇰 香港|03|, server: arm3.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: bfa538fe-a7db-4cd9-a3f7-92bab0ea8f74}
-  - {name: 永久网址win263.top（被墙也不换）, server: 1.2.3.4, port: 2365, type: ss, cipher: aes-192-gcm, password: 257a4114-4d36-4e53-b99f-5deff098dd70}
-  - {name: 🇸🇬 每天使用前更新一下, server: 2.3.4.5, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: 257a4114-4d36-4e53-b99f-5deff098dd70}
-  - {name: 🇭🇰 香港专线-解锁TK-NF, server: zx.fr99kt.top, port: 36218, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 94hk05.fr99kt.top}}}
-  - {name: 🇭🇰 香港专线1-解锁TK-NF, server: zx.fr99kt.top, port: 52682, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 96hk1.fr99kt.top}}}
-  - {name: 🇭🇰 香港专线3-解锁TK-NF, server: zx.fr99kt.top, port: 44331, type: trojan, password: 257a4114-4d36-4e53-b99f-5deff098dd70, sni: 94hk3.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇭🇰 香港专线4-解锁TK-NF, server: zx.fr99kt.top, port: 43434, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /grp, headers: {Host: 94hk4.fr99kt.top}}}
-  - {name: 🇨🇳 台湾专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 36565, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903tw01.fr99kt.top}}}
-  - {name: 🇯🇵 日本专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 12378, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903jp01.fr99kt.top}}}
-  - {name: 🇸🇬 新加坡专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 23567, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byxd, headers: {Host: 903sg01.fr99kt.top}}}
-  - {name: 🇺🇸 美国专线1-解锁TK-GPT-NF-HBO, server: zx.fr99kt.top, port: 26328, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 903us02.fr99kt.top}}}
-  - {name: 🇬🇧 英国专线1-解锁TK-GPT-NF-BBC, server: zx.fr99kt.top, port: 51631, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bydd, headers: {Host: 903uk01.fr99kt.top}}}
-  - {name: 🇫🇷 法国专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 32681, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bfyd, headers: {Host: 903fr01.fr99kt.top}}}
-  - {name: 🇷🇺 俄罗斯专线1-解锁TK, server: zx.fr99kt.top, port: 26899, type: vmess, uuid: 257a4114-4d36-4e53-b99f-5deff098dd70, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bdeyd, headers: {Host: 903ru01.fr99kt.top}}}
-  - {name: ◇◎ 付费套餐享有更多高速节点, server: 1.1.1.1, port: 1786, type: ss, cipher: aes-256-gcm, password: a6b43780-df23-4965-8400-e95b52192f66}
-  - {name: 🇯🇵 北方中继 日本A, server: 120.195.181.54, port: 18871, type: vmess, uuid: a6b43780-df23-4965-8400-e95b52192f66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: linode-1.411api-snisajdnjknd.com}
-  - {name: 🇯🇵 北方中继 日本B, server: 120.195.181.54, port: 18872, type: vmess, uuid: a6b43780-df23-4965-8400-e95b52192f66, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ntt.411api-snisajdnjknd.com}
-  - {name: 🇯🇵 北方中继 日本D, server: gdyisjabdiwbk20.shyuana.com, port: 1772, type: vmess, uuid: a6b43780-df23-4965-8400-e95b52192f66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gdyisjabdiwbk20.shyuana.com}}}
-  - {name: 🇸🇬 北方中继 新加坡A, server: asdbiueiubibhcv.zekwes.cn, port: 1788, type: ss, cipher: aes-256-gcm, password: a6b43780-df23-4965-8400-e95b52192f66}
-  - {name: 🇸🇬 北方中继 新加坡B, server: asdbiueiubibhcv.zekwes.cn, port: 1789, type: ss, cipher: aes-256-gcm, password: a6b43780-df23-4965-8400-e95b52192f66}
-  - {name: 🇸🇬 北方中继 新加坡C, server: asdbiueiubibhcv.zekwes.cn, port: 1793, type: vmess, uuid: a6b43780-df23-4965-8400-e95b52192f66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 永久网址win263.top（被墙也不换）, server: 1.2.3.4, port: 2365, type: ss, cipher: aes-192-gcm, password: c7f105fb-2958-428c-9a06-28315219d647}
-  - {name: 🇸🇬 每天使用前更新一下, server: 2.3.4.5, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: c7f105fb-2958-428c-9a06-28315219d647}
-  - {name: 🇭🇰 香港专线-解锁TK-NF, server: zx.fr99kt.top, port: 36218, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 94hk05.fr99kt.top}}}
-  - {name: 🇭🇰 香港专线1-解锁TK-NF, server: zx.fr99kt.top, port: 52682, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 96hk1.fr99kt.top}}}
-  - {name: 🇭🇰 香港专线3-解锁TK-NF, server: zx.fr99kt.top, port: 44331, type: trojan, password: c7f105fb-2958-428c-9a06-28315219d647, sni: 94hk3.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇭🇰 香港专线4-解锁TK-NF, server: zx.fr99kt.top, port: 43434, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /grp, headers: {Host: 94hk4.fr99kt.top}}}
-  - {name: 🇨🇳 台湾专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 36565, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903tw01.fr99kt.top}}}
-  - {name: 🇯🇵 日本专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 12378, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903jp01.fr99kt.top}}}
-  - {name: 🇸🇬 新加坡专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 23567, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byxd, headers: {Host: 903sg01.fr99kt.top}}}
-  - {name: 🇺🇸 美国专线1-解锁TK-GPT-NF-HBO, server: zx.fr99kt.top, port: 26328, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 903us02.fr99kt.top}}}
-  - {name: 🇬🇧 英国专线1-解锁TK-GPT-NF-BBC, server: zx.fr99kt.top, port: 51631, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bydd, headers: {Host: 903uk01.fr99kt.top}}}
-  - {name: 🇫🇷 法国专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 32681, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bfyd, headers: {Host: 903fr01.fr99kt.top}}}
-  - {name: 🇷🇺 俄罗斯专线1-解锁TK, server: zx.fr99kt.top, port: 26899, type: vmess, uuid: c7f105fb-2958-428c-9a06-28315219d647, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bdeyd, headers: {Host: 903ru01.fr99kt.top}}}
-  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 73b340ab-9f20-43bb-b65a-02ce1960b4fb}
-  - {name: 🇭🇰 香港-核心访问, server: gz.mixi.bio, port: 41753, type: ss, cipher: aes-128-gcm, password: 73b340ab-9f20-43bb-b65a-02ce1960b4fb}
-  - {name: 🇸🇬 新加坡-核心访问, server: gz.mixi.bio, port: 53308, type: ss, cipher: aes-128-gcm, password: 73b340ab-9f20-43bb-b65a-02ce1960b4fb}
-  - {name: 🇸🇬 新加坡-核心访问2, server: gz.mixi.bio, port: 21149, type: ss, cipher: aes-128-gcm, password: 73b340ab-9f20-43bb-b65a-02ce1960b4fb}
-  - {name: 🇨🇳 台湾-核心访问, server: gz.mixi.bio, port: 35154, type: ss, cipher: aes-128-gcm, password: 73b340ab-9f20-43bb-b65a-02ce1960b4fb}
-  - {name: 🇯🇵 日本-核心访问, server: shlt.mixi.bio, port: 56130, type: ss, cipher: aes-128-gcm, password: 73b340ab-9f20-43bb-b65a-02ce1960b4fb}
-  - {name: 🇹🇷 土耳其-核心访问, server: gz.mixi.bio, port: 54819, type: ss, cipher: aes-128-gcm, password: 73b340ab-9f20-43bb-b65a-02ce1960b4fb}
-  - {name: 🇨🇳 网址https://gouvpn.cn, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 免费节点, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 东京|01|vm, server: arm.gougouvpn.xyz, port: 7717, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj.sdxpay.cn}}}
-  - {name: 🇯🇵 东京|02|vm, server: arm.gougouvpn.xyz, port: 7718, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj2.sdxpay.cn}}}
-  - {name: 🇸🇬 新加坡|01|直连, server: sg-1.gougou.sdxpay.cn, port: 443, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sg-1.gougou.sdxpay.cn}}}
-  - {name: 🇸🇬 新加坡|02|vm, server: arm.gougouvpn.xyz, port: 7719, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: xjp2.sdxpay.cn}}}
-  - {name: 🇰🇷 首尔|01|vm, server: arm.gougouvpn.xyz, port: 7720, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
-  - {name: 🇰🇷 首尔|02|vm, server: arm.gougouvpn.xyz, port: 7721, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
-  - {name: 🇺🇸 美国-圣何塞|01|直连, server: shs.sdxpay.cn, port: 8085, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
-  - {name: 🇺🇸 美国-圣何塞|01|vm, server: arm.gougouvpn.xyz, port: 7722, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
-  - {name: 🇺🇸 美国-圣何塞|02|vm, server: arm.gougouvpn.xyz, port: 7723, type: vmess, uuid: 7022ed27-6b01-4609-96a7-7c26bbeb996e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
-  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇭🇰 香港|03|, server: arm3.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: 7022ed27-6b01-4609-96a7-7c26bbeb996e}
-  - {name: 🇯🇵 日本M247 防失联|Free|海外CDN, server: jp-m247.fishcloudcdn.top, port: 8880, type: vmess, uuid: d508023d-99f8-341a-9681-629cc4a60cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jpm247, headers: {Host: jp-m247.fishcloudcdn.top}}}
-  - {name: 🇺🇸 美国1Gbps 防失联|Free|海外CDN, server: us-ddp.fishcloudcdn.top, port: 8880, type: vmess, uuid: d508023d-99f8-341a-9681-629cc4a60cdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /us, headers: {Host: us-ddp.fishcloudcdn.top}}}
-  - {name: 距离下次重置剩余：1 天, server: 1, port: 1, type: vmess, uuid: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 优先使用韩国、新加坡、日本、香港, server: 1, port: 1, type: vmess, uuid: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港1, server: hk.zlj.me, port: 16011, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇭🇰 香港BGP丨ChatGPT, server: hk.zlj.me, port: 16012, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇭🇰 香港3丨解锁新加坡奈飞, server: yd.zlj.me, port: 16013, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇭🇰 香港4丨解锁新加坡奈飞, server: yd.zlj.me, port: 16014, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇯🇵 日本01丨解锁流媒体, server: hk.zlj.me, port: 16031, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇯🇵 日本02丨N GPT, server: yd.zlj.me, port: 16032, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇨🇳 台湾01丨解锁流媒体, server: hk.zlj.me, port: 16021, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇨🇳 台湾02 NF GPT, server: yd.zlj.me, port: 16022, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇸🇬 新加坡01丨解锁新加坡奈飞, server: hk.zlj.me, port: 16041, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇸🇬 新加坡02丨解锁新加坡奈飞, server: yd.zlj.me, port: 16042, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇰🇷 韩国01丨解锁流媒体, server: hk.zlj.me, port: 16051, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇰🇷 韩国02, server: yd.zlj.me, port: 16052, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇺🇸 美国01 ChatGPT, server: hk.zlj.me, port: 16061, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇬🇧 英国01 ChatGPT, server: hk.zlj.me, port: 16071, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇬🇧 英国02, server: yd.zlj.me, port: 16072, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇹🇷 土耳其01丨原生IP部分解锁, server: hk.zlj.me, port: 16081, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇸🇬 a新加坡, server: 172.104.188.162, port: 8080, type: trojan, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, sni: linsg6.caonm.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国02, server: yd.zlj.me, port: 16062, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇭🇰 备用直连|香港, server: hk.nmsla.net, port: 2086, type: vmess, uuid: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m2476.nmsla.net}}}
-  - {name: 🇸🇬 备用直连|新加坡x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg6.nmsla.net}}}
-  - {name: 🇩🇪 备用|德国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de6.nmsla.net}}}
-  - {name: 🇺🇸 备用直连|美国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us6.nmsla.net}}}
-  - {name: 🇯🇵 备用直连|日本x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp6.nmsla.net}}}
-  - {name: 🇭🇰 香港05, server: yd3.zlj.me, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 🇭🇰 香港06, server: yd3.zlj.me, port: 16016, type: ss, cipher: chacha20-ietf-poly1305, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446}
-  - {name: 举报公开分享订阅他的套餐送给你, server: yd.zlj.me, port: 60054, type: trojan, password: b3c44ffb-8658-4eef-bcf9-a1279a6a5446, sni: sea2.caonm.top, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：2 天, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: c7811cf0-8f07-4011-92d6-8dd941499cf0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
-  - {name: 🇭🇰 HK x0  ttt.nfsq.me, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: c7811cf0-8f07-4011-92d6-8dd941499cf0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
-  - {name: 🇯🇵 JP v6 x0.1, server: jpv6.nfsq.me, port: 443, type: trojan, password: c7811cf0-8f07-4011-92d6-8dd941499cf0, sni: jpv6.nfsq.me, skip-cert-verify: false}
-  - {name: 🇭🇰 香港|HK00|ND test, server: hk00.nfsq.me, port: 33300, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇭🇰 香港|HK01|ND, server: hk01.nfsq.me, port: 33301, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇭🇰 香港|HK02|ND, server: hk02.nfsq.me, port: 33302, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇭🇰 香港|HK03|ND, server: hk03.nfsq.me, port: 33303, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇭🇰 香港|HK04 住宅|ND, server: hk04.nfsq.me, port: 33304, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇸🇬 新加坡|SG01|ND, server: sg01.nfsq.me, port: 33306, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇸🇬 新加坡|SG02|ND, server: sg02.nfsq.me, port: 33307, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇸🇬 新加坡|SG03|ND, server: sg03.nfsq.me, port: 33308, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇯🇵 日本|JP01|N, server: jp01.nfsq.me, port: 33309, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇯🇵 日本|JP02|N, server: jp02.nfsq.me, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇨🇳 台湾|TW01 住宅|ND, server: tw01.nfsq.me, port: 33312, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇺🇸 美国|US01|D, server: us01.nfsq.me, port: 33314, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇺🇸 美国|US02|D, server: us02.nfsq.me, port: 33315, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇹🇷 土耳其|TR01|ND, server: tr01.nfsq.me, port: 33317, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 🇦🇷 阿根廷|AR01|N, server: ar01.nfsq.me, port: 33318, type: ss, cipher: chacha20-ietf-poly1305, password: c7811cf0-8f07-4011-92d6-8dd941499cf0}
-  - {name: 距离下次重置剩余：22 天, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 29482, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 39191, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 42630, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-01_1, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 38624, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 41032, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-17_1, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-01_1, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-01_1, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-05_1, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-05, server: gzyd.jcnode.top, port: 28474, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 27880, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-06_1, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: us2.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-05, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: 320551fa-9e08-4030-ab99-bdc403ecb9b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 10340, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 48479, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 56586, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: aus01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇩🇪 vip1 德国-02, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇬🇧 vip1 英国-03, server: gzdx.jcnode.top, port: 59832, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: 320551fa-9e08-4030-ab99-bdc403ecb9b3, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：22 天, server: gzdx.jcnode.top, port: 29482, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 29482, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 39191, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: vn01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 42630, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-01_1, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 38624, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk05.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 41032, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-17_1, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: hk02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-01_1, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: jp01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: jp03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-01_1, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: rctw01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-05_1, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: rctw02.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg03.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-05, server: gzyd.jcnode.top, port: 28474, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 27880, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇸🇬 vip1 新加坡-06_1, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: sg01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: us2.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-05, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: da0f581b-87de-4a82-b142-8dbdf20fc48f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
-  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 10340, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: us04.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 48479, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 56586, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: id01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: aus01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇩🇪 vip1 德国-02, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: de01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇬🇧 vip1 英国-03, server: gzdx.jcnode.top, port: 59832, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: da0f581b-87de-4a82-b142-8dbdf20fc48f, sni: uk01.ckcloud.info, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：2 天, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: 5a4e15ef-360e-4b86-bb0e-f1a96e589448, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
-  - {name: 🇭🇰 HK x0  ttt.nfsq.me, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: 5a4e15ef-360e-4b86-bb0e-f1a96e589448, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
-  - {name: 🇯🇵 JP v6 x0.1, server: jpv6.nfsq.me, port: 443, type: trojan, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448, sni: jpv6.nfsq.me, skip-cert-verify: false}
-  - {name: 🇭🇰 香港|HK00|ND test, server: hk00.nfsq.me, port: 33300, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇭🇰 香港|HK01|ND, server: hk01.nfsq.me, port: 33301, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇭🇰 香港|HK02|ND, server: hk02.nfsq.me, port: 33302, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇭🇰 香港|HK03|ND, server: hk03.nfsq.me, port: 33303, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇭🇰 香港|HK04 住宅|ND, server: hk04.nfsq.me, port: 33304, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇸🇬 新加坡|SG01|ND, server: sg01.nfsq.me, port: 33306, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇸🇬 新加坡|SG02|ND, server: sg02.nfsq.me, port: 33307, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇸🇬 新加坡|SG03|ND, server: sg03.nfsq.me, port: 33308, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇯🇵 日本|JP01|N, server: jp01.nfsq.me, port: 33309, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇯🇵 日本|JP02|N, server: jp02.nfsq.me, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇨🇳 台湾|TW01 住宅|ND, server: tw01.nfsq.me, port: 33312, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇺🇸 美国|US01|D, server: us01.nfsq.me, port: 33314, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇺🇸 美国|US02|D, server: us02.nfsq.me, port: 33315, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇹🇷 土耳其|TR01|ND, server: tr01.nfsq.me, port: 33317, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 🇦🇷 阿根廷|AR01|N, server: ar01.nfsq.me, port: 33318, type: ss, cipher: chacha20-ietf-poly1305, password: 5a4e15ef-360e-4b86-bb0e-f1a96e589448}
-  - {name: 距离下次重置剩余：1 天, server: 1, port: 1, type: vmess, uuid: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 优先使用韩国、新加坡、日本、香港, server: 1, port: 1, type: vmess, uuid: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港1, server: hk.zlj.me, port: 16011, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇭🇰 香港BGP丨ChatGPT, server: hk.zlj.me, port: 16012, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇭🇰 香港3丨解锁新加坡奈飞, server: yd.zlj.me, port: 16013, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇭🇰 香港4丨解锁新加坡奈飞, server: yd.zlj.me, port: 16014, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇯🇵 日本01丨解锁流媒体, server: hk.zlj.me, port: 16031, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇯🇵 日本02丨N GPT, server: yd.zlj.me, port: 16032, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇨🇳 台湾01丨解锁流媒体, server: hk.zlj.me, port: 16021, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇨🇳 台湾02 NF GPT, server: yd.zlj.me, port: 16022, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇸🇬 新加坡01丨解锁新加坡奈飞, server: hk.zlj.me, port: 16041, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇸🇬 新加坡02丨解锁新加坡奈飞, server: yd.zlj.me, port: 16042, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇰🇷 韩国01丨解锁流媒体, server: hk.zlj.me, port: 16051, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇰🇷 韩国02, server: yd.zlj.me, port: 16052, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇺🇸 美国01 ChatGPT, server: hk.zlj.me, port: 16061, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇬🇧 英国01 ChatGPT, server: hk.zlj.me, port: 16071, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇬🇧 英国02, server: yd.zlj.me, port: 16072, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇹🇷 土耳其01丨原生IP部分解锁, server: hk.zlj.me, port: 16081, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇸🇬 a新加坡, server: 172.104.188.162, port: 8080, type: trojan, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, sni: linsg6.caonm.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国02, server: yd.zlj.me, port: 16062, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇭🇰 备用直连|香港, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m2476.nmsla.net}}}
-  - {name: 🇸🇬 备用直连|新加坡x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg6.nmsla.net}}}
-  - {name: 🇩🇪 备用|德国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de6.nmsla.net}}}
-  - {name: 🇺🇸 备用直连|美国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us6.nmsla.net}}}
-  - {name: 🇯🇵 备用直连|日本x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp6.nmsla.net}}}
-  - {name: 🇭🇰 香港05, server: yd3.zlj.me, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 🇭🇰 香港06, server: yd3.zlj.me, port: 16016, type: ss, cipher: chacha20-ietf-poly1305, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a}
-  - {name: 举报公开分享订阅他的套餐送给你, server: yd.zlj.me, port: 60054, type: trojan, password: 6df6ddb4-dbe3-4d06-a32c-d0fd1ee6e08a, sni: sea2.caonm.top, skip-cert-verify: false}
+  - {name: 🇯🇵 日本M247 防失联|Free|海外CDN, server: jp-m247.fishcloudcdn.top, port: 8880, type: vmess, uuid: 8c2928c5-4f5f-3a7e-a418-808f04095b2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /jpm247, headers: {Host: jp-m247.fishcloudcdn.top}}}
+  - {name: 🇺🇸 美国1Gbps 防失联|Free|海外CDN, server: us-ddp.fishcloudcdn.top, port: 8880, type: vmess, uuid: 8c2928c5-4f5f-3a7e-a418-808f04095b2b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /us, headers: {Host: us-ddp.fishcloudcdn.top}}}
+  - {name: 永久网址win263.top（被墙也不换）, server: 1.2.3.4, port: 2365, type: ss, cipher: aes-192-gcm, password: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7}
+  - {name: 🇸🇬 每天使用前更新一下, server: 2.3.4.5, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7}
+  - {name: 🇭🇰 香港专线-解锁TK-NF, server: zx.fr99kt.top, port: 36218, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 94hk05.fr99kt.top}}}
+  - {name: 🇭🇰 香港专线1-解锁TK-NF, server: zx.fr99kt.top, port: 52682, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 96hk1.fr99kt.top}}}
+  - {name: 🇭🇰 香港专线3-解锁TK-NF, server: zx.fr99kt.top, port: 44331, type: trojan, password: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, sni: 94hk3.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇭🇰 香港专线4-解锁TK-NF, server: zx.fr99kt.top, port: 43434, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /grp, headers: {Host: 94hk4.fr99kt.top}}}
+  - {name: 🇨🇳 台湾专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 36565, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903tw01.fr99kt.top}}}
+  - {name: 🇯🇵 日本专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 12378, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903jp01.fr99kt.top}}}
+  - {name: 🇸🇬 新加坡专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 23567, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byxd, headers: {Host: 903sg01.fr99kt.top}}}
+  - {name: 🇺🇸 美国专线1-解锁TK-GPT-NF-HBO, server: zx.fr99kt.top, port: 26328, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 903us02.fr99kt.top}}}
+  - {name: 🇬🇧 英国专线1-解锁TK-GPT-NF-BBC, server: zx.fr99kt.top, port: 51631, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bydd, headers: {Host: 903uk01.fr99kt.top}}}
+  - {name: 🇫🇷 法国专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 32681, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bfyd, headers: {Host: 903fr01.fr99kt.top}}}
+  - {name: 🇷🇺 俄罗斯专线1-解锁TK, server: zx.fr99kt.top, port: 26899, type: vmess, uuid: 2f25f9e0-0eb3-4bac-bd96-c25e8c357fa7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bdeyd, headers: {Host: 903ru01.fr99kt.top}}}
+  - {name: 距离下次重置剩余：22 天, server: gzdx.jcnode.top, port: 29482, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: "快飞永久跳转地址: https://fastfly.club", server: gzdx.jcnode.top, port: 29482, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 39191, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇻🇳 vip1 越南-01_1, server: gzdx01.jcnode.top, port: 43686, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 47020, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: vn01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 42630, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-01_1, server: gzdx01.jcnode.top, port: 19682, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 38624, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk05.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-09, server: gzdx.jcnode.top, port: 41063, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-09_1, server: gzdx01.jcnode.top, port: 32631, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-10, server: gzyd.jcnode.top, port: 13734, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 41032, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-13_1, server: gzdx01.jcnode.top, port: 62525, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 64328, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-17, server: gzdx.jcnode.top, port: 44283, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-17_1, server: gzdx01.jcnode.top, port: 40027, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇭🇰 vip1 香港-18, server: gzyd.jcnode.top, port: 36554, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: hk02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 19390, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: jp01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇯🇵 vip1 日本-01_1, server: gzdx01.jcnode.top, port: 40716, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: jp01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 27897, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: jp01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇯🇵 vip1 日本-09, server: gzdx.jcnode.top, port: 17217, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: jp03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇯🇵 vip1 日本-10, server: gzyd.jcnode.top, port: 51840, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: jp03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 47492, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 vip1 台湾-01_1, server: gzdx01.jcnode.top, port: 28606, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 29679, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: rctw01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 vip1 台湾-05, server: gzdx.jcnode.top, port: 16614, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 vip1 台湾-05_1, server: gzdx01.jcnode.top, port: 28033, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇨🇳 vip1 台湾-06, server: gzyd.jcnode.top, port: 53826, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: rctw02.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 29482, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇸🇬 vip1 新加坡-01_1, server: gzdx01.jcnode.top, port: 34472, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 52702, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg03.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇸🇬 vip1 新加坡-05, server: gzyd.jcnode.top, port: 28474, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 27880, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇸🇬 vip1 新加坡-06_1, server: gzdx01.jcnode.top, port: 45920, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: sg01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇺🇸 vip1 美国-04, server: gzdx.jcnode.top, port: 50173, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: us2.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇺🇸 vip1 美国-05, server: gzdx.jcnode.top, port: 30725, type: vmess, uuid: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /fly, headers: {Host: gzdx.jcnode.top}}}
+  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 61802, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: us04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 10340, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: us04.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 48479, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 56586, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: id01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 48426, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: aus01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 62951, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: de01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇩🇪 vip1 德国-02, server: gzyd02.jcnode.top, port: 22122, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: de01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇬🇧 vip1 英国-03, server: gzdx.jcnode.top, port: 59832, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: uk01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇬🇧 vip1 英国-04, server: gzyd02.jcnode.top, port: 36403, type: trojan, password: a4fe0d37-7f87-4a41-9477-05a30fce8eb8, sni: uk01.ckcloud.info, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 0f22d0dd-503c-4698-b251-698a93535311}
+  - {name: 🇭🇰 香港-核心访问, server: gz.mixi.bio, port: 41753, type: ss, cipher: aes-128-gcm, password: 0f22d0dd-503c-4698-b251-698a93535311}
+  - {name: 🇸🇬 新加坡-核心访问, server: gz.mixi.bio, port: 53308, type: ss, cipher: aes-128-gcm, password: 0f22d0dd-503c-4698-b251-698a93535311}
+  - {name: 🇸🇬 新加坡-核心访问2, server: gz.mixi.bio, port: 21149, type: ss, cipher: aes-128-gcm, password: 0f22d0dd-503c-4698-b251-698a93535311}
+  - {name: 🇨🇳 台湾-核心访问, server: gz.mixi.bio, port: 35154, type: ss, cipher: aes-128-gcm, password: 0f22d0dd-503c-4698-b251-698a93535311}
+  - {name: 🇯🇵 日本-核心访问, server: shlt.mixi.bio, port: 56130, type: ss, cipher: aes-128-gcm, password: 0f22d0dd-503c-4698-b251-698a93535311}
+  - {name: 🇹🇷 土耳其-核心访问, server: gz.mixi.bio, port: 54819, type: ss, cipher: aes-128-gcm, password: 0f22d0dd-503c-4698-b251-698a93535311}
+  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 89498068-26e5-4026-b1fe-df408bee95d2}
+  - {name: 🇭🇰 香港-核心访问, server: gz.mixi.bio, port: 41753, type: ss, cipher: aes-128-gcm, password: 89498068-26e5-4026-b1fe-df408bee95d2}
+  - {name: 🇸🇬 新加坡-核心访问, server: gz.mixi.bio, port: 53308, type: ss, cipher: aes-128-gcm, password: 89498068-26e5-4026-b1fe-df408bee95d2}
+  - {name: 🇸🇬 新加坡-核心访问2, server: gz.mixi.bio, port: 21149, type: ss, cipher: aes-128-gcm, password: 89498068-26e5-4026-b1fe-df408bee95d2}
+  - {name: 🇨🇳 台湾-核心访问, server: gz.mixi.bio, port: 35154, type: ss, cipher: aes-128-gcm, password: 89498068-26e5-4026-b1fe-df408bee95d2}
+  - {name: 🇯🇵 日本-核心访问, server: shlt.mixi.bio, port: 56130, type: ss, cipher: aes-128-gcm, password: 89498068-26e5-4026-b1fe-df408bee95d2}
+  - {name: 🇹🇷 土耳其-核心访问, server: gz.mixi.bio, port: 54819, type: ss, cipher: aes-128-gcm, password: 89498068-26e5-4026-b1fe-df408bee95d2}
+  - {name: 距离下次重置剩余：1 天, server: 1, port: 1, type: vmess, uuid: 335c2dc0-891a-4722-a743-289a2ea72029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 优先使用韩国、新加坡、日本、香港, server: 1, port: 1, type: vmess, uuid: 335c2dc0-891a-4722-a743-289a2ea72029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港1, server: hk.zlj.me, port: 16011, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇭🇰 香港BGP丨ChatGPT, server: hk.zlj.me, port: 16012, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇭🇰 香港3丨解锁新加坡奈飞, server: yd.zlj.me, port: 16013, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇭🇰 香港4丨解锁新加坡奈飞, server: yd.zlj.me, port: 16014, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇯🇵 日本01丨解锁流媒体, server: hk.zlj.me, port: 16031, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇯🇵 日本02丨N GPT, server: yd.zlj.me, port: 16032, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇨🇳 台湾01丨解锁流媒体, server: hk.zlj.me, port: 16021, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇨🇳 台湾02 NF GPT, server: yd.zlj.me, port: 16022, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇸🇬 新加坡01丨解锁新加坡奈飞, server: hk.zlj.me, port: 16041, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇸🇬 新加坡02丨解锁新加坡奈飞, server: yd.zlj.me, port: 16042, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇰🇷 韩国01丨解锁流媒体, server: hk.zlj.me, port: 16051, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇰🇷 韩国02, server: yd.zlj.me, port: 16052, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇺🇸 美国01 ChatGPT, server: hk.zlj.me, port: 16061, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇬🇧 英国01 ChatGPT, server: hk.zlj.me, port: 16071, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇬🇧 英国02, server: yd.zlj.me, port: 16072, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇹🇷 土耳其01丨原生IP部分解锁, server: hk.zlj.me, port: 16081, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇸🇬 a新加坡, server: 172.104.188.162, port: 8080, type: trojan, password: 335c2dc0-891a-4722-a743-289a2ea72029, sni: linsg6.caonm.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国02, server: yd.zlj.me, port: 16062, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇭🇰 备用直连|香港, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 335c2dc0-891a-4722-a743-289a2ea72029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m2476.nmsla.net}}}
+  - {name: 🇸🇬 备用直连|新加坡x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 335c2dc0-891a-4722-a743-289a2ea72029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg6.nmsla.net}}}
+  - {name: 🇩🇪 备用|德国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 335c2dc0-891a-4722-a743-289a2ea72029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de6.nmsla.net}}}
+  - {name: 🇺🇸 备用直连|美国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 335c2dc0-891a-4722-a743-289a2ea72029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us6.nmsla.net}}}
+  - {name: 🇯🇵 备用直连|日本x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 335c2dc0-891a-4722-a743-289a2ea72029, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp6.nmsla.net}}}
+  - {name: 🇭🇰 香港05, server: yd3.zlj.me, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 🇭🇰 香港06, server: yd3.zlj.me, port: 16016, type: ss, cipher: chacha20-ietf-poly1305, password: 335c2dc0-891a-4722-a743-289a2ea72029}
+  - {name: 举报公开分享订阅他的套餐送给你, server: yd.zlj.me, port: 60054, type: trojan, password: 335c2dc0-891a-4722-a743-289a2ea72029, sni: sea2.caonm.top, skip-cert-verify: false}
+  - {name: ◇◎ 付费套餐享有更多高速节点, server: 1.1.1.1, port: 1786, type: ss, cipher: aes-256-gcm, password: 5f106b87-736b-44a9-954e-c155ddb483e0}
+  - {name: 🇯🇵 北方中继 日本A, server: 120.195.181.54, port: 18871, type: vmess, uuid: 5f106b87-736b-44a9-954e-c155ddb483e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: linode-1.411api-snisajdnjknd.com}
+  - {name: 🇯🇵 北方中继 日本B, server: 120.195.181.54, port: 18872, type: vmess, uuid: 5f106b87-736b-44a9-954e-c155ddb483e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ntt.411api-snisajdnjknd.com}
+  - {name: 🇯🇵 北方中继 日本D, server: gdyisjabdiwbk20.shyuana.com, port: 1772, type: vmess, uuid: 5f106b87-736b-44a9-954e-c155ddb483e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gdyisjabdiwbk20.shyuana.com}}}
+  - {name: 🇸🇬 北方中继 新加坡A, server: asdbiueiubibhcv.zekwes.cn, port: 1788, type: ss, cipher: aes-256-gcm, password: 5f106b87-736b-44a9-954e-c155ddb483e0}
+  - {name: 🇸🇬 北方中继 新加坡B, server: asdbiueiubibhcv.zekwes.cn, port: 1789, type: ss, cipher: aes-256-gcm, password: 5f106b87-736b-44a9-954e-c155ddb483e0}
+  - {name: 🇸🇬 北方中继 新加坡C, server: asdbiueiubibhcv.zekwes.cn, port: 1793, type: vmess, uuid: 5f106b87-736b-44a9-954e-c155ddb483e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 永久网址win263.top（被墙也不换）, server: 1.2.3.4, port: 2365, type: ss, cipher: aes-192-gcm, password: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4}
+  - {name: 🇸🇬 每天使用前更新一下, server: 2.3.4.5, port: 12356, type: ss, cipher: chacha20-ietf-poly1305, password: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4}
+  - {name: 🇭🇰 香港专线-解锁TK-NF, server: zx.fr99kt.top, port: 36218, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 94hk05.fr99kt.top}}}
+  - {name: 🇭🇰 香港专线1-解锁TK-NF, server: zx.fr99kt.top, port: 52682, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 96hk1.fr99kt.top}}}
+  - {name: 🇭🇰 香港专线3-解锁TK-NF, server: zx.fr99kt.top, port: 44331, type: trojan, password: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, sni: 94hk3.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇭🇰 香港专线4-解锁TK-NF, server: zx.fr99kt.top, port: 43434, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /grp, headers: {Host: 94hk4.fr99kt.top}}}
+  - {name: 🇨🇳 台湾专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 36565, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903tw01.fr99kt.top}}}
+  - {name: 🇯🇵 日本专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 12378, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903jp01.fr99kt.top}}}
+  - {name: 🇸🇬 新加坡专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 23567, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byxd, headers: {Host: 903sg01.fr99kt.top}}}
+  - {name: 🇺🇸 美国专线1-解锁TK-GPT-NF-HBO, server: zx.fr99kt.top, port: 26328, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bsyd, headers: {Host: 903us02.fr99kt.top}}}
+  - {name: 🇬🇧 英国专线1-解锁TK-GPT-NF-BBC, server: zx.fr99kt.top, port: 51631, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bydd, headers: {Host: 903uk01.fr99kt.top}}}
+  - {name: 🇫🇷 法国专线1-解锁TK-GPT-NF, server: zx.fr99kt.top, port: 32681, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bfyd, headers: {Host: 903fr01.fr99kt.top}}}
+  - {name: 🇷🇺 俄罗斯专线1-解锁TK, server: zx.fr99kt.top, port: 26899, type: vmess, uuid: ffe3980f-d36c-4dcb-8a9c-e2f6c3ecefe4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bdeyd, headers: {Host: 903ru01.fr99kt.top}}}
+  - {name: 🇨🇳 网址https://gouvpn.cn, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 免费节点, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇯🇵 东京|01|vm, server: arm.gougouvpn.xyz, port: 7717, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj.sdxpay.cn}}}
+  - {name: 🇯🇵 东京|02|vm, server: arm.gougouvpn.xyz, port: 7718, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj2.sdxpay.cn}}}
+  - {name: 🇸🇬 新加坡|01|直连, server: sg-1.gougou.sdxpay.cn, port: 443, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sg-1.gougou.sdxpay.cn}}}
+  - {name: 🇸🇬 新加坡|02|vm, server: arm.gougouvpn.xyz, port: 7719, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: xjp2.sdxpay.cn}}}
+  - {name: 🇰🇷 首尔|01|vm, server: arm.gougouvpn.xyz, port: 7720, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
+  - {name: 🇰🇷 首尔|02|vm, server: arm.gougouvpn.xyz, port: 7721, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
+  - {name: 🇺🇸 美国-圣何塞|01|直连, server: shs.sdxpay.cn, port: 8085, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
+  - {name: 🇺🇸 美国-圣何塞|01|vm, server: arm.gougouvpn.xyz, port: 7722, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
+  - {name: 🇺🇸 美国-圣何塞|02|vm, server: arm.gougouvpn.xyz, port: 7723, type: vmess, uuid: 087838b8-0ccf-48e7-bde2-7dd7c862da81, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
+  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇭🇰 香港|03|, server: arm3.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: 087838b8-0ccf-48e7-bde2-7dd7c862da81}
+  - {name: 🇨🇳 网址https://gouvpn.cn, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 免费节点, server: fell.gougouvpn.xyz, port: 45879, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇯🇵 东京|01|vm, server: arm.gougouvpn.xyz, port: 7717, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj.sdxpay.cn}}}
+  - {name: 🇯🇵 东京|02|vm, server: arm.gougouvpn.xyz, port: 7718, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: dj2.sdxpay.cn}}}
+  - {name: 🇸🇬 新加坡|01|直连, server: sg-1.gougou.sdxpay.cn, port: 443, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sg-1.gougou.sdxpay.cn}}}
+  - {name: 🇸🇬 新加坡|02|vm, server: arm.gougouvpn.xyz, port: 7719, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: xjp2.sdxpay.cn}}}
+  - {name: 🇰🇷 首尔|01|vm, server: arm.gougouvpn.xyz, port: 7720, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
+  - {name: 🇰🇷 首尔|02|vm, server: arm.gougouvpn.xyz, port: 7721, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: sl.sdxpay.cn}}}
+  - {name: 🇺🇸 美国-圣何塞|01|直连, server: shs.sdxpay.cn, port: 8085, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
+  - {name: 🇺🇸 美国-圣何塞|01|vm, server: arm.gougouvpn.xyz, port: 7722, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
+  - {name: 🇺🇸 美国-圣何塞|02|vm, server: arm.gougouvpn.xyz, port: 7723, type: vmess, uuid: febded27-cad5-4a93-9857-533dc5405b34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dege, headers: {Host: shs.sdxpay.cn}}}
+  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇭🇰 香港|03|, server: arm3.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: febded27-cad5-4a93-9857-533dc5405b34}
+  - {name: 距离下次重置剩余：2 天, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: 3593911f-ec66-4b97-9cae-3b1808b3fb05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
+  - {name: 🇭🇰 HK x0  ttt.nfsq.me, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: 3593911f-ec66-4b97-9cae-3b1808b3fb05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
+  - {name: 🇯🇵 JP v6 x0.1, server: jpv6.nfsq.me, port: 443, type: trojan, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05, sni: jpv6.nfsq.me, skip-cert-verify: false}
+  - {name: 🇭🇰 香港|HK00|ND test, server: hk00.nfsq.me, port: 33300, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇭🇰 香港|HK01|ND, server: hk01.nfsq.me, port: 33301, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇭🇰 香港|HK02|ND, server: hk02.nfsq.me, port: 33302, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇭🇰 香港|HK03|ND, server: hk03.nfsq.me, port: 33303, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇭🇰 香港|HK04 住宅|ND, server: hk04.nfsq.me, port: 33304, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇸🇬 新加坡|SG01|ND, server: sg01.nfsq.me, port: 33306, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇸🇬 新加坡|SG02|ND, server: sg02.nfsq.me, port: 33307, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇸🇬 新加坡|SG03|ND, server: sg03.nfsq.me, port: 33308, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇯🇵 日本|JP01|N, server: jp01.nfsq.me, port: 33309, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇯🇵 日本|JP02|N, server: jp02.nfsq.me, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇨🇳 台湾|TW01 住宅|ND, server: tw01.nfsq.me, port: 33312, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇺🇸 美国|US01|D, server: us01.nfsq.me, port: 33314, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇺🇸 美国|US02|D, server: us02.nfsq.me, port: 33315, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇹🇷 土耳其|TR01|ND, server: tr01.nfsq.me, port: 33317, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 🇦🇷 阿根廷|AR01|N, server: ar01.nfsq.me, port: 33318, type: ss, cipher: chacha20-ietf-poly1305, password: 3593911f-ec66-4b97-9cae-3b1808b3fb05}
+  - {name: 距离下次重置剩余：2 天, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: 721e4a61-5cd7-4c34-a41c-6e8359c1feea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
+  - {name: 🇭🇰 HK x0  ttt.nfsq.me, server: hkv605.nfsq.me, port: 443, type: vmess, uuid: 721e4a61-5cd7-4c34-a41c-6e8359c1feea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkv605.nfsq.me, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkv605.nfsq.me}}}
+  - {name: 🇯🇵 JP v6 x0.1, server: jpv6.nfsq.me, port: 443, type: trojan, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea, sni: jpv6.nfsq.me, skip-cert-verify: false}
+  - {name: 🇭🇰 香港|HK00|ND test, server: hk00.nfsq.me, port: 33300, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇭🇰 香港|HK01|ND, server: hk01.nfsq.me, port: 33301, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇭🇰 香港|HK02|ND, server: hk02.nfsq.me, port: 33302, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇭🇰 香港|HK03|ND, server: hk03.nfsq.me, port: 33303, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇭🇰 香港|HK04 住宅|ND, server: hk04.nfsq.me, port: 33304, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇸🇬 新加坡|SG01|ND, server: sg01.nfsq.me, port: 33306, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇸🇬 新加坡|SG02|ND, server: sg02.nfsq.me, port: 33307, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇸🇬 新加坡|SG03|ND, server: sg03.nfsq.me, port: 33308, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇯🇵 日本|JP01|N, server: jp01.nfsq.me, port: 33309, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇯🇵 日本|JP02|N, server: jp02.nfsq.me, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇨🇳 台湾|TW01 住宅|ND, server: tw01.nfsq.me, port: 33312, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇺🇸 美国|US01|D, server: us01.nfsq.me, port: 33314, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇺🇸 美国|US02|D, server: us02.nfsq.me, port: 33315, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇹🇷 土耳其|TR01|ND, server: tr01.nfsq.me, port: 33317, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 🇦🇷 阿根廷|AR01|N, server: ar01.nfsq.me, port: 33318, type: ss, cipher: chacha20-ietf-poly1305, password: 721e4a61-5cd7-4c34-a41c-6e8359c1feea}
+  - {name: 距离下次重置剩余：1 天, server: 1, port: 1, type: vmess, uuid: 481a8f05-f8b2-436e-b744-6e483dfe7c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 优先使用韩国、新加坡、日本、香港, server: 1, port: 1, type: vmess, uuid: 481a8f05-f8b2-436e-b744-6e483dfe7c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港1, server: hk.zlj.me, port: 16011, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇭🇰 香港BGP丨ChatGPT, server: hk.zlj.me, port: 16012, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇭🇰 香港3丨解锁新加坡奈飞, server: yd.zlj.me, port: 16013, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇭🇰 香港4丨解锁新加坡奈飞, server: yd.zlj.me, port: 16014, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇯🇵 日本01丨解锁流媒体, server: hk.zlj.me, port: 16031, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇯🇵 日本02丨N GPT, server: yd.zlj.me, port: 16032, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇨🇳 台湾01丨解锁流媒体, server: hk.zlj.me, port: 16021, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇨🇳 台湾02 NF GPT, server: yd.zlj.me, port: 16022, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇸🇬 新加坡01丨解锁新加坡奈飞, server: hk.zlj.me, port: 16041, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇸🇬 新加坡02丨解锁新加坡奈飞, server: yd.zlj.me, port: 16042, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇰🇷 韩国01丨解锁流媒体, server: hk.zlj.me, port: 16051, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇰🇷 韩国02, server: yd.zlj.me, port: 16052, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇺🇸 美国01 ChatGPT, server: hk.zlj.me, port: 16061, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇬🇧 英国01 ChatGPT, server: hk.zlj.me, port: 16071, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇬🇧 英国02, server: yd.zlj.me, port: 16072, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇹🇷 土耳其01丨原生IP部分解锁, server: hk.zlj.me, port: 16081, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇸🇬 a新加坡, server: 172.104.188.162, port: 8080, type: trojan, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72, sni: linsg6.caonm.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国02, server: yd.zlj.me, port: 16062, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇭🇰 备用直连|香港, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 481a8f05-f8b2-436e-b744-6e483dfe7c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: m2476.nmsla.net}}}
+  - {name: 🇸🇬 备用直连|新加坡x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 481a8f05-f8b2-436e-b744-6e483dfe7c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg6.nmsla.net}}}
+  - {name: 🇩🇪 备用|德国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 481a8f05-f8b2-436e-b744-6e483dfe7c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de6.nmsla.net}}}
+  - {name: 🇺🇸 备用直连|美国x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 481a8f05-f8b2-436e-b744-6e483dfe7c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us6.nmsla.net}}}
+  - {name: 🇯🇵 备用直连|日本x1, server: hk.nmsla.net, port: 2086, type: vmess, uuid: 481a8f05-f8b2-436e-b744-6e483dfe7c72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp6.nmsla.net}}}
+  - {name: 🇭🇰 香港05, server: yd3.zlj.me, port: 16015, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 🇭🇰 香港06, server: yd3.zlj.me, port: 16016, type: ss, cipher: chacha20-ietf-poly1305, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72}
+  - {name: 举报公开分享订阅他的套餐送给你, server: yd.zlj.me, port: 60054, type: trojan, password: 481a8f05-f8b2-436e-b744-6e483dfe7c72, sni: sea2.caonm.top, skip-cert-verify: false}

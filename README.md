@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `1849`
+merge nodes w/o dup: `1666`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -544,22 +544,22 @@ merge nodes w/o dup: `1849`
 
 
 ### node sources
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `97`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `73`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `27`
-- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `108`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `98`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `27`
 - [wefound.cc](https://wefound.cc), number of nodes: `27`
 - [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `17`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `534`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `48`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `30`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `189`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `949`
-- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `109`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `174`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `821`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `33`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `45`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `46`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `1294`
-- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `284`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `41`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `1309`
+- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `112`
 - [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `3`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `24`
 

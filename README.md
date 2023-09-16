@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `1292`
+merge nodes w/o dup: `1272`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -544,24 +544,24 @@ merge nodes w/o dup: `1292`
 
 
 ### node sources
-- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `55`
-- [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `35`
-- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `199`
-- [oneclash.cc](https://oneclash.cc), number of nodes: `35`
-- [wefound.cc](https://wefound.cc), number of nodes: `35`
+- [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `74`
+- [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `40`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `231`
+- [oneclash.cc](https://oneclash.cc), number of nodes: `40`
+- [wefound.cc](https://wefound.cc), number of nodes: `40`
 - [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `17`
-- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `643`
-- [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `44`
-- [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `106`
+- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `572`
+- [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `43`
+- [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `38`
 - [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `274`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `777`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `793`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `99`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `45`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `30`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `191`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `44`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `194`
 - [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `7`
 - [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `3`
-- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `26`
+- [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `22`
 
 ## Softwares
 

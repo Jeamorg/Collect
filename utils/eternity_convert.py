@@ -45,7 +45,7 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
     # # no conversion from base64 so udp is not a problem
     # subconvertor not working with only proxy url
     all_provider = subs_function.convert_sub(
-        "https://raw.githubusercontent.com/Jeamorg/Collect/master/sub/sub_merge_base64.txt", 'clash', "http://0.0.0.0:25500", False, extra_options="&udp=false")
+        "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_base64.txt", 'clash', "http://0.0.0.0:25500", False, extra_options="&udp=false")
 
     ##########   Add Name to Logs Before making chaages to Proxies  ############
     temp_providers = all_provider.split('\n')
@@ -96,6 +96,7 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
     #     sg_proxy = []
     #     others_proxy = []
     indexx = 0
+    skip_names_index = []
     for line in lines:
         if line != 'proxies:':
             try:
@@ -109,7 +110,16 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
                 pass
             #           line = '  ' + line
             line = line.replace('- ', '')
-            linee = yaml.safe_load(line)
+            line_parsed = yaml.safe_load(line)
+            if "password" in line_parsed:
+                line_parsed.update({"password": str(line_parsed.get("password"))})
+                # interpreted as a floating-point number
+                if re.match(r'^\d+\.?\d*[eE][-+]?\d+$', line_parsed["password"]):
+                    skip_names_index.append(indexx)
+                    indexx += 1
+                    continue
+                
+            linee = line_parsed
             proxy_all.append(linee)
 
             indexx += 1
@@ -177,6 +187,9 @@ def eternity_convert(file, config, output, provider_file_enabled=True):
     for key in provider_dic.keys():
         if not provider_dic[key]['proxies'] is None:
             for proxy in provider_dic[key]['proxies']:
+                if indexx in skip_names_index:
+                    indexx += 1 
+                    continue
                 try:
                     speed = substrings(
                         log_lines_without_bad_char[indexx], "avg_speed:", "|")

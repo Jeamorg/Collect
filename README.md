@@ -546,19 +546,19 @@ merge nodes w/o dup: `1196`
 ### node sources
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `65`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `43`
-- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `173`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `202`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `43`
 - [wefound.cc](https://wefound.cc), number of nodes: `43`
 - [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `17`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `400`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `45`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `17`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `167`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `691`
-- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `94`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `158`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `598`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `81`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `45`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `57`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `467`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `53`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `434`
 - [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `98`
 - [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `15`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `25`

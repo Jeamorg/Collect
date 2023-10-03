@@ -1,244 +1,329 @@
-  - {name: ◇◎ 付费套餐享有更多高速节点, server: 1.1.1.1, port: 1786, type: ss, cipher: aes-256-gcm, password: 11512c6c-cd8c-4f0f-a360-2642c81793de}
-  - {name: 🇯🇵 北方中继 日本A, server: lala18.shyuana.com, port: 18871, type: vmess, uuid: 11512c6c-cd8c-4f0f-a360-2642c81793de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: linode-1.411api-snisajdnjknd.com}
-  - {name: 🇯🇵 北方中继 日本B, server: lala19.shyuana.com, port: 18872, type: vmess, uuid: 11512c6c-cd8c-4f0f-a360-2642c81793de, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ntt.411api-snisajdnjknd.com}
-  - {name: 🇯🇵 北方中继 日本D, server: gdyisjabdiwbk20.shyuana.com, port: 1772, type: vmess, uuid: 11512c6c-cd8c-4f0f-a360-2642c81793de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gdyisjabdiwbk20.shyuana.com}}}
-  - {name: 🇸🇬 北方中继 新加坡A, server: lala17.shyuana.com, port: 1788, type: ss, cipher: aes-256-gcm, password: 11512c6c-cd8c-4f0f-a360-2642c81793de}
-  - {name: 🇸🇬 北方中继 新加坡B, server: asdbiueiubibhcv.zekwes.cn, port: 1789, type: ss, cipher: aes-256-gcm, password: 11512c6c-cd8c-4f0f-a360-2642c81793de}
-  - {name: 🇸🇬 北方中继 新加坡C, server: asdbiueiubibhcv.zekwes.cn, port: 1793, type: vmess, uuid: 11512c6c-cd8c-4f0f-a360-2642c81793de, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 距离下次重置剩余：2 天, server: hkwx.nfsq.lol, port: 443, type: vmess, uuid: 691aed7b-74e4-4fcd-86e0-86939fe2f7df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkwx.nfsq.lol, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkwx.nfsq.lol}}}
-  - {name: 🇭🇰 HK x0  fff.nfsq.me, server: hkwx.nfsq.lol, port: 443, type: vmess, uuid: 691aed7b-74e4-4fcd-86e0-86939fe2f7df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkwx.nfsq.lol, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkwx.nfsq.lol}}}
-  - {name: 🇭🇰 香港|HK01|ND, server: hk01.nfsq.lol, port: 11101, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇭🇰 香港|HK02|ND, server: hk02.nfsq.lol, port: 11102, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇭🇰 香港|HK03|ND, server: hk03.nfsq.lol, port: 11103, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇭🇰 香港|HK04|ND, server: hk04.nfsq.lol, port: 11104, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇭🇰 香港|HK05|ND, server: hk05.nfsq.lol, port: 11105, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇭🇰 香港|HK06 住宅|ND, server: hk06.nfsq.lol, port: 11106, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇸🇬 新加坡|SG01|ND, server: sg01.nfsq.lol, port: 11109, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇸🇬 新加坡|SG02|, server: sg02.nfsq.lol, port: 11120, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇸🇬 新加坡|SG03|, server: sg03.nfsq.lol, port: 11121, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇯🇵 日本|JP01|N, server: jp01.nfsq.lol, port: 11124, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇯🇵 日本|JP02|N, server: jp02.nfsq.lol, port: 11125, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇯🇵 日本|JP03|N, server: jp03.nfsq.lol, port: 11126, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇯🇵 日本|JP04|N, server: jp04.nfsq.lol, port: 11127, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇨🇳 台湾|TW01 住宅|ND, server: tw01.nfsq.lol, port: 11129, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇨🇳 台湾|TW02 住宅|ND, server: tw02.nfsq.lol, port: 11130, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇰🇷 韩国|KR01|N, server: kr01.nfsq.lol, port: 11132, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇰🇷 韩国|KR02|N, server: kr02.nfsq.lol, port: 11133, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇺🇸 美国|US01|D, server: us01.nfsq.lol, port: 11135, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇹🇷 土耳其|TR01|ND, server: tr01.nfsq.lol, port: 11138, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇦🇷 阿根廷|AR01|ND, server: ar01.nfsq.lol, port: 11139, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇹🇭 泰国|TH01|N, server: th01.nfsq.lol, port: 11140, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 🇦🇪 迪拜|AE01|N, server: ae01.nfsq.lol, port: 11141, type: ss, cipher: chacha20-ietf-poly1305, password: 691aed7b-74e4-4fcd-86e0-86939fe2f7df}
-  - {name: 距离下次重置剩余：28 天, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇻🇳 vip1 越南-01-SS, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇻🇳 vip1 越南-02-SS, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇻🇳 vip1 越南-03-SS, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-01-SS, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-02-SS, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-03-SS, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-07-SS, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-08-SS, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-09-SS, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-13-SS, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-14-SS, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-15-SS, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-19-SS, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-20-SS, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇭🇰 vip1 香港-21-SS, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇯🇵 vip1 日本-01-SS, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇯🇵 vip1 日本-02-SS, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇯🇵 vip1 日本-03-SS, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇯🇵 vip1 日本-06-SS, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇯🇵 vip1 日本-07-SS, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇯🇵 vip1 日本-08-SS, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇨🇳 vip1 台湾-01-SS, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇨🇳 vip1 台湾-02-SS, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇨🇳 vip1 台湾-03-SS, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇨🇳 vip1 台湾-06-SS, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇨🇳 vip1 台湾-07-SS, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇨🇳 vip1 台湾-08-SS, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇸🇬 vip1 新加坡-01-SS, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇸🇬 vip1 新加坡-02-SS, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇸🇬 vip1 新加坡-03-SS, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇸🇬 vip1 新加坡-06-SS, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇸🇬 vip1 新加坡-07-SS, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇸🇬 vip1 新加坡-08-SS, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-01-SS, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-02-SS, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-03-SS, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-10-SS, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-09-SS, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-08-SS, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-11-SS, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-12-SS, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 vip1 美国-13-SS, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇲🇾 vip1 马来西亚-01-SS, server: gzdx.jcnode.top, port: 45175, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇲🇾 vip1 马来西亚-02-SS, server: gzyd.jcnode.top, port: 10515, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇲🇾 vip1 马来西亚-03-SS, server: gzdx01.jcnode.top, port: 53991, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇮🇳 vip1 印度-01-SS, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇮🇳 vip1 印度-02-SS, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇮🇳 vip1 印度-03-SS, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇦🇺 vip1 澳大利亚-01-SS, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇦🇺 vip1 澳大利亚-02-SS, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇦🇺 vip1 澳大利亚-03-SS, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇹🇷 vip1 土耳其-01-SS, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇹🇷 vip1 土耳其-02-SS, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇹🇷 vip1 土耳其-03-SS, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇩🇪 vip1 德国-01-SS, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇩🇪 vip1 德国-02-SS, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇩🇪 vip1 德国-03-SS, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇬🇧 vip1 英国-01-SS, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇬🇧 vip1 英国-02-SS, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇬🇧 vip1 英国-03-SS, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 07e90b4c-de1e-4714-845d-536e046f4765}
-  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: a8b3a4e8-966c-49b7-87ed-d3419b2dfefe}
-  - {name: 🇭🇰 香港-核心访问, server: gz.mixi.bio, port: 41753, type: ss, cipher: aes-128-gcm, password: a8b3a4e8-966c-49b7-87ed-d3419b2dfefe}
-  - {name: 🇸🇬 新加坡-核心访问, server: gz.mixi.bio, port: 53308, type: ss, cipher: aes-128-gcm, password: a8b3a4e8-966c-49b7-87ed-d3419b2dfefe}
-  - {name: 🇸🇬 新加坡-核心访问2, server: gz.mixi.bio, port: 21149, type: ss, cipher: aes-128-gcm, password: a8b3a4e8-966c-49b7-87ed-d3419b2dfefe}
-  - {name: 🇨🇳 台湾-核心访问, server: gz.mixi.bio, port: 35154, type: ss, cipher: aes-128-gcm, password: a8b3a4e8-966c-49b7-87ed-d3419b2dfefe}
-  - {name: 🇯🇵 日本-核心访问, server: shlt.mixi.bio, port: 56130, type: ss, cipher: aes-128-gcm, password: a8b3a4e8-966c-49b7-87ed-d3419b2dfefe}
-  - {name: 🇹🇷 土耳其-核心访问, server: gz.mixi.bio, port: 54819, type: ss, cipher: aes-128-gcm, password: a8b3a4e8-966c-49b7-87ed-d3419b2dfefe}
-  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 1fc3b800-d47a-45f3-a71e-d0420f7c3878}
-  - {name: 🇭🇰 香港-核心访问, server: gz.mixi.bio, port: 41753, type: ss, cipher: aes-128-gcm, password: 1fc3b800-d47a-45f3-a71e-d0420f7c3878}
-  - {name: 🇸🇬 新加坡-核心访问, server: gz.mixi.bio, port: 53308, type: ss, cipher: aes-128-gcm, password: 1fc3b800-d47a-45f3-a71e-d0420f7c3878}
-  - {name: 🇸🇬 新加坡-核心访问2, server: gz.mixi.bio, port: 21149, type: ss, cipher: aes-128-gcm, password: 1fc3b800-d47a-45f3-a71e-d0420f7c3878}
-  - {name: 🇨🇳 台湾-核心访问, server: gz.mixi.bio, port: 35154, type: ss, cipher: aes-128-gcm, password: 1fc3b800-d47a-45f3-a71e-d0420f7c3878}
-  - {name: 🇯🇵 日本-核心访问, server: shlt.mixi.bio, port: 56130, type: ss, cipher: aes-128-gcm, password: 1fc3b800-d47a-45f3-a71e-d0420f7c3878}
-  - {name: 🇹🇷 土耳其-核心访问, server: gz.mixi.bio, port: 54819, type: ss, cipher: aes-128-gcm, password: 1fc3b800-d47a-45f3-a71e-d0420f7c3878}
-  - {name: 🇨🇳 网址https://gouvpn.cn, server: 64.110.76.0, port: 5972, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 免费节点使用前更新S, server: 64.110.76.0, port: 5972, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 免费节点使用前更新T, server: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, port: 443, type: trojan, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc, sni: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, skip-cert-verify: false}
-  - {name: 🇸🇬 免费节点使用前更新V, server: evvwufrpklvgxomw04uw.sdxpay.cn, port: 8443, type: vmess, uuid: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: evvwufrpklvgxomw04uw.sdxpay.cn}}}
-  - {name: 🇭🇰 香港|01|移动, server: yd.sdxpay.cn, port: 45787, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|01|移动, server: yd.sdxpay.cn, port: 45789, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|02|移动, server: yd.sdxpay.cn, port: 45790, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|01|移动, server: yd.sdxpay.cn, port: 45791, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|02|移动, server: yd.sdxpay.cn, port: 45792, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|01|移动, server: yd.sdxpay.cn, port: 45793, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|02|移动, server: yd.sdxpay.cn, port: 45794, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|01|移动, server: yd.sdxpay.cn, port: 45795, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|02|移动, server: yd.sdxpay.cn, port: 45796, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|01|移动, server: yd.sdxpay.cn, port: 45797, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|02|移动, server: yd.sdxpay.cn, port: 45798, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: GTP解锁|移动, server: yd.sdxpay.cn, port: 45799, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: 9a22287a-f1fa-4f30-a5e8-0d12e4fd39cc}
-  - {name: 🇭🇰 香港BGP游戏加速, server: adszql.hashbfjqwnqh.top, port: 56533, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: hk1.cc.com}}}
-  - {name: 🇭🇰 香港2号游戏, server: dghsdhdgh.swaprp.xyz, port: 443, type: trojan, password: 82be1f65-5390-4099-9876-80b11b5a673e, sni: dghsdhdgh.swaprp.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP下载专用0.5, server: adsf.dskwazxc.xyz, port: 2052, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
-  - {name: 🇭🇰 香港1.2 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 60709, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP零时上网0.5x, server: dskwazxc.xyz, port: 443, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: asewsa.swaprp.xyz}}}
-  - {name: 🇭🇰 香港3.4 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 51763, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5.6.7 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 11901, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本流媒体IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 51670, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾直连, server: ddsb.cloudff.top, port: 20545, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 新加坡流媒体IEPL⚡ 京港, server: ltpsa.hashbfjqwnqh.top, port: 20287, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 纽约IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 11085, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 IEPL⚡ 京德, server: ltpsa.hashbfjqwnqh.top, port: 62421, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇲🇴 澳门IPV6直连, server: 2a13:b487:4f01:ae86::17, port: 443, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本IPV6联通直连, server: 2a12:f8c1:56:6758::1, port: 80, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国IPV6联通直连, server: 2a01:4f8:242:1d0e::1461:50, port: 52111, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇪🇸 西班牙IPV6直连, server: 2a0e:97c0:7d4:ff86::a, port: 443, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡IPV6直连, server: 2a0e:97c0:7d4:ff49::a, port: 443, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 缅甸IPV6直连, server: 2a13:b487:4f04::4c, port: 443, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇭 柬埔寨IPV6直连, server: 2a13:b487:4f02:cafe::c5, port: 443, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港0.5下载专用, server: o8bqsq.dskwazxc.xyz, port: 2052, type: vmess, uuid: 82be1f65-5390-4099-9876-80b11b5a673e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
-  - {name: 🇭🇰 香港BGP游戏加速, server: adszql.hashbfjqwnqh.top, port: 56533, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: hk1.cc.com}}}
-  - {name: 🇭🇰 香港2号游戏, server: dghsdhdgh.swaprp.xyz, port: 443, type: trojan, password: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, sni: dghsdhdgh.swaprp.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP下载专用0.5, server: adsf.dskwazxc.xyz, port: 2052, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
-  - {name: 🇭🇰 香港1.2 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 60709, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港BGP零时上网0.5x, server: dskwazxc.xyz, port: 443, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: asewsa.swaprp.xyz}}}
-  - {name: 🇭🇰 香港3.4 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 51763, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港5.6.7 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 11901, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本流媒体IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 51670, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾直连, server: ddsb.cloudff.top, port: 20545, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 新加坡流媒体IEPL⚡ 京港, server: ltpsa.hashbfjqwnqh.top, port: 20287, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 纽约IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 11085, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国 IEPL⚡ 京德, server: ltpsa.hashbfjqwnqh.top, port: 62421, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇲🇴 澳门IPV6直连, server: 2a13:b487:4f01:ae86::17, port: 443, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇯🇵 日本IPV6联通直连, server: 2a12:f8c1:56:6758::1, port: 80, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇩🇪 德国IPV6联通直连, server: 2a01:4f8:242:1d0e::1461:50, port: 52111, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇪🇸 西班牙IPV6直连, server: 2a0e:97c0:7d4:ff86::a, port: 443, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡IPV6直连, server: 2a0e:97c0:7d4:ff49::a, port: 443, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 缅甸IPV6直连, server: 2a13:b487:4f04::4c, port: 443, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇰🇭 柬埔寨IPV6直连, server: 2a13:b487:4f02:cafe::c5, port: 443, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港0.5下载专用, server: o8bqsq.dskwazxc.xyz, port: 2052, type: vmess, uuid: a28b59e5-ea31-41c4-8d29-7cac58d3a9d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
-  - {name: 🇨🇳 网址https://gouvpn.cn, server: 64.110.76.0, port: 5972, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 免费节点使用前更新S, server: 64.110.76.0, port: 5972, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 免费节点使用前更新T, server: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, port: 443, type: trojan, password: f9c17a44-f5a1-4c8e-a4eb-652062363071, sni: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, skip-cert-verify: false}
-  - {name: 🇸🇬 免费节点使用前更新V, server: evvwufrpklvgxomw04uw.sdxpay.cn, port: 8443, type: vmess, uuid: f9c17a44-f5a1-4c8e-a4eb-652062363071, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: evvwufrpklvgxomw04uw.sdxpay.cn}}}
-  - {name: 🇭🇰 香港|01|移动, server: yd.sdxpay.cn, port: 45787, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|01|移动, server: yd.sdxpay.cn, port: 45789, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|02|移动, server: yd.sdxpay.cn, port: 45790, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|01|移动, server: yd.sdxpay.cn, port: 45791, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|02|移动, server: yd.sdxpay.cn, port: 45792, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|01|移动, server: yd.sdxpay.cn, port: 45793, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|02|移动, server: yd.sdxpay.cn, port: 45794, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|01|移动, server: yd.sdxpay.cn, port: 45795, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|02|移动, server: yd.sdxpay.cn, port: 45796, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|01|移动, server: yd.sdxpay.cn, port: 45797, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|02|移动, server: yd.sdxpay.cn, port: 45798, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: GTP解锁|移动, server: yd.sdxpay.cn, port: 45799, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
-  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: f9c17a44-f5a1-4c8e-a4eb-652062363071}
+  - {name: 🇭🇰 香港BGP游戏加速, server: adszql.hashbfjqwnqh.top, port: 56533, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: hk1.cc.com}}}
+  - {name: 🇭🇰 香港2号游戏, server: dghsdhdgh.swaprp.xyz, port: 443, type: trojan, password: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, sni: dghsdhdgh.swaprp.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港BGP下载专用0.5, server: adsf.dskwazxc.xyz, port: 2052, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
+  - {name: 🇭🇰 香港1.2 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 60709, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港BGP零时上网0.5x, server: dskwazxc.xyz, port: 443, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: asewsa.swaprp.xyz}}}
+  - {name: 🇭🇰 香港3.4 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 51763, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港5.6.7 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 11901, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本流媒体IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 51670, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾直连, server: ddsb.cloudff.top, port: 20545, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 新加坡流媒体IEPL⚡ 京港, server: ltpsa.hashbfjqwnqh.top, port: 20287, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 纽约IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 11085, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 德国 IEPL⚡ 京德, server: ltpsa.hashbfjqwnqh.top, port: 62421, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇲🇴 澳门IPV6直连, server: 2a13:b487:4f01:ae86::17, port: 443, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本IPV6联通直连, server: 2a12:f8c1:56:6758::1, port: 80, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 德国IPV6联通直连, server: 2a01:4f8:242:1d0e::1461:50, port: 52111, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇪🇸 西班牙IPV6直连, server: 2a0e:97c0:7d4:ff86::a, port: 443, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡IPV6直连, server: 2a0e:97c0:7d4:ff49::a, port: 443, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 缅甸IPV6直连, server: 2a13:b487:4f04::4c, port: 443, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇭 柬埔寨IPV6直连, server: 2a13:b487:4f02:cafe::c5, port: 443, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港0.5下载专用, server: o8bqsq.dskwazxc.xyz, port: 2052, type: vmess, uuid: 8edfd72f-e25a-47e6-8f74-026bbb41b1e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
+  - {name: 🇭🇰 香港BGP游戏加速, server: adszql.hashbfjqwnqh.top, port: 56533, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: hk1.cc.com}}}
+  - {name: 🇭🇰 香港2号游戏, server: dghsdhdgh.swaprp.xyz, port: 443, type: trojan, password: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, sni: dghsdhdgh.swaprp.xyz, skip-cert-verify: false}
+  - {name: 🇭🇰 香港BGP下载专用0.5, server: adsf.dskwazxc.xyz, port: 2052, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
+  - {name: 🇭🇰 香港1.2 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 60709, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港BGP零时上网0.5x, server: dskwazxc.xyz, port: 443, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: asewsa.swaprp.xyz}}}
+  - {name: 🇭🇰 香港3.4 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 51763, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港5.6.7 IEPL⚡流媒体GPT京港, server: ltpsa.hashbfjqwnqh.top, port: 11901, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本流媒体IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 51670, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾直连, server: ddsb.cloudff.top, port: 20545, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 新加坡流媒体IEPL⚡ 京港, server: ltpsa.hashbfjqwnqh.top, port: 20287, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 纽约IEPL⚡ 京日, server: ltpsa.hashbfjqwnqh.top, port: 11085, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 德国 IEPL⚡ 京德, server: ltpsa.hashbfjqwnqh.top, port: 62421, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇲🇴 澳门IPV6直连, server: 2a13:b487:4f01:ae86::17, port: 443, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 日本IPV6联通直连, server: 2a12:f8c1:56:6758::1, port: 80, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇩🇪 德国IPV6联通直连, server: 2a01:4f8:242:1d0e::1461:50, port: 52111, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇪🇸 西班牙IPV6直连, server: 2a0e:97c0:7d4:ff86::a, port: 443, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡IPV6直连, server: 2a0e:97c0:7d4:ff49::a, port: 443, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 缅甸IPV6直连, server: 2a13:b487:4f04::4c, port: 443, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇰🇭 柬埔寨IPV6直连, server: 2a13:b487:4f02:cafe::c5, port: 443, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇭🇰 香港0.5下载专用, server: o8bqsq.dskwazxc.xyz, port: 2052, type: vmess, uuid: a2dab9f1-8e15-41cc-bc76-6293ddbae2aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /shows, headers: {Host: swap100.swaprp.xyz}}}
+  - {name: 距离下次重置剩余：2 天, server: hkwx.nfsq.lol, port: 443, type: vmess, uuid: a4ddc947-74db-4e8d-9f42-ed7898aae0a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkwx.nfsq.lol, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkwx.nfsq.lol}}}
+  - {name: 🇭🇰 HK x0  fff.nfsq.me, server: hkwx.nfsq.lol, port: 443, type: vmess, uuid: a4ddc947-74db-4e8d-9f42-ed7898aae0a7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkwx.nfsq.lol, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkwx.nfsq.lol}}}
+  - {name: 🇭🇰 香港|HK01|ND, server: hk01.nfsq.lol, port: 11101, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇭🇰 香港|HK02|ND, server: hk02.nfsq.lol, port: 11102, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇭🇰 香港|HK03|ND, server: hk03.nfsq.lol, port: 11103, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇭🇰 香港|HK04|ND, server: hk04.nfsq.lol, port: 11104, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇭🇰 香港|HK05|ND, server: hk05.nfsq.lol, port: 11105, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇭🇰 香港|HK06 住宅|ND, server: hk06.nfsq.lol, port: 11106, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇸🇬 新加坡|SG01|ND, server: sg01.nfsq.lol, port: 11109, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇸🇬 新加坡|SG02|, server: sg02.nfsq.lol, port: 11120, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇸🇬 新加坡|SG03|, server: sg03.nfsq.lol, port: 11121, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇯🇵 日本|JP01|N, server: jp01.nfsq.lol, port: 11124, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇯🇵 日本|JP02|N, server: jp02.nfsq.lol, port: 11125, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇯🇵 日本|JP03|N, server: jp03.nfsq.lol, port: 11126, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇯🇵 日本|JP04|N, server: jp04.nfsq.lol, port: 11127, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇨🇳 台湾|TW01 住宅|ND, server: tw01.nfsq.lol, port: 11129, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇨🇳 台湾|TW02 住宅|ND, server: tw02.nfsq.lol, port: 11130, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇰🇷 韩国|KR01|N, server: kr01.nfsq.lol, port: 11132, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇰🇷 韩国|KR02|N, server: kr02.nfsq.lol, port: 11133, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇺🇸 美国|US01|D, server: us01.nfsq.lol, port: 11135, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇹🇷 土耳其|TR01|ND, server: tr01.nfsq.lol, port: 11138, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇦🇷 阿根廷|AR01|ND, server: ar01.nfsq.lol, port: 11139, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇹🇭 泰国|TH01|N, server: th01.nfsq.lol, port: 11140, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇦🇪 迪拜|AE01|N, server: ae01.nfsq.lol, port: 11141, type: ss, cipher: chacha20-ietf-poly1305, password: a4ddc947-74db-4e8d-9f42-ed7898aae0a7}
+  - {name: 🇨🇳 网址https://gouvpn.cn, server: 64.110.76.0, port: 5976, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 免费节点使用前更新S, server: 64.110.76.0, port: 5976, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 免费节点使用前更新T, server: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, port: 443, type: trojan, password: 7518f24a-8430-4a1b-a74e-36def8ff067e, sni: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 免费节点使用前更新V, server: evvwufrpklvgxomw04uw.sdxpay.cn, port: 8443, type: vmess, uuid: 7518f24a-8430-4a1b-a74e-36def8ff067e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: evvwufrpklvgxomw04uw.sdxpay.cn}}}
+  - {name: 🇭🇰 香港|01|移动, server: yd.sdxpay.cn, port: 45787, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|01|移动, server: yd.sdxpay.cn, port: 45789, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|02|移动, server: yd.sdxpay.cn, port: 45790, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|01|移动, server: yd.sdxpay.cn, port: 45791, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|02|移动, server: yd.sdxpay.cn, port: 45792, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|01|移动, server: yd.sdxpay.cn, port: 45793, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|02|移动, server: yd.sdxpay.cn, port: 45794, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|01|移动, server: yd.sdxpay.cn, port: 45795, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|02|移动, server: yd.sdxpay.cn, port: 45796, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|01|移动, server: yd.sdxpay.cn, port: 45797, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|02|移动, server: yd.sdxpay.cn, port: 45798, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: GTP解锁|移动, server: yd.sdxpay.cn, port: 45799, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: 7518f24a-8430-4a1b-a74e-36def8ff067e}
+  - {name: 🇨🇳 网址https://gouvpn.cn, server: 64.110.76.0, port: 5976, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 免费节点使用前更新S, server: 64.110.76.0, port: 5976, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 免费节点使用前更新T, server: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, port: 443, type: trojan, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e, sni: frel.cf4589a1-71ec-429f-b46a-892af2259b8w.sdxpay.cn, skip-cert-verify: false}
+  - {name: 🇸🇬 免费节点使用前更新V, server: evvwufrpklvgxomw04uw.sdxpay.cn, port: 8443, type: vmess, uuid: 44670ec9-1b8f-4f5e-a756-d969094e3b0e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: evvwufrpklvgxomw04uw.sdxpay.cn}}}
+  - {name: 🇭🇰 香港|01|移动, server: yd.sdxpay.cn, port: 45787, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|01|移动, server: yd.sdxpay.cn, port: 45789, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|02|移动, server: yd.sdxpay.cn, port: 45790, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|01|移动, server: yd.sdxpay.cn, port: 45791, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|02|移动, server: yd.sdxpay.cn, port: 45792, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|01|移动, server: yd.sdxpay.cn, port: 45793, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|02|移动, server: yd.sdxpay.cn, port: 45794, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|01|移动, server: yd.sdxpay.cn, port: 45795, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|02|移动, server: yd.sdxpay.cn, port: 45796, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|01|移动, server: yd.sdxpay.cn, port: 45797, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|02|移动, server: yd.sdxpay.cn, port: 45798, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: GTP解锁|移动, server: yd.sdxpay.cn, port: 45799, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇭🇰 香港|01|, server: arm.gougouvpn.xyz, port: 7716, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇭🇰 香港|02|, server: arm2.gougouvpn.xyz, port: 7011, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|01|, server: arm.gougouvpn.xyz, port: 7705, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|02|, server: arm.gougouvpn.xyz, port: 7706, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|03|, server: arm2.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|04|, server: arm2.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|05|, server: arm3.gougouvpn.xyz, port: 7000, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇯🇵 东京|06|, server: arm3.gougouvpn.xyz, port: 7001, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|01|, server: arm.gougouvpn.xyz, port: 7707, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|02|, server: arm.gougouvpn.xyz, port: 7708, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|03|, server: arm2.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|04|, server: arm2.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|05|, server: arm3.gougouvpn.xyz, port: 7002, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇸🇬 新加坡|06|, server: arm3.gougouvpn.xyz, port: 7003, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|01|, server: arm.gougouvpn.xyz, port: 7711, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|02|, server: arm.gougouvpn.xyz, port: 7710, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|03|, server: arm2.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|04|, server: arm2.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|05|, server: arm3.gougouvpn.xyz, port: 7004, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇰🇷 韩国-首尔|06|, server: arm3.gougouvpn.xyz, port: 7005, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|01|, server: arm.gougouvpn.xyz, port: 7714, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|02|, server: arm.gougouvpn.xyz, port: 7715, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|03|, server: arm2.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|04|, server: arm2.gougouvpn.xyz, port: 7010, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|05|, server: arm3.gougouvpn.xyz, port: 7008, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-圣何塞|06|, server: arm3.gougouvpn.xyz, port: 7009, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|01|, server: arm.gougouvpn.xyz, port: 7701, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|02|, server: arm.gougouvpn.xyz, port: 7700, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|03|, server: arm2.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|04|, server: arm2.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|05|, server: arm3.gougouvpn.xyz, port: 7006, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-阿什本|06|, server: arm3.gougouvpn.xyz, port: 7007, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: GTP解锁, server: arm.gougouvpn.xyz, port: 7713, type: ss, cipher: chacha20-ietf-poly1305, password: 44670ec9-1b8f-4f5e-a756-d969094e3b0e}
+  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 4d2c8bef-3956-46d5-a4f0-49e70c634323}
+  - {name: 🇭🇰 香港-核心访问, server: gz.mixi.bio, port: 41753, type: ss, cipher: aes-128-gcm, password: 4d2c8bef-3956-46d5-a4f0-49e70c634323}
+  - {name: 🇸🇬 新加坡-核心访问, server: gz.mixi.bio, port: 53308, type: ss, cipher: aes-128-gcm, password: 4d2c8bef-3956-46d5-a4f0-49e70c634323}
+  - {name: 🇸🇬 新加坡-核心访问2, server: gz.mixi.bio, port: 21149, type: ss, cipher: aes-128-gcm, password: 4d2c8bef-3956-46d5-a4f0-49e70c634323}
+  - {name: 🇨🇳 台湾-核心访问, server: gz.mixi.bio, port: 35154, type: ss, cipher: aes-128-gcm, password: 4d2c8bef-3956-46d5-a4f0-49e70c634323}
+  - {name: 🇯🇵 日本-核心访问, server: shlt.mixi.bio, port: 56130, type: ss, cipher: aes-128-gcm, password: 4d2c8bef-3956-46d5-a4f0-49e70c634323}
+  - {name: 🇹🇷 土耳其-核心访问, server: gz.mixi.bio, port: 54819, type: ss, cipher: aes-128-gcm, password: 4d2c8bef-3956-46d5-a4f0-49e70c634323}
+  - {name: 距离下次重置剩余：2 天, server: hkwx.nfsq.lol, port: 443, type: vmess, uuid: cb10757e-c121-4d52-8375-88ac8fe4ae04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkwx.nfsq.lol, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkwx.nfsq.lol}}}
+  - {name: 🇭🇰 HK x0  fff.nfsq.me, server: hkwx.nfsq.lol, port: 443, type: vmess, uuid: cb10757e-c121-4d52-8375-88ac8fe4ae04, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hkwx.nfsq.lol, network: ws, ws-opts: {path: /nfsq, headers: {Host: hkwx.nfsq.lol}}}
+  - {name: 🇭🇰 香港|HK01|ND, server: hk01.nfsq.lol, port: 11101, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇭🇰 香港|HK02|ND, server: hk02.nfsq.lol, port: 11102, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇭🇰 香港|HK03|ND, server: hk03.nfsq.lol, port: 11103, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇭🇰 香港|HK04|ND, server: hk04.nfsq.lol, port: 11104, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇭🇰 香港|HK05|ND, server: hk05.nfsq.lol, port: 11105, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇭🇰 香港|HK06 住宅|ND, server: hk06.nfsq.lol, port: 11106, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇸🇬 新加坡|SG01|ND, server: sg01.nfsq.lol, port: 11109, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇸🇬 新加坡|SG02|, server: sg02.nfsq.lol, port: 11120, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇸🇬 新加坡|SG03|, server: sg03.nfsq.lol, port: 11121, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇯🇵 日本|JP01|N, server: jp01.nfsq.lol, port: 11124, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇯🇵 日本|JP02|N, server: jp02.nfsq.lol, port: 11125, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇯🇵 日本|JP03|N, server: jp03.nfsq.lol, port: 11126, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇯🇵 日本|JP04|N, server: jp04.nfsq.lol, port: 11127, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇨🇳 台湾|TW01 住宅|ND, server: tw01.nfsq.lol, port: 11129, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇨🇳 台湾|TW02 住宅|ND, server: tw02.nfsq.lol, port: 11130, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇰🇷 韩国|KR01|N, server: kr01.nfsq.lol, port: 11132, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇰🇷 韩国|KR02|N, server: kr02.nfsq.lol, port: 11133, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇺🇸 美国|US01|D, server: us01.nfsq.lol, port: 11135, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇹🇷 土耳其|TR01|ND, server: tr01.nfsq.lol, port: 11138, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇦🇷 阿根廷|AR01|ND, server: ar01.nfsq.lol, port: 11139, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇹🇭 泰国|TH01|N, server: th01.nfsq.lol, port: 11140, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 🇦🇪 迪拜|AE01|N, server: ae01.nfsq.lol, port: 11141, type: ss, cipher: chacha20-ietf-poly1305, password: cb10757e-c121-4d52-8375-88ac8fe4ae04}
+  - {name: 距离下次重置剩余：28 天, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇻🇳 vip1 越南-01-SS, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇻🇳 vip1 越南-02-SS, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇻🇳 vip1 越南-03-SS, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-01-SS, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-02-SS, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-03-SS, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-07-SS, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-08-SS, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-09-SS, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-13-SS, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-14-SS, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-15-SS, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-19-SS, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-20-SS, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇭🇰 vip1 香港-21-SS, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇯🇵 vip1 日本-01-SS, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇯🇵 vip1 日本-02-SS, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇯🇵 vip1 日本-03-SS, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇯🇵 vip1 日本-06-SS, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇯🇵 vip1 日本-07-SS, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇯🇵 vip1 日本-08-SS, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇨🇳 vip1 台湾-01-SS, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇨🇳 vip1 台湾-02-SS, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇨🇳 vip1 台湾-03-SS, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇨🇳 vip1 台湾-06-SS, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇨🇳 vip1 台湾-07-SS, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇨🇳 vip1 台湾-08-SS, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇸🇬 vip1 新加坡-01-SS, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇸🇬 vip1 新加坡-02-SS, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇸🇬 vip1 新加坡-03-SS, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇸🇬 vip1 新加坡-06-SS, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇸🇬 vip1 新加坡-07-SS, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇸🇬 vip1 新加坡-08-SS, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-01-SS, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-02-SS, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-03-SS, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-10-SS, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-09-SS, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-08-SS, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-11-SS, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-12-SS, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇺🇸 vip1 美国-13-SS, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇲🇾 vip1 马来西亚-01-SS, server: gzdx.jcnode.top, port: 45175, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇲🇾 vip1 马来西亚-02-SS, server: gzyd.jcnode.top, port: 10515, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇲🇾 vip1 马来西亚-03-SS, server: gzdx01.jcnode.top, port: 53991, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇮🇳 vip1 印度-01-SS, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇮🇳 vip1 印度-02-SS, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇮🇳 vip1 印度-03-SS, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇦🇺 vip1 澳大利亚-01-SS, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇦🇺 vip1 澳大利亚-02-SS, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇦🇺 vip1 澳大利亚-03-SS, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇹🇷 vip1 土耳其-01-SS, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇹🇷 vip1 土耳其-02-SS, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇹🇷 vip1 土耳其-03-SS, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇩🇪 vip1 德国-01-SS, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇩🇪 vip1 德国-02-SS, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇩🇪 vip1 德国-03-SS, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇬🇧 vip1 英国-01-SS, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇬🇧 vip1 英国-02-SS, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: 🇬🇧 vip1 英国-03-SS, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 02f20446-20cb-4b86-8191-ccefd07ed216}
+  - {name: ◇◎ 付费套餐享有更多高速节点, server: 1.1.1.1, port: 1786, type: ss, cipher: aes-256-gcm, password: 574dc689-059c-4804-add9-a93a75c10092}
+  - {name: 🇯🇵 北方中继 日本A, server: lala18.shyuana.com, port: 18871, type: vmess, uuid: 574dc689-059c-4804-add9-a93a75c10092, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: linode-1.411api-snisajdnjknd.com}
+  - {name: 🇯🇵 北方中继 日本B, server: lala19.shyuana.com, port: 18872, type: vmess, uuid: 574dc689-059c-4804-add9-a93a75c10092, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: ntt.411api-snisajdnjknd.com}
+  - {name: 🇯🇵 北方中继 日本D, server: gdyisjabdiwbk20.shyuana.com, port: 1772, type: vmess, uuid: 574dc689-059c-4804-add9-a93a75c10092, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gdyisjabdiwbk20.shyuana.com}}}
+  - {name: 🇸🇬 北方中继 新加坡A, server: lala17.shyuana.com, port: 1788, type: ss, cipher: aes-256-gcm, password: 574dc689-059c-4804-add9-a93a75c10092}
+  - {name: 🇸🇬 北方中继 新加坡B, server: asdbiueiubibhcv.zekwes.cn, port: 1789, type: ss, cipher: aes-256-gcm, password: 574dc689-059c-4804-add9-a93a75c10092}
+  - {name: 🇸🇬 北方中继 新加坡C, server: asdbiueiubibhcv.zekwes.cn, port: 1793, type: vmess, uuid: 574dc689-059c-4804-add9-a93a75c10092, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 5975774d-9fc2-4c9c-9572-33c050a744b3}
+  - {name: 🇭🇰 香港-核心访问, server: gz.mixi.bio, port: 41753, type: ss, cipher: aes-128-gcm, password: 5975774d-9fc2-4c9c-9572-33c050a744b3}
+  - {name: 🇸🇬 新加坡-核心访问, server: gz.mixi.bio, port: 53308, type: ss, cipher: aes-128-gcm, password: 5975774d-9fc2-4c9c-9572-33c050a744b3}
+  - {name: 🇸🇬 新加坡-核心访问2, server: gz.mixi.bio, port: 21149, type: ss, cipher: aes-128-gcm, password: 5975774d-9fc2-4c9c-9572-33c050a744b3}
+  - {name: 🇨🇳 台湾-核心访问, server: gz.mixi.bio, port: 35154, type: ss, cipher: aes-128-gcm, password: 5975774d-9fc2-4c9c-9572-33c050a744b3}
+  - {name: 🇯🇵 日本-核心访问, server: shlt.mixi.bio, port: 56130, type: ss, cipher: aes-128-gcm, password: 5975774d-9fc2-4c9c-9572-33c050a744b3}
+  - {name: 🇹🇷 土耳其-核心访问, server: gz.mixi.bio, port: 54819, type: ss, cipher: aes-128-gcm, password: 5975774d-9fc2-4c9c-9572-33c050a744b3}
+  - {name: 距离下次重置剩余：28 天, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇻🇳 vip1 越南-01-SS, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇻🇳 vip1 越南-02-SS, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇻🇳 vip1 越南-03-SS, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-01-SS, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-02-SS, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-03-SS, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-07-SS, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-08-SS, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-09-SS, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-13-SS, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-14-SS, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-15-SS, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-19-SS, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-20-SS, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇭🇰 vip1 香港-21-SS, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇯🇵 vip1 日本-01-SS, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇯🇵 vip1 日本-02-SS, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇯🇵 vip1 日本-03-SS, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇯🇵 vip1 日本-06-SS, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇯🇵 vip1 日本-07-SS, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇯🇵 vip1 日本-08-SS, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇨🇳 vip1 台湾-01-SS, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇨🇳 vip1 台湾-02-SS, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇨🇳 vip1 台湾-03-SS, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇨🇳 vip1 台湾-06-SS, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇨🇳 vip1 台湾-07-SS, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇨🇳 vip1 台湾-08-SS, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇸🇬 vip1 新加坡-01-SS, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇸🇬 vip1 新加坡-02-SS, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇸🇬 vip1 新加坡-03-SS, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇸🇬 vip1 新加坡-06-SS, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇸🇬 vip1 新加坡-07-SS, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇸🇬 vip1 新加坡-08-SS, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-01-SS, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-02-SS, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-03-SS, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-10-SS, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-09-SS, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-08-SS, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-11-SS, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-12-SS, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇺🇸 vip1 美国-13-SS, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇲🇾 vip1 马来西亚-01-SS, server: gzdx.jcnode.top, port: 45175, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇲🇾 vip1 马来西亚-02-SS, server: gzyd.jcnode.top, port: 10515, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇲🇾 vip1 马来西亚-03-SS, server: gzdx01.jcnode.top, port: 53991, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇮🇳 vip1 印度-01-SS, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇮🇳 vip1 印度-02-SS, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇮🇳 vip1 印度-03-SS, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇦🇺 vip1 澳大利亚-01-SS, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇦🇺 vip1 澳大利亚-02-SS, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇦🇺 vip1 澳大利亚-03-SS, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇹🇷 vip1 土耳其-01-SS, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇹🇷 vip1 土耳其-02-SS, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇹🇷 vip1 土耳其-03-SS, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇩🇪 vip1 德国-01-SS, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇩🇪 vip1 德国-02-SS, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇩🇪 vip1 德国-03-SS, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇬🇧 vip1 英国-01-SS, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇬🇧 vip1 英国-02-SS, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}
+  - {name: 🇬🇧 vip1 英国-03-SS, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 6bcdddec-d7f8-436e-b15a-c7ce2daf2508}

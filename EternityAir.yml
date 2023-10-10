@@ -17,76 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-104.18.8.215-68 | 68.369MB
-  server: o8bqsq.dskwazxc.xyz
-  port: 2052
-  type: vmess
-  uuid: 2ebecb53-505b-44bd-a112-2328dee7512a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swap100.swaprp.xyz
-- name: RELAY-104.16.148.244-65 | 64.43MB
-  server: adsf.dskwazxc.xyz
-  port: 2052
-  type: vmess
-  uuid: 2ebecb53-505b-44bd-a112-2328dee7512a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swap100.swaprp.xyz
-- name: 🇭🇰HK-8.217.210.243-62 | 3.484MB
-  server: wsudf.hashbfjqwnqh.top
-  port: 443
-  type: trojan
-  password: 2ebecb53-505b-44bd-a112-2328dee7512a
-  sni: wsudf.hashbfjqwnqh.top
-  skip-cert-verify: false
-- name: 🇭🇰HK-47.242.22.73-64 | 3.005MB
-  server: zxcaq.hashbfjqwnqh.top
-  port: 56533
-  type: vmess
-  uuid: 2ebecb53-505b-44bd-a112-2328dee7512a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
-- name: 🇭🇰HK-47.242.22.73-63 | 1.131MB
-  server: dghsdhdgh.swaprp.xyz
-  port: 443
-  type: trojan
-  password: 2ebecb53-505b-44bd-a112-2328dee7512a
-  sni: dghsdhdgh.swaprp.xyz
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-61 | 0.188MB
-  server: adszql.hashbfjqwnqh.top
-  port: 56533
-  type: vmess
-  uuid: 2ebecb53-505b-44bd-a112-2328dee7512a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -142,30 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-104.18.8.215-68 | 68.369MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-104.16.148.244-65 | 64.43MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇭🇰HK-8.217.210.243-62 | 3.484MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-47.242.22.73-64 | 3.005MB
-  - 🇭🇰HK-47.242.22.73-63 | 1.131MB
-  - 🇭🇰HK-8.217.210.243-61 | 0.188MB
+  - DIRECT
 rules:
 - MATCH,Global ©️

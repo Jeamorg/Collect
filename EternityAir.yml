@@ -17,20 +17,76 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-64 | 45.472MB
-  server: 1003us.fr99kt.top
-  port: 14838
-  type: trojan
-  password: f59ae59d-29e6-453c-8071-28abdc86cd34
-  sni: 1003us.fr99kt.top
+- name: RELAY-104.16.149.244-66 | 76.553MB
+  server: adsf.dskwazxc.xyz
+  port: 2052
+  type: vmess
+  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: AE-193.123.73.195-62 | 9.254MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: f59ae59d-29e6-453c-8071-28abdc86cd34
-  sni: 930db.fr99kt.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: swap100.swaprp.xyz
+- name: RELAY-104.18.9.215-69 | 74.079MB
+  server: o8bqsq.dskwazxc.xyz
+  port: 2052
+  type: vmess
+  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: swap100.swaprp.xyz
+- name: 🇭🇰HK-47.242.22.73-64 | 3.965MB
+  server: dghsdhdgh.swaprp.xyz
+  port: 443
+  type: trojan
+  password: e61a949f-cb1c-482b-9709-6b28158bf0e1
+  sni: dghsdhdgh.swaprp.xyz
+  skip-cert-verify: false
+- name: 🇭🇰HK-47.242.22.73-65 | 3.071MB
+  server: zxcaq.hashbfjqwnqh.top
+  port: 56533
+  type: vmess
+  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk1.cc.com
+- name: 🇭🇰HK-8.217.210.243-63 | 2.879MB
+  server: wsudf.hashbfjqwnqh.top
+  port: 443
+  type: trojan
+  password: e61a949f-cb1c-482b-9709-6b28158bf0e1
+  sni: wsudf.hashbfjqwnqh.top
+  skip-cert-verify: false
+- name: 🇭🇰HK-8.217.210.243-62 | 1.097MB
+  server: adszql.hashbfjqwnqh.top
+  port: 56533
+  type: vmess
+  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk1.cc.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -86,26 +142,30 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-104.16.149.244-66 | 76.553MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - RELAY-104.18.9.215-69 | 74.079MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇭🇰HK-47.242.22.73-64 | 3.965MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-129.80.185.15-64 | 45.472MB
-  - AE-193.123.73.195-62 | 9.254MB
+  - 🇭🇰HK-47.242.22.73-65 | 3.071MB
+  - 🇭🇰HK-8.217.210.243-63 | 2.879MB
+  - 🇭🇰HK-8.217.210.243-62 | 1.097MB
 rules:
 - MATCH,Global ©️

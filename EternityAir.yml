@@ -17,76 +17,27 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-104.16.149.244-66 | 76.553MB
-  server: adsf.dskwazxc.xyz
-  port: 2052
-  type: vmess
-  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swap100.swaprp.xyz
-- name: RELAY-104.18.9.215-69 | 74.079MB
-  server: o8bqsq.dskwazxc.xyz
-  port: 2052
-  type: vmess
-  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swap100.swaprp.xyz
-- name: 🇭🇰HK-47.242.22.73-64 | 3.965MB
-  server: dghsdhdgh.swaprp.xyz
-  port: 443
+- name: 🇺🇸US-129.80.185.15-065 | 55.823MB
+  server: 1003us.fr99kt.top
+  port: 14838
   type: trojan
-  password: e61a949f-cb1c-482b-9709-6b28158bf0e1
-  sni: dghsdhdgh.swaprp.xyz
+  password: d1ce12be-06e7-4d9d-a35d-7ae2b74a666e
+  sni: 1003us.fr99kt.top
   skip-cert-verify: false
-- name: 🇭🇰HK-47.242.22.73-65 | 3.071MB
-  server: zxcaq.hashbfjqwnqh.top
-  port: 56533
-  type: vmess
-  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-63 | 2.879MB
-  server: wsudf.hashbfjqwnqh.top
-  port: 443
+- name: AE-193.123.73.195-142 | 10.255MB
+  server: 930db.fr99kt.top
+  port: 43311
   type: trojan
-  password: e61a949f-cb1c-482b-9709-6b28158bf0e1
-  sni: wsudf.hashbfjqwnqh.top
+  password: dbf443cf-f320-4f41-9a21-227f58298cef
+  sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-62 | 1.097MB
-  server: adszql.hashbfjqwnqh.top
-  port: 56533
-  type: vmess
-  uuid: e61a949f-cb1c-482b-9709-6b28158bf0e1
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: AE-193.123.73.195-063 | 9.812MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: d1ce12be-06e7-4d9d-a35d-7ae2b74a666e
+  sni: 930db.fr99kt.top
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -142,30 +93,27 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-104.16.149.244-66 | 76.553MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-104.18.9.215-69 | 74.079MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇭🇰HK-47.242.22.73-64 | 3.965MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-47.242.22.73-65 | 3.071MB
-  - 🇭🇰HK-8.217.210.243-63 | 2.879MB
-  - 🇭🇰HK-8.217.210.243-62 | 1.097MB
+  - 🇺🇸US-129.80.185.15-065 | 55.823MB
+  - AE-193.123.73.195-142 | 10.255MB
+  - AE-193.123.73.195-063 | 9.812MB
 rules:
 - MATCH,Global ©️

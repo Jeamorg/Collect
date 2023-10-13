@@ -17,76 +17,27 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: RELAY-104.18.8.215-69 | 59.989MB
-  server: o8bqsq.dskwazxc.xyz
-  port: 2052
-  type: vmess
-  uuid: bded0455-5974-4069-93a8-ba9f6d28f340
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swap100.swaprp.xyz
-- name: RELAY-104.16.148.244-66 | 59.495MB
-  server: adsf.dskwazxc.xyz
-  port: 2052
-  type: vmess
-  uuid: bded0455-5974-4069-93a8-ba9f6d28f340
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: swap100.swaprp.xyz
-- name: 🇭🇰HK-47.242.22.73-64 | 3.976MB
-  server: dghsdhdgh.swaprp.xyz
-  port: 443
+- name: 🇺🇸US-129.80.185.15-064 | 51.08MB
+  server: 1003us.fr99kt.top
+  port: 14838
   type: trojan
-  password: bded0455-5974-4069-93a8-ba9f6d28f340
-  sni: dghsdhdgh.swaprp.xyz
+  password: edceb829-7cdf-4c6b-8550-49fa22e98f90
+  sni: 1003us.fr99kt.top
   skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-63 | 2.783MB
-  server: wsudf.swaprp.xyz
-  port: 443
+- name: AE-193.123.73.195-080 | 11.863MB
+  server: 930db.fr99kt.top
+  port: 43311
   type: trojan
-  password: bded0455-5974-4069-93a8-ba9f6d28f340
-  sni: wsudf.swaprp.xyz
+  password: 00965c80-8b94-4697-84f9-a86bb35ae91c
+  sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: 🇭🇰HK-47.242.22.73-65 | 2.149MB
-  server: zxcaq.hashbfjqwnqh.top
-  port: 56533
-  type: vmess
-  uuid: bded0455-5974-4069-93a8-ba9f6d28f340
-  alterId: 0
-  cipher: auto
-  tls: false
+- name: AE-193.123.73.195-062 | 11.772MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: edceb829-7cdf-4c6b-8550-49fa22e98f90
+  sni: 930db.fr99kt.top
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-62 | 1.356MB
-  server: adszql.hashbfjqwnqh.top
-  port: 56533
-  type: vmess
-  uuid: bded0455-5974-4069-93a8-ba9f6d28f340
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -142,30 +93,27 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-104.18.8.215-69 | 59.989MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - RELAY-104.16.148.244-66 | 59.495MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇭🇰HK-47.242.22.73-64 | 3.976MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.217.210.243-63 | 2.783MB
-  - 🇭🇰HK-47.242.22.73-65 | 2.149MB
-  - 🇭🇰HK-8.217.210.243-62 | 1.356MB
+  - 🇺🇸US-129.80.185.15-064 | 51.08MB
+  - AE-193.123.73.195-080 | 11.863MB
+  - AE-193.123.73.195-062 | 11.772MB
 rules:
 - MATCH,Global ©️

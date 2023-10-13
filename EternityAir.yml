@@ -17,18 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-002 | 72.958MB
-  server: 1003us.fr99kt.top
-  port: 14838
-  type: trojan
-  password: 0a47cfeb-8ef6-41cc-bb12-f4dab23cd847
-  sni: 1003us.fr99kt.top
-  skip-cert-verify: false
-- name: RELAY-104.16.148.244-021 | 59.221MB
+- name: RELAY-104.16.148.244-04 | 63.967MB
   server: adsf.dskwazxc.xyz
   port: 2052
   type: vmess
-  uuid: 0ea7db19-10be-461d-bf48-b603902ab13d
+  uuid: 2ae86f8a-5fc9-42b9-9b25-6b7ff203d368
   alterId: 0
   cipher: auto
   tls: false
@@ -38,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: swap100.swaprp.xyz
-- name: RELAY-104.18.8.215-024 | 59.161MB
+- name: RELAY-104.18.9.215-07 | 58.95MB
   server: o8bqsq.dskwazxc.xyz
   port: 2052
   type: vmess
-  uuid: 0ea7db19-10be-461d-bf48-b603902ab13d
+  uuid: 2ae86f8a-5fc9-42b9-9b25-6b7ff203d368
   alterId: 0
   cipher: auto
   tls: false
@@ -52,25 +45,25 @@ proxies:
     path: /
     headers:
       Host: swap100.swaprp.xyz
-- name: AE-193.123.73.195-087 | 10.074MB
+- name: 🇺🇸US-129.80.185.15-72 | 50.086MB
+  server: 1003us.fr99kt.top
+  port: 14838
+  type: trojan
+  password: 5fff2d67-f263-4337-96cf-b68e197b418d
+  sni: 1003us.fr99kt.top
+  skip-cert-verify: false
+- name: AE-193.123.73.195-70 | 9.872MB
   server: 930db.fr99kt.top
   port: 43311
   type: trojan
-  password: 2dd23c63-a108-4779-b4bc-0cdbf274987a
+  password: 5fff2d67-f263-4337-96cf-b68e197b418d
   sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-000 | 9.844MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: 0a47cfeb-8ef6-41cc-bb12-f4dab23cd847
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: 🇭🇰HK-47.242.22.73-020 | 3.135MB
+- name: 🇭🇰HK-47.242.22.73-03 | 3.329MB
   server: zxcaq.hashbfjqwnqh.top
   port: 56533
   type: vmess
-  uuid: 0ea7db19-10be-461d-bf48-b603902ab13d
+  uuid: 2ae86f8a-5fc9-42b9-9b25-6b7ff203d368
   alterId: 0
   cipher: auto
   tls: false
@@ -80,11 +73,11 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-017 | 1.679MB
+- name: 🇭🇰HK-8.217.210.243-00 | 3.055MB
   server: adszql.hashbfjqwnqh.top
   port: 56533
   type: vmess
-  uuid: 0ea7db19-10be-461d-bf48-b603902ab13d
+  uuid: 2ae86f8a-5fc9-42b9-9b25-6b7ff203d368
   alterId: 0
   cipher: auto
   tls: false
@@ -94,18 +87,18 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-018 | 1.444MB
+- name: 🇭🇰HK-8.217.210.243-01 | 1.012MB
   server: wsudf.swaprp.xyz
   port: 443
   type: trojan
-  password: 0ea7db19-10be-461d-bf48-b603902ab13d
+  password: 2ae86f8a-5fc9-42b9-9b25-6b7ff203d368
   sni: wsudf.swaprp.xyz
   skip-cert-verify: false
-- name: 🇭🇰HK-47.242.22.73-019 | 0.548MB
+- name: 🇭🇰HK-47.242.22.73-02 | 0.6MB
   server: dghsdhdgh.swaprp.xyz
   port: 443
   type: trojan
-  password: 0ea7db19-10be-461d-bf48-b603902ab13d
+  password: 2ae86f8a-5fc9-42b9-9b25-6b7ff203d368
   sni: dghsdhdgh.swaprp.xyz
   skip-cert-verify: false
 proxy-groups:
@@ -164,32 +157,31 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-129.80.185.15-002 | 72.958MB
-  - RELAY-104.16.148.244-021 | 59.221MB
+  - RELAY-104.16.148.244-04 | 63.967MB
+  - RELAY-104.18.9.215-07 | 58.95MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-104.18.8.215-024 | 59.161MB
-  - AE-193.123.73.195-087 | 10.074MB
+  - 🇺🇸US-129.80.185.15-72 | 50.086MB
+  - AE-193.123.73.195-70 | 9.872MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - AE-193.123.73.195-000 | 9.844MB
-  - 🇭🇰HK-47.242.22.73-020 | 3.135MB
+  - 🇭🇰HK-47.242.22.73-03 | 3.329MB
+  - 🇭🇰HK-8.217.210.243-00 | 3.055MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.217.210.243-017 | 1.679MB
-  - 🇭🇰HK-8.217.210.243-018 | 1.444MB
-  - 🇭🇰HK-47.242.22.73-019 | 0.548MB
+  - 🇭🇰HK-8.217.210.243-01 | 1.012MB
+  - 🇭🇰HK-47.242.22.73-02 | 0.6MB
 rules:
 - MATCH,Global ©️

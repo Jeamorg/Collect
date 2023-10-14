@@ -17,18 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-002 | 47.555MB
-  server: 1003us.fr99kt.top
-  port: 14838
-  type: trojan
-  password: 323d1b06-1aac-4bd0-884f-737501a22d1e
-  sni: 1003us.fr99kt.top
-  skip-cert-verify: false
-- name: RELAY-104.18.9.215-024 | 14.797MB
+- name: RELAY-104.18.9.215-086 | 65.841MB
   server: o8bqsq.dskwazxc.xyz
   port: 2052
   type: vmess
-  uuid: a9b1bf1e-d8aa-46b5-93a5-83d95edbed48
+  uuid: 4dc445a9-817b-4187-bbea-002f99603df8
   alterId: 0
   cipher: auto
   tls: false
@@ -38,25 +31,11 @@ proxies:
     path: /
     headers:
       Host: swap100.swaprp.xyz
-- name: AE-193.123.73.195-158 | 9.834MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: e6660467-4703-452b-a49b-ee136692296d
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: AE-193.123.73.195-000 | 9.462MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: 323d1b06-1aac-4bd0-884f-737501a22d1e
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: RELAY-104.16.148.244-021 | 8.621MB
+- name: RELAY-104.16.148.244-083 | 64.233MB
   server: adsf.dskwazxc.xyz
   port: 2052
   type: vmess
-  uuid: a9b1bf1e-d8aa-46b5-93a5-83d95edbed48
+  uuid: 4dc445a9-817b-4187-bbea-002f99603df8
   alterId: 0
   cipher: auto
   tls: false
@@ -66,18 +45,46 @@ proxies:
     path: /
     headers:
       Host: swap100.swaprp.xyz
-- name: 🇭🇰HK-47.242.22.73-019 | 3.41MB
+- name: 🇺🇸US-129.80.185.15-064 | 35.522MB
+  server: 1003us.fr99kt.top
+  port: 14838
+  type: trojan
+  password: cacc021c-b295-4006-a63c-dcaa7f033b0b
+  sni: 1003us.fr99kt.top
+  skip-cert-verify: false
+- name: AE-193.123.73.195-096 | 7.989MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: 051f3baf-4306-4440-8c3c-5f79a145026a
+  sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: AE-193.123.73.195-062 | 7.725MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: cacc021c-b295-4006-a63c-dcaa7f033b0b
+  sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: 🇭🇰HK-47.242.22.73-081 | 3.343MB
   server: dghsdhdgh.swaprp.xyz
   port: 443
   type: trojan
-  password: a9b1bf1e-d8aa-46b5-93a5-83d95edbed48
+  password: 4dc445a9-817b-4187-bbea-002f99603df8
   sni: dghsdhdgh.swaprp.xyz
   skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-017 | 3.138MB
+- name: 🇭🇰HK-8.217.210.243-080 | 3.042MB
+  server: wsudf.swaprp.xyz
+  port: 443
+  type: trojan
+  password: 4dc445a9-817b-4187-bbea-002f99603df8
+  sni: wsudf.swaprp.xyz
+  skip-cert-verify: false
+- name: 🇭🇰HK-8.217.210.243-079 | 1.213MB
   server: adszql.hashbfjqwnqh.top
   port: 56533
   type: vmess
-  uuid: a9b1bf1e-d8aa-46b5-93a5-83d95edbed48
+  uuid: 4dc445a9-817b-4187-bbea-002f99603df8
   alterId: 0
   cipher: auto
   tls: false
@@ -87,18 +94,11 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-018 | 1.004MB
-  server: wsudf.swaprp.xyz
-  port: 443
-  type: trojan
-  password: a9b1bf1e-d8aa-46b5-93a5-83d95edbed48
-  sni: wsudf.swaprp.xyz
-  skip-cert-verify: false
-- name: 🇭🇰HK-47.242.22.73-020 | 0.714MB
+- name: 🇭🇰HK-47.242.22.73-082 | 0.844MB
   server: zxcaq.hashbfjqwnqh.top
   port: 56533
   type: vmess
-  uuid: a9b1bf1e-d8aa-46b5-93a5-83d95edbed48
+  uuid: 4dc445a9-817b-4187-bbea-002f99603df8
   alterId: 0
   cipher: auto
   tls: false
@@ -164,32 +164,32 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-129.80.185.15-002 | 47.555MB
-  - RELAY-104.18.9.215-024 | 14.797MB
+  - RELAY-104.18.9.215-086 | 65.841MB
+  - RELAY-104.16.148.244-083 | 64.233MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - AE-193.123.73.195-158 | 9.834MB
-  - AE-193.123.73.195-000 | 9.462MB
+  - 🇺🇸US-129.80.185.15-064 | 35.522MB
+  - AE-193.123.73.195-096 | 7.989MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - RELAY-104.16.148.244-021 | 8.621MB
-  - 🇭🇰HK-47.242.22.73-019 | 3.41MB
+  - AE-193.123.73.195-062 | 7.725MB
+  - 🇭🇰HK-47.242.22.73-081 | 3.343MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.217.210.243-017 | 3.138MB
-  - 🇭🇰HK-8.217.210.243-018 | 1.004MB
-  - 🇭🇰HK-47.242.22.73-020 | 0.714MB
+  - 🇭🇰HK-8.217.210.243-080 | 3.042MB
+  - 🇭🇰HK-8.217.210.243-079 | 1.213MB
+  - 🇭🇰HK-47.242.22.73-082 | 0.844MB
 rules:
 - MATCH,Global ©️

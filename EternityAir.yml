@@ -17,55 +17,27 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-074 | 65.394MB
+- name: 🇺🇸US-129.80.185.15-069 | 57.202MB
   server: 1003us.fr99kt.top
   port: 14838
   type: trojan
-  password: fbf948a1-24a9-4c76-bea3-8473316ca7af
+  password: 1463e2df-21e3-442f-b6ce-1cbb8fd419c9
   sni: 1003us.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-093 | 11.843MB
+- name: AE-193.123.73.195-067 | 9.488MB
   server: 930db.fr99kt.top
   port: 43311
   type: trojan
-  password: 32838a19-8164-4915-9ed5-b0bc736654f0
+  password: 1463e2df-21e3-442f-b6ce-1cbb8fd419c9
   sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-072 | 11.603MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: fbf948a1-24a9-4c76-bea3-8473316ca7af
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.210.217.168-065 | 3.617MB
+- name: 🇭🇰HK-8.210.217.168-000 | 3.668MB
   server: z004.zoyu.club
   port: 10005
   type: trojan
-  password: 1028663c-8124-4129-b3c5-7205ddb6a5da
+  password: 08e5ff8f-eb3f-44ed-9763-166404c1c781
   sni: z004.zoyu.club
   skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-001 | 2.106MB
-  server: wsudf.swaprp.xyz
-  port: 443
-  type: trojan
-  password: f2cb22a7-fc81-48e6-acc5-4ffc1fa9dd23
-  sni: wsudf.swaprp.xyz
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-000 | 1.822MB
-  server: cvmiunrvyu.swuxz.top
-  port: 56533
-  type: vmess
-  uuid: f2cb22a7-fc81-48e6-acc5-4ffc1fa9dd23
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -121,30 +93,27 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-129.80.185.15-074 | 65.394MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - AE-193.123.73.195-093 | 11.843MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - AE-193.123.73.195-072 | 11.603MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.210.217.168-065 | 3.617MB
-  - 🇭🇰HK-8.217.210.243-001 | 2.106MB
-  - 🇭🇰HK-8.217.210.243-000 | 1.822MB
+  - 🇺🇸US-129.80.185.15-069 | 57.202MB
+  - AE-193.123.73.195-067 | 9.488MB
+  - 🇭🇰HK-8.210.217.168-000 | 3.668MB
 rules:
 - MATCH,Global ©️

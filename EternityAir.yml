@@ -17,25 +17,39 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇭🇰HK-8.210.217.168-128 | 3.691MB
+- name: 🇺🇸US-129.80.185.15-10 | 63.949MB
+  server: 1003us.fr99kt.top
+  port: 14838
+  type: trojan
+  password: 252d3729-393a-4fc0-89b0-5bbaae1f25e6
+  sni: 1003us.fr99kt.top
+  skip-cert-verify: false
+- name: AE-193.123.73.195-30 | 10.172MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: aaf36273-d33b-4eeb-bf2e-9cc9c70d70ae
+  sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: AE-193.123.73.195-08 | 9.67MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: 252d3729-393a-4fc0-89b0-5bbaae1f25e6
+  sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: 🇭🇰HK-8.210.217.168-26 | 2.93MB
   server: z004.zoyu.club
   port: 10005
   type: trojan
-  password: f45bdc80-5d14-4964-a131-2acd7617d46f
+  password: cfc3bd77-49c9-4be1-8385-07b0e96b11cc
   sni: z004.zoyu.club
   skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-063 | 2.595MB
-  server: wsudf.swaprp.xyz
-  port: 443
-  type: trojan
-  password: c7b32b3c-3fa7-4a40-81e0-4d2f3eb9b4ba
-  sni: wsudf.swaprp.xyz
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-062 | 0.588MB
+- name: 🇭🇰HK-8.217.210.243-00 | 2.925MB
   server: cvmiunrvyu.swuxz.top
   port: 56533
   type: vmess
-  uuid: c7b32b3c-3fa7-4a40-81e0-4d2f3eb9b4ba
+  uuid: 51b82eed-e24b-4b9a-8916-f549e7826f06
   alterId: 0
   cipher: auto
   tls: false
@@ -45,6 +59,13 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
+- name: 🇭🇰HK-8.217.210.243-01 | 1.044MB
+  server: wsudf.swaprp.xyz
+  port: 443
+  type: trojan
+  password: 51b82eed-e24b-4b9a-8916-f549e7826f06
+  sni: wsudf.swaprp.xyz
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -100,27 +121,30 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-129.80.185.15-10 | 63.949MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - AE-193.123.73.195-30 | 10.172MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - AE-193.123.73.195-08 | 9.67MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.210.217.168-128 | 3.691MB
-  - 🇭🇰HK-8.217.210.243-063 | 2.595MB
-  - 🇭🇰HK-8.217.210.243-062 | 0.588MB
+  - 🇭🇰HK-8.210.217.168-26 | 2.93MB
+  - 🇭🇰HK-8.217.210.243-00 | 2.925MB
+  - 🇭🇰HK-8.217.210.243-01 | 1.044MB
 rules:
 - MATCH,Global ©️

@@ -17,18 +17,25 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇭🇰HK-8.210.217.168-62 | 3.018MB
+- name: 🇭🇰HK-8.210.217.168-004 | 3.574MB
   server: z004.zoyu.club
   port: 10005
   type: trojan
-  password: a6e34489-4c44-4987-8750-be7466a771f0
+  password: 5f8fd373-92c9-4ffa-9a74-d3e1a2fb6e48
   sni: z004.zoyu.club
   skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-65 | 2.129MB
+- name: 🇭🇰HK-8.217.210.243-001 | 2.504MB
+  server: wsudf.swaprp.xyz
+  port: 443
+  type: trojan
+  password: 3de1cd6e-7771-4198-8994-1593f9e0f8e8
+  sni: wsudf.swaprp.xyz
+  skip-cert-verify: false
+- name: 🇭🇰HK-8.217.210.243-000 | 1.319MB
   server: cvmiunrvyu.swuxz.top
   port: 56533
   type: vmess
-  uuid: 4baed034-e94c-40a0-b7e6-97533c768d78
+  uuid: 3de1cd6e-7771-4198-8994-1593f9e0f8e8
   alterId: 0
   cipher: auto
   tls: false
@@ -38,13 +45,6 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-66 | 2.092MB
-  server: wsudf.swaprp.xyz
-  port: 443
-  type: trojan
-  password: 4baed034-e94c-40a0-b7e6-97533c768d78
-  sni: wsudf.swaprp.xyz
-  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -119,8 +119,8 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.210.217.168-62 | 3.018MB
-  - 🇭🇰HK-8.217.210.243-65 | 2.129MB
-  - 🇭🇰HK-8.217.210.243-66 | 2.092MB
+  - 🇭🇰HK-8.210.217.168-004 | 3.574MB
+  - 🇭🇰HK-8.217.210.243-001 | 2.504MB
+  - 🇭🇰HK-8.217.210.243-000 | 1.319MB
 rules:
 - MATCH,Global ©️

@@ -17,32 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-002 | 61.405MB
-  server: 1003us.fr99kt.top
-  port: 14838
-  type: trojan
-  password: bda42b9c-20dc-41cf-960a-59e38f32ba86
-  sni: 1003us.fr99kt.top
-  skip-cert-verify: false
-- name: AE-193.123.73.195-000 | 9.933MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: bda42b9c-20dc-41cf-960a-59e38f32ba86
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: AE-193.123.73.195-022 | 9.892MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: 1f752801-0f0f-43a1-a039-f58934678cfd
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-017 | 2.587MB
+- name: 🇭🇰HK-8.217.210.243-00 | 2.072MB
   server: cvmiunrvyu.swuxz.top
   port: 56533
   type: vmess
-  uuid: a51b1ae9-ac26-4603-8c98-602ba5f12082
+  uuid: c6936cbf-ad3b-42e6-bd43-35c1ca1ce91c
   alterId: 0
   cipher: auto
   tls: false
@@ -52,11 +31,11 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-018 | 1.624MB
+- name: 🇭🇰HK-8.217.210.243-01 | 2.043MB
   server: wsudf.swaprp.xyz
   port: 443
   type: trojan
-  password: a51b1ae9-ac26-4603-8c98-602ba5f12082
+  password: c6936cbf-ad3b-42e6-bd43-35c1ca1ce91c
   sni: wsudf.swaprp.xyz
   skip-cert-verify: false
 proxy-groups:
@@ -114,29 +93,26 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-129.80.185.15-002 | 61.405MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - AE-193.123.73.195-000 | 9.933MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - AE-193.123.73.195-022 | 9.892MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.217.210.243-017 | 2.587MB
-  - 🇭🇰HK-8.217.210.243-018 | 1.624MB
+  - 🇭🇰HK-8.217.210.243-00 | 2.072MB
+  - 🇭🇰HK-8.217.210.243-01 | 2.043MB
 rules:
 - MATCH,Global ©️

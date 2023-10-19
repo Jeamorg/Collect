@@ -17,18 +17,11 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇭🇰HK-8.217.210.243-01 | 2.676MB
-  server: wsudf.swaprp.xyz
-  port: 443
-  type: trojan
-  password: 9768b0cd-ff48-47ec-809b-a29373003b3a
-  sni: wsudf.swaprp.xyz
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-00 | 1.479MB
+- name: 🇭🇰HK-8.217.210.243-00 | 3.155MB
   server: cvmiunrvyu.swuxz.top
   port: 56533
   type: vmess
-  uuid: 9768b0cd-ff48-47ec-809b-a29373003b3a
+  uuid: 9bed1b23-50e0-4f6a-ad28-739474a73be4
   alterId: 0
   cipher: auto
   tls: false
@@ -38,6 +31,13 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
+- name: 🇭🇰HK-8.217.210.243-01 | 0.983MB
+  server: wsudf.swaprp.xyz
+  port: 443
+  type: trojan
+  password: 9bed1b23-50e0-4f6a-ad28-739474a73be4
+  sni: wsudf.swaprp.xyz
+  skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
   type: select
@@ -112,7 +112,7 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.217.210.243-01 | 2.676MB
-  - 🇭🇰HK-8.217.210.243-00 | 1.479MB
+  - 🇭🇰HK-8.217.210.243-00 | 3.155MB
+  - 🇭🇰HK-8.217.210.243-01 | 0.983MB
 rules:
 - MATCH,Global ©️

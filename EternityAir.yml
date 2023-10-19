@@ -17,32 +17,32 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-064 | 71.274MB
+- name: 🇺🇸US-129.80.185.15-002 | 33.323MB
   server: 1003us.fr99kt.top
   port: 14838
   type: trojan
-  password: d347fa78-a37a-47ed-8553-8d07d65f9919
+  password: 5a7185bd-0630-4dae-a2be-45f54369e955
   sni: 1003us.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-080 | 12.011MB
+- name: AE-193.123.73.195-085 | 7.886MB
   server: 930db.fr99kt.top
   port: 43311
   type: trojan
-  password: 03ee0492-e389-48ed-81fe-deacfa4f3ede
+  password: f5cf3c61-d0d1-4f77-9fb2-4f695320c0aa
   sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-062 | 11.493MB
+- name: AE-193.123.73.195-000 | 7.308MB
   server: 930db.fr99kt.top
   port: 43311
   type: trojan
-  password: d347fa78-a37a-47ed-8553-8d07d65f9919
+  password: 5a7185bd-0630-4dae-a2be-45f54369e955
   sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-096 | 3.089MB
+- name: 🇭🇰HK-8.217.210.243-079 | 2.386MB
   server: cvmiunrvyu.swuxz.top
   port: 56533
   type: vmess
-  uuid: 79dc1bd3-8f07-462c-add6-1cbbe0d47fcf
+  uuid: e3a8222f-c5f4-40cd-ad8d-863f82d168c4
   alterId: 0
   cipher: auto
   tls: false
@@ -52,11 +52,11 @@ proxies:
     path: /
     headers:
       Host: hk1.cc.com
-- name: 🇭🇰HK-8.217.210.243-097 | 1.996MB
+- name: 🇭🇰HK-8.217.210.243-080 | 1.706MB
   server: wsudf.swaprp.xyz
   port: 443
   type: trojan
-  password: 79dc1bd3-8f07-462c-add6-1cbbe0d47fcf
+  password: e3a8222f-c5f4-40cd-ad8d-863f82d168c4
   sni: wsudf.swaprp.xyz
   skip-cert-verify: false
 proxy-groups:
@@ -115,28 +115,28 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-129.80.185.15-064 | 71.274MB
+  - 🇺🇸US-129.80.185.15-002 | 33.323MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - AE-193.123.73.195-080 | 12.011MB
+  - AE-193.123.73.195-085 | 7.886MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - AE-193.123.73.195-062 | 11.493MB
+  - AE-193.123.73.195-000 | 7.308MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.217.210.243-096 | 3.089MB
-  - 🇭🇰HK-8.217.210.243-097 | 1.996MB
+  - 🇭🇰HK-8.217.210.243-079 | 2.386MB
+  - 🇭🇰HK-8.217.210.243-080 | 1.706MB
 rules:
 - MATCH,Global ©️

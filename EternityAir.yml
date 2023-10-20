@@ -17,48 +17,20 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-062 | 53.736MB
+- name: 🇺🇸US-129.80.185.15-61 | 78.874MB
   server: 1003us.fr99kt.top
   port: 14838
   type: trojan
-  password: 3874951f-cd00-4f13-81cd-2467e63eb10d
+  password: 04b49e21-9682-4fa0-bef1-491a0751888a
   sni: 1003us.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-078 | 12.113MB
+- name: AE-193.123.73.195-59 | 11.837MB
   server: 930db.fr99kt.top
   port: 43311
   type: trojan
-  password: 7b1bdd1d-afe3-4fb1-9f8a-0b3fe83c4cd8
+  password: 04b49e21-9682-4fa0-bef1-491a0751888a
   sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-060 | 11.952MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: 3874951f-cd00-4f13-81cd-2467e63eb10d
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-153 | 2.658MB
-  server: wsudf.swaprp.xyz
-  port: 443
-  type: trojan
-  password: 6aed6cc8-b4b3-40c0-99b8-2a95b9fdd36d
-  sni: wsudf.swaprp.xyz
-  skip-cert-verify: false
-- name: 🇭🇰HK-8.217.210.243-152 | 1.444MB
-  server: cvmiunrvyu.swuxz.top
-  port: 56533
-  type: vmess
-  uuid: 6aed6cc8-b4b3-40c0-99b8-2a95b9fdd36d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk1.cc.com
 proxy-groups:
 - name: Global ©️
   type: select
@@ -114,29 +86,26 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇺🇸US-129.80.185.15-062 | 53.736MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - AE-193.123.73.195-078 | 12.113MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - AE-193.123.73.195-060 | 11.952MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇭🇰HK-8.217.210.243-153 | 2.658MB
-  - 🇭🇰HK-8.217.210.243-152 | 1.444MB
+  - 🇺🇸US-129.80.185.15-61 | 78.874MB
+  - AE-193.123.73.195-59 | 11.837MB
 rules:
 - MATCH,Global ©️

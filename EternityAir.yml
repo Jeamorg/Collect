@@ -17,19 +17,47 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-61 | 78.874MB
+- name: 🇺🇸US-129.80.185.15-002 | 37.838MB
   server: 1003us.fr99kt.top
   port: 14838
   type: trojan
-  password: 04b49e21-9682-4fa0-bef1-491a0751888a
+  password: fec6b992-3a7c-47d5-ab67-5e918242afce
   sni: 1003us.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-59 | 11.837MB
+- name: AE-193.123.73.195-080 | 7.999MB
   server: 930db.fr99kt.top
   port: 43311
   type: trojan
-  password: 04b49e21-9682-4fa0-bef1-491a0751888a
+  password: 2d66afdf-aede-4631-ac7e-d40fd70cf5eb
   sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: AE-193.123.73.195-000 | 7.971MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: fec6b992-3a7c-47d5-ab67-5e918242afce
+  sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: 🇭🇰HK-8.217.210.243-075 | 2.182MB
+  server: cvmiunrvyu.swuxz.top
+  port: 56533
+  type: vmess
+  uuid: 3d07050a-0343-4e46-8ba0-14fc6369b83a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk1.cc.com
+- name: 🇭🇰HK-8.217.210.243-076 | 1.964MB
+  server: wsudf.swaprp.xyz
+  port: 443
+  type: trojan
+  password: 3d07050a-0343-4e46-8ba0-14fc6369b83a
+  sni: wsudf.swaprp.xyz
   skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
@@ -86,26 +114,29 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-129.80.185.15-002 | 37.838MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - AE-193.123.73.195-080 | 7.999MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - AE-193.123.73.195-000 | 7.971MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-129.80.185.15-61 | 78.874MB
-  - AE-193.123.73.195-59 | 11.837MB
+  - 🇭🇰HK-8.217.210.243-075 | 2.182MB
+  - 🇭🇰HK-8.217.210.243-076 | 1.964MB
 rules:
 - MATCH,Global ©️

@@ -17,26 +17,40 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-61 | 79.525MB
+- name: 🇺🇸US-129.80.185.15-060 | 39.947MB
   server: 1003us.fr99kt.top
   port: 14838
   type: trojan
-  password: 58823100-28d8-4a27-966e-02ddb3739fbc
+  password: c523d123-af81-4816-862d-4c337f1010a8
   sni: 1003us.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-59 | 9.59MB
+- name: AE-193.123.73.195-058 | 11.975MB
   server: 930db.fr99kt.top
   port: 43311
   type: trojan
-  password: 58823100-28d8-4a27-966e-02ddb3739fbc
+  password: c523d123-af81-4816-862d-4c337f1010a8
   sni: 930db.fr99kt.top
   skip-cert-verify: false
-- name: AE-193.123.73.195-77 | 9.514MB
-  server: 930db.fr99kt.top
-  port: 43311
+- name: 🇭🇰HK-8.217.210.243-075 | 2.089MB
+  server: cvmiunrvyu.swuxz.top
+  port: 56533
+  type: vmess
+  uuid: 0e7d2e89-6a41-4af9-9f49-a0a0d6b68ef7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk1.cc.com
+- name: 🇭🇰HK-8.217.210.243-076 | 2.055MB
+  server: wsudf.swaprp.xyz
+  port: 443
   type: trojan
-  password: 2acc49d7-f4ac-400b-a2bf-2eb5c9bd5e5f
-  sni: 930db.fr99kt.top
+  password: 0e7d2e89-6a41-4af9-9f49-a0a0d6b68ef7
+  sni: wsudf.swaprp.xyz
   skip-cert-verify: false
 proxy-groups:
 - name: Global ©️
@@ -93,27 +107,28 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-129.80.185.15-060 | 39.947MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - AE-193.123.73.195-058 | 11.975MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇭🇰HK-8.217.210.243-075 | 2.089MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-129.80.185.15-61 | 79.525MB
-  - AE-193.123.73.195-59 | 9.59MB
-  - AE-193.123.73.195-77 | 9.514MB
+  - 🇭🇰HK-8.217.210.243-076 | 2.055MB
 rules:
 - MATCH,Global ©️

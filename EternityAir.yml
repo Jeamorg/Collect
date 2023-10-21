@@ -17,27 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇺🇸US-129.80.185.15-60 | 78.182MB
-  server: 1003us.fr99kt.top
-  port: 14838
-  type: trojan
-  password: e809655e-4e2a-4c95-b9bd-22991b235bb4
-  sni: 1003us.fr99kt.top
-  skip-cert-verify: false
-- name: AE-193.123.73.195-77 | 11.872MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: acba710c-40f3-400e-bf68-972f9964d079
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
-- name: AE-193.123.73.195-58 | 11.298MB
-  server: 930db.fr99kt.top
-  port: 43311
-  type: trojan
-  password: e809655e-4e2a-4c95-b9bd-22991b235bb4
-  sni: 930db.fr99kt.top
-  skip-cert-verify: false
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -112,8 +92,6 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-129.80.185.15-60 | 78.182MB
-  - AE-193.123.73.195-77 | 11.872MB
-  - AE-193.123.73.195-58 | 11.298MB
+  - DIRECT
 rules:
 - MATCH,Global ©️

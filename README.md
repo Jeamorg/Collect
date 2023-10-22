@@ -546,19 +546,19 @@ merge nodes w/o dup: `1552`
 ### node sources
 - [pojiezhiyuanjun/freev2](https://github.com/pojiezhiyuanjun/freev2), number of nodes: `77`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `20`
-- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `134`
+- [mianfeifq/share](https://github.com/mianfeifq/share), number of nodes: `101`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `25`
 - [wefound.cc](https://wefound.cc), number of nodes: `25`
 - [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `76`
 - [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `763`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `33`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `34`
-- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `225`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `654`
+- [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `220`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `682`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `81`
 - [zhou-jian-qq/clashFreeNode](https://github.com/zhou-jian-qq/clashFreeNode), number of nodes: `45`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `20`
-- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `52`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `21`
+- [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `246`
 - [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `103`
 - [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `15`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `24`

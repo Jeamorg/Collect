@@ -17,7 +17,121 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- null
+- name: 🇺🇸US-129.80.185.15-076 | 78.928MB
+  server: 1003us.fr99kt.top
+  port: 14838
+  type: trojan
+  password: caf6c6d8-034f-4a71-8ee2-196437b9eca8
+  sni: 1003us.fr99kt.top
+  skip-cert-verify: false
+- name: RELAY-104.21.34.30-073 | 15.406MB
+  server: 104.21.34.30
+  port: 80
+  type: vmess
+  uuid: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kp.1234585.xyz
+- name: 🇰🇷KR-129.154.198.136-064 | 12.465MB
+  server: xiongda006.daxiongda.top
+  port: 12468
+  type: ss
+  cipher: aes-256-gcm
+  password: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
+- name: AE-193.123.73.195-107 | 11.903MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: b9fab661-a24a-4763-b8a1-86ee0bc4b0fd
+  sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: AE-193.123.73.195-074 | 11.879MB
+  server: 930db.fr99kt.top
+  port: 43311
+  type: trojan
+  password: caf6c6d8-034f-4a71-8ee2-196437b9eca8
+  sni: 930db.fr99kt.top
+  skip-cert-verify: false
+- name: 🇹🇼TW-37.128.253.239-069 | 9.447MB
+  server: tw-one.1234585.xyz
+  port: 80
+  type: vmess
+  uuid: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw-one.1234585.xyz
+- name: 🇺🇸US-142.171.123.80-059 | 9.197MB
+  server: us-two.1234585.xyz
+  port: 80
+  type: vmess
+  uuid: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us-two.1234585.xyz
+- name: 🇰🇷KR-129.154.198.136-061 | 8.99MB
+  server: xiongda006.daxiongda.top
+  port: 33752
+  type: ss
+  cipher: aes-256-gcm
+  password: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
+- name: 🇹🇼TW-37.128.253.239-102 | 7.054MB
+  server: tw-one.1234585.xyz
+  port: 80
+  type: vmess
+  uuid: 85322667-2cb3-4b29-86f5-555e87887208
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: tw-one.1234585.xyz
+- name: 🇰🇷KR-129.154.198.136-067 | 6.358MB
+  server: xiongda006.daxiongda.top
+  port: 36176
+  type: ss
+  cipher: aes-256-gcm
+  password: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
+- name: 🇬🇧GB-132.145.62.95-071 | 6.174MB
+  server: gb-one.1234585.xyz
+  port: 80
+  type: vmess
+  uuid: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gb-one.1234585.xyz
+- name: 🇬🇧GB-152.67.150.28-072 | 5.512MB
+  server: gb-two.1234585.xyz
+  port: 80
+  type: ss
+  cipher: aes-256-gcm
+  password: bbda7214-8ee6-47b5-a51a-2bae450b3f5e
 proxy-groups:
 - name: Global ©️
   type: select
@@ -73,25 +187,36 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-129.80.185.15-076 | 78.928MB
+  - RELAY-104.21.34.30-073 | 15.406MB
+  - 🇰🇷KR-129.154.198.136-064 | 12.465MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - AE-193.123.73.195-107 | 11.903MB
+  - AE-193.123.73.195-074 | 11.879MB
+  - 🇹🇼TW-37.128.253.239-069 | 9.447MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies: []
+  proxies:
+  - 🇺🇸US-142.171.123.80-059 | 9.197MB
+  - 🇰🇷KR-129.154.198.136-061 | 8.99MB
+  - 🇹🇼TW-37.128.253.239-102 | 7.054MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - DIRECT
+  - 🇰🇷KR-129.154.198.136-067 | 6.358MB
+  - 🇬🇧GB-132.145.62.95-071 | 6.174MB
+  - 🇬🇧GB-152.67.150.28-072 | 5.512MB
 rules:
 - MATCH,Global ©️

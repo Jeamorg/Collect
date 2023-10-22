@@ -1,107 +1,182 @@
-  - {name: 🇺🇸 A美国-原生ip, server: us-two.1234585.xyz, port: 80, type: vmess, uuid: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-two.1234585.xyz}}}
-  - {name: 🇺🇸 B美国-中转, server: zfa.1234585.xyz, port: 12968, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇺🇸 C美国-中转, server: xiongda006.daxiongda.top, port: 33752, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇸🇬 A新加坡-中转, server: zfa.1234585.xyz, port: 47735, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇸🇬 B新加坡-中转, server: zfa.1234585.xyz, port: 45543, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇸🇬 C新加坡-中转, server: xiongda006.daxiongda.top, port: 12468, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇭🇰 A香港-中转, server: zfa.1234585.xyz, port: 26961, type: vmess, uuid: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
-  - {name: 🇭🇰 B香港-中转, server: zfa.1234585.xyz, port: 10645, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇭🇰 C香港-中转, server: xiongda006.daxiongda.top, port: 36176, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇲🇽 B墨西哥-中转, server: zfa.1234585.xyz, port: 45419, type: vmess, uuid: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
-  - {name: 🇨🇳 A台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
-  - {name: 🇨🇳 B台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
-  - {name: 🇬🇧 A英国-0.5x, server: gb-one.1234585.xyz, port: 80, type: vmess, uuid: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gb-one.1234585.xyz}}}
-  - {name: 🇬🇧 B英国-0.5x, server: gb-two.1234585.xyz, port: 80, type: ss, cipher: aes-256-gcm, password: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479}
-  - {name: 🇰🇵 A朝鲜, server: 104.21.34.30, port: 80, type: vmess, uuid: 6ac49a4c-fcd6-4ca2-83c8-70bdadcf4479, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kp.1234585.xyz}}}
-  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 9811d535-3160-45f6-9bd6-1e3165b122cf}
-  - {name: 🇺🇸 A美国-原生ip, server: us-two.1234585.xyz, port: 80, type: vmess, uuid: 008a7943-a0e6-4b7f-8d9e-311ae32defee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-two.1234585.xyz}}}
-  - {name: 🇺🇸 B美国-中转, server: zfa.1234585.xyz, port: 12968, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇺🇸 C美国-中转, server: xiongda006.daxiongda.top, port: 33752, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇸🇬 A新加坡-中转, server: zfa.1234585.xyz, port: 47735, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇸🇬 B新加坡-中转, server: zfa.1234585.xyz, port: 45543, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇸🇬 C新加坡-中转, server: xiongda006.daxiongda.top, port: 12468, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇭🇰 A香港-中转, server: zfa.1234585.xyz, port: 26961, type: vmess, uuid: 008a7943-a0e6-4b7f-8d9e-311ae32defee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
-  - {name: 🇭🇰 B香港-中转, server: zfa.1234585.xyz, port: 10645, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇭🇰 C香港-中转, server: xiongda006.daxiongda.top, port: 36176, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇲🇽 B墨西哥-中转, server: zfa.1234585.xyz, port: 45419, type: vmess, uuid: 008a7943-a0e6-4b7f-8d9e-311ae32defee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
-  - {name: 🇨🇳 A台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 008a7943-a0e6-4b7f-8d9e-311ae32defee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
-  - {name: 🇨🇳 B台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 008a7943-a0e6-4b7f-8d9e-311ae32defee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
-  - {name: 🇬🇧 A英国-0.5x, server: gb-one.1234585.xyz, port: 80, type: vmess, uuid: 008a7943-a0e6-4b7f-8d9e-311ae32defee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gb-one.1234585.xyz}}}
-  - {name: 🇬🇧 B英国-0.5x, server: gb-two.1234585.xyz, port: 80, type: ss, cipher: aes-256-gcm, password: 008a7943-a0e6-4b7f-8d9e-311ae32defee}
-  - {name: 🇰🇵 A朝鲜, server: 104.21.34.30, port: 80, type: vmess, uuid: 008a7943-a0e6-4b7f-8d9e-311ae32defee, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kp.1234585.xyz}}}
-  - {name: 距离下次重置剩余：8 天, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇻🇳 vip1 越南-03, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-03, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-07, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-08, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-09, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-15, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-19, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-20, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇭🇰 vip1 香港-21, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇯🇵 vip1 日本-03, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇯🇵 vip1 日本-06, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇯🇵 vip1 日本-07, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇯🇵 vip1 日本-08, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇨🇳 vip1 台湾-03, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇨🇳 vip1 台湾-06, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇨🇳 vip1 台湾-07, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇨🇳 vip1 台湾-08, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇸🇬 vip1 新加坡-03, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇸🇬 vip1 新加坡-07, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇸🇬 vip1 新加坡-08, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-01, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-02, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-03, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-06, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-07, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-08, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇺🇸 vip1 美国-13, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇮🇳 vip1 印度-03, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇦🇺 vip1 澳大利亚-02, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇦🇺 vip1 澳大利亚-03, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇹🇷 vip1 土耳其-01, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇹🇷 vip1 土耳其-02, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇹🇷 vip1 土耳其-03, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇩🇪 vip1 德国-02, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇩🇪 vip1 德国-03, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇬🇧 vip1 英国-01, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇬🇧 vip1 英国-02, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 🇬🇧 vip1 英国-03, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 05fcd80e-ee79-4270-931c-7607fba7f9aa}
-  - {name: 距离下次重置剩余：1 天, server: 930db.fr99kt.top, port: 43311, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 930db.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇦🇪 迪拜-普通线路, server: 930db.fr99kt.top, port: 43311, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 930db.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇺🇸 美国-普通线路, server: 1003us.fr99kt.top, port: 14838, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 1003us.fr99kt.top, skip-cert-verify: false}
-  - {name: 永久网址www.win263.top（已被屏蔽）, server: 1.2.3.4, port: 2365, type: ss, cipher: aes-192-gcm, password: c122cdc4-4658-4054-b52d-90408a3b5357}
-  - {name: 🇸🇬 最新网址ww1.win263.top（未屏蔽，正常）, server: 8.9.9.8, port: 123, type: ss, cipher: chacha20-ietf-poly1305, password: c122cdc4-4658-4054-b52d-90408a3b5357}
-  - {name: 备用网址ww2.win263.top（未启用）, server: 9.9.9.9, port: 9999, type: ss, cipher: chacha20-ietf-poly1305, password: c122cdc4-4658-4054-b52d-90408a3b5357}
-  - {name: 🇭🇰 香港隧道1-解锁TK-NF-GPT, server: sdyd.ygdyf.com, port: 18899, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 1005hk.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇭🇰 香港隧道2-解锁TK-NF, server: gd.76po.com, port: 51151, type: vmess, uuid: c122cdc4-4658-4054-b52d-90408a3b5357, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 94hk05.fr99kt.top}}}
-  - {name: 🇭🇰 香港隧道3-解锁TK-NF-GPT, server: js1.76po.com, port: 26981, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 1008hk.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇭🇰 香港隧道4-解锁TK-NF, server: js1.76po.com, port: 52351, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 94hk03.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇨🇳 台湾隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59591, type: vmess, uuid: c122cdc4-4658-4054-b52d-90408a3b5357, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903tw01.fr99kt.top}}}
-  - {name: 🇯🇵 日本隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59918, type: vmess, uuid: c122cdc4-4658-4054-b52d-90408a3b5357, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903jp01.fr99kt.top}}}
-  - {name: 🇯🇵 日本隧道2-解锁TK-NF-GPT, server: gd.76po.com, port: 35397, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 925jp.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇸🇬 新加坡隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59876, type: vmess, uuid: c122cdc4-4658-4054-b52d-90408a3b5357, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byxd, headers: {Host: 903sg01.fr99kt.top}}}
-  - {name: 🇺🇸 美国隧道-解锁TK-NF-GPT, server: 1.76po.com, port: 26691, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 1008us.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇫🇷 法国隧道-解锁TK-NF-GPT, server: 1.76po.com, port: 36287, type: trojan, password: c122cdc4-4658-4054-b52d-90408a3b5357, sni: 1008fr.fr99kt.top, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯隧道1-解锁TK, server: 1.76po.com, port: 13577, type: vmess, uuid: c122cdc4-4658-4054-b52d-90408a3b5357, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bdeyd, headers: {Host: 903ru01.fr99kt.top}}}
-  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 8db0cfbb-0432-493f-910c-a613659caff2}
+  - {name: 距离下次重置剩余：8 天, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇻🇳 vip1 越南-03, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-03, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-07, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-08, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-09, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-15, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-19, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-20, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇭🇰 vip1 香港-21, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇯🇵 vip1 日本-03, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇯🇵 vip1 日本-06, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇯🇵 vip1 日本-07, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇯🇵 vip1 日本-08, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇨🇳 vip1 台湾-03, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇨🇳 vip1 台湾-06, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇨🇳 vip1 台湾-07, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇨🇳 vip1 台湾-08, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇸🇬 vip1 新加坡-03, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇸🇬 vip1 新加坡-07, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇸🇬 vip1 新加坡-08, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-01, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-02, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-03, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-06, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-07, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-08, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 vip1 美国-13, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇮🇳 vip1 印度-03, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇦🇺 vip1 澳大利亚-02, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇦🇺 vip1 澳大利亚-03, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇹🇷 vip1 土耳其-01, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇹🇷 vip1 土耳其-02, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇹🇷 vip1 土耳其-03, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇩🇪 vip1 德国-02, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇩🇪 vip1 德国-03, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇬🇧 vip1 英国-01, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇬🇧 vip1 英国-02, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇬🇧 vip1 英国-03, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: c7e1625e-4bf8-4632-97d0-e0e76476949d}
+  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 65bdd919-5adc-4c4a-a607-500aee69f80c}
+  - {name: 🇺🇸 A美国-原生ip, server: us-two.1234585.xyz, port: 80, type: vmess, uuid: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-two.1234585.xyz}}}
+  - {name: 🇺🇸 B美国-中转, server: zfa.1234585.xyz, port: 12968, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇺🇸 C美国-中转, server: xiongda006.daxiongda.top, port: 33752, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇸🇬 A新加坡-中转, server: zfa.1234585.xyz, port: 47735, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇸🇬 B新加坡-中转, server: zfa.1234585.xyz, port: 45543, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇸🇬 C新加坡-中转, server: xiongda006.daxiongda.top, port: 12468, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇭🇰 A香港-中转, server: zfa.1234585.xyz, port: 26961, type: vmess, uuid: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
+  - {name: 🇭🇰 B香港-中转, server: zfa.1234585.xyz, port: 10645, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇭🇰 C香港-中转, server: xiongda006.daxiongda.top, port: 36176, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇲🇽 B墨西哥-中转, server: zfa.1234585.xyz, port: 45419, type: vmess, uuid: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
+  - {name: 🇨🇳 A台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
+  - {name: 🇨🇳 B台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
+  - {name: 🇬🇧 A英国-0.5x, server: gb-one.1234585.xyz, port: 80, type: vmess, uuid: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gb-one.1234585.xyz}}}
+  - {name: 🇬🇧 B英国-0.5x, server: gb-two.1234585.xyz, port: 80, type: ss, cipher: aes-256-gcm, password: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d}
+  - {name: 🇰🇵 A朝鲜, server: 104.21.34.30, port: 80, type: vmess, uuid: 7967c3b1-c25b-48e5-ba91-e3134dc95b7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kp.1234585.xyz}}}
+  - {name: 🇺🇸 A美国-原生ip, server: us-two.1234585.xyz, port: 80, type: vmess, uuid: 691092c0-1a92-481b-8164-d05656630a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: us-two.1234585.xyz}}}
+  - {name: 🇺🇸 B美国-中转, server: zfa.1234585.xyz, port: 12968, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇺🇸 C美国-中转, server: xiongda006.daxiongda.top, port: 33752, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇸🇬 A新加坡-中转, server: zfa.1234585.xyz, port: 47735, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇸🇬 B新加坡-中转, server: zfa.1234585.xyz, port: 45543, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇸🇬 C新加坡-中转, server: xiongda006.daxiongda.top, port: 12468, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇭🇰 A香港-中转, server: zfa.1234585.xyz, port: 26961, type: vmess, uuid: 691092c0-1a92-481b-8164-d05656630a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
+  - {name: 🇭🇰 B香港-中转, server: zfa.1234585.xyz, port: 10645, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇭🇰 C香港-中转, server: xiongda006.daxiongda.top, port: 36176, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇲🇽 B墨西哥-中转, server: zfa.1234585.xyz, port: 45419, type: vmess, uuid: 691092c0-1a92-481b-8164-d05656630a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: zfa.1234585.xyz}}}
+  - {name: 🇨🇳 A台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 691092c0-1a92-481b-8164-d05656630a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
+  - {name: 🇨🇳 B台湾-原生ip, server: tw-one.1234585.xyz, port: 80, type: vmess, uuid: 691092c0-1a92-481b-8164-d05656630a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
+  - {name: 🇬🇧 A英国-0.5x, server: gb-one.1234585.xyz, port: 80, type: vmess, uuid: 691092c0-1a92-481b-8164-d05656630a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gb-one.1234585.xyz}}}
+  - {name: 🇬🇧 B英国-0.5x, server: gb-two.1234585.xyz, port: 80, type: ss, cipher: aes-256-gcm, password: 691092c0-1a92-481b-8164-d05656630a82}
+  - {name: 🇰🇵 A朝鲜, server: 104.21.34.30, port: 80, type: vmess, uuid: 691092c0-1a92-481b-8164-d05656630a82, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kp.1234585.xyz}}}
+  - {name: 🇺🇸 美国-核心访问, server: shdx.mixi.bio, port: 57317, type: ss, cipher: aes-128-gcm, password: 46be54f8-2641-4b71-86e8-0c63020229ce}
+  - {name: 距离下次重置剩余：8 天, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇻🇳 vip1 越南-01, server: gzdx.jcnode.top, port: 24291, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇻🇳 vip1 越南-02, server: gzyd.jcnode.top, port: 33534, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇻🇳 vip1 越南-03, server: gzdx01.jcnode.top, port: 23761, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-01, server: gzdx.jcnode.top, port: 45955, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-02, server: gzyd.jcnode.top, port: 33487, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-03, server: gzdx01.jcnode.top, port: 64654, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-07, server: gzdx.jcnode.top, port: 59584, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-08, server: gzyd.jcnode.top, port: 37639, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-09, server: gzdx01.jcnode.top, port: 63897, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-13, server: gzdx.jcnode.top, port: 13290, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-14, server: gzyd.jcnode.top, port: 10884, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-15, server: gzdx01.jcnode.top, port: 53271, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-19, server: gzdx.jcnode.top, port: 63279, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-20, server: gzyd.jcnode.top, port: 65407, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇭🇰 vip1 香港-21, server: gzdx01.jcnode.top, port: 33310, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇯🇵 vip1 日本-01, server: gzdx.jcnode.top, port: 29223, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇯🇵 vip1 日本-02, server: gzyd.jcnode.top, port: 59090, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇯🇵 vip1 日本-03, server: gzdx01.jcnode.top, port: 34948, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇯🇵 vip1 日本-06, server: gzdx.jcnode.top, port: 55718, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇯🇵 vip1 日本-07, server: gzyd.jcnode.top, port: 28397, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇯🇵 vip1 日本-08, server: gzdx01.jcnode.top, port: 53958, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇨🇳 vip1 台湾-01, server: gzdx.jcnode.top, port: 22225, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇨🇳 vip1 台湾-02, server: gzyd.jcnode.top, port: 46957, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇨🇳 vip1 台湾-03, server: gzdx01.jcnode.top, port: 24007, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇨🇳 vip1 台湾-06, server: gzdx.jcnode.top, port: 29574, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇨🇳 vip1 台湾-07, server: gzyd.jcnode.top, port: 64759, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇨🇳 vip1 台湾-08, server: gzdx01.jcnode.top, port: 26065, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇸🇬 vip1 新加坡-01, server: gzdx.jcnode.top, port: 30139, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇸🇬 vip1 新加坡-02, server: gzyd.jcnode.top, port: 59211, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇸🇬 vip1 新加坡-03, server: gzdx01.jcnode.top, port: 41972, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇸🇬 vip1 新加坡-06, server: gzdx.jcnode.top, port: 30641, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇸🇬 vip1 新加坡-07, server: gzyd.jcnode.top, port: 20014, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇸🇬 vip1 新加坡-08, server: gzdx01.jcnode.top, port: 44773, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-01, server: gzdx.jcnode.top, port: 20887, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-02, server: gzyd.jcnode.top, port: 41342, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-03, server: gzdx01.jcnode.top, port: 40171, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-06, server: gzdx.jcnode.top, port: 39211, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-07, server: gzyd.jcnode.top, port: 35387, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-08, server: gzdx01.jcnode.top, port: 23310, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-11, server: gzdx.jcnode.top, port: 43441, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-12, server: gzyd.jcnode.top, port: 41868, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇺🇸 vip1 美国-13, server: gzdx01.jcnode.top, port: 13793, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇮🇳 vip1 印度-01, server: gzdx.jcnode.top, port: 37169, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇮🇳 vip1 印度-02, server: gzyd.jcnode.top, port: 25997, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇮🇳 vip1 印度-03, server: gzdx01.jcnode.top, port: 19975, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇦🇺 vip1 澳大利亚-01, server: gzdx.jcnode.top, port: 23319, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇦🇺 vip1 澳大利亚-02, server: gzyd.jcnode.top, port: 61163, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇦🇺 vip1 澳大利亚-03, server: gzdx01.jcnode.top, port: 20922, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇹🇷 vip1 土耳其-01, server: gzdx.jcnode.top, port: 37115, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇹🇷 vip1 土耳其-02, server: gzyd.jcnode.top, port: 27048, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇹🇷 vip1 土耳其-03, server: gzdx01.jcnode.top, port: 22254, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇩🇪 vip1 德国-01, server: gzdx.jcnode.top, port: 14562, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇩🇪 vip1 德国-02, server: gzyd.jcnode.top, port: 62506, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇩🇪 vip1 德国-03, server: gzdx01.jcnode.top, port: 33912, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇬🇧 vip1 英国-01, server: gzdx.jcnode.top, port: 21781, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇬🇧 vip1 英国-02, server: gzyd.jcnode.top, port: 40788, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 🇬🇧 vip1 英国-03, server: gzdx01.jcnode.top, port: 65117, type: ss, cipher: chacha20-ietf-poly1305, password: 3cadb783-a5e3-4bfb-a11e-d0c6d9c0cf3c}
+  - {name: 距离下次重置剩余：1 天, server: 930db.fr99kt.top, port: 43311, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 930db.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇦🇪 迪拜-普通线路, server: 930db.fr99kt.top, port: 43311, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 930db.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-普通线路, server: 1003us.fr99kt.top, port: 14838, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 1003us.fr99kt.top, skip-cert-verify: false}
+  - {name: 永久网址www.win263.top（已被屏蔽）, server: 1.2.3.4, port: 2365, type: ss, cipher: aes-192-gcm, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb}
+  - {name: 🇸🇬 最新网址ww1.win263.top（未屏蔽，正常）, server: 8.9.9.8, port: 123, type: ss, cipher: chacha20-ietf-poly1305, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb}
+  - {name: 备用网址ww2.win263.top（未启用）, server: 9.9.9.9, port: 9999, type: ss, cipher: chacha20-ietf-poly1305, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb}
+  - {name: 🇭🇰 香港隧道1-解锁TK-NF-GPT, server: sdyd.ygdyf.com, port: 18899, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 1005hk.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇭🇰 香港隧道2-解锁TK-NF, server: gd.76po.com, port: 51151, type: vmess, uuid: 6612cb59-8d13-49cc-8206-21f0ccf28feb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 94hk05.fr99kt.top}}}
+  - {name: 🇭🇰 香港隧道3-解锁TK-NF-GPT, server: js1.76po.com, port: 26981, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 1008hk.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇭🇰 香港隧道4-解锁TK-NF, server: js1.76po.com, port: 52351, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 94hk03.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59591, type: vmess, uuid: 6612cb59-8d13-49cc-8206-21f0ccf28feb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903tw01.fr99kt.top}}}
+  - {name: 🇯🇵 日本隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59918, type: vmess, uuid: 6612cb59-8d13-49cc-8206-21f0ccf28feb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903jp01.fr99kt.top}}}
+  - {name: 🇯🇵 日本隧道2-解锁TK-NF-GPT, server: gd.76po.com, port: 35397, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 925jp.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59876, type: vmess, uuid: 6612cb59-8d13-49cc-8206-21f0ccf28feb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byxd, headers: {Host: 903sg01.fr99kt.top}}}
+  - {name: 🇺🇸 美国隧道-解锁TK-NF-GPT, server: 1.76po.com, port: 26691, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 1008us.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇫🇷 法国隧道-解锁TK-NF-GPT, server: 1.76po.com, port: 36287, type: trojan, password: 6612cb59-8d13-49cc-8206-21f0ccf28feb, sni: 1008fr.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯隧道1-解锁TK, server: 1.76po.com, port: 13577, type: vmess, uuid: 6612cb59-8d13-49cc-8206-21f0ccf28feb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bdeyd, headers: {Host: 903ru01.fr99kt.top}}}
+  - {name: 距离下次重置剩余：1 天, server: 930db.fr99kt.top, port: 43311, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 930db.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇦🇪 迪拜-普通线路, server: 930db.fr99kt.top, port: 43311, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 930db.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇺🇸 美国-普通线路, server: 1003us.fr99kt.top, port: 14838, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 1003us.fr99kt.top, skip-cert-verify: false}
+  - {name: 永久网址www.win263.top（已被屏蔽）, server: 1.2.3.4, port: 2365, type: ss, cipher: aes-192-gcm, password: 2ddc8d92-d235-473b-9561-c1a803dca01e}
+  - {name: 🇸🇬 最新网址ww1.win263.top（未屏蔽，正常）, server: 8.9.9.8, port: 123, type: ss, cipher: chacha20-ietf-poly1305, password: 2ddc8d92-d235-473b-9561-c1a803dca01e}
+  - {name: 备用网址ww2.win263.top（未启用）, server: 9.9.9.9, port: 9999, type: ss, cipher: chacha20-ietf-poly1305, password: 2ddc8d92-d235-473b-9561-c1a803dca01e}
+  - {name: 🇭🇰 香港隧道1-解锁TK-NF-GPT, server: sdyd.ygdyf.com, port: 18899, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 1005hk.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇭🇰 香港隧道2-解锁TK-NF, server: gd.76po.com, port: 51151, type: vmess, uuid: 2ddc8d92-d235-473b-9561-c1a803dca01e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 94hk05.fr99kt.top}}}
+  - {name: 🇭🇰 香港隧道3-解锁TK-NF-GPT, server: js1.76po.com, port: 26981, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 1008hk.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇭🇰 香港隧道4-解锁TK-NF, server: js1.76po.com, port: 52351, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 94hk03.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇨🇳 台湾隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59591, type: vmess, uuid: 2ddc8d92-d235-473b-9561-c1a803dca01e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903tw01.fr99kt.top}}}
+  - {name: 🇯🇵 日本隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59918, type: vmess, uuid: 2ddc8d92-d235-473b-9561-c1a803dca01e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byd, headers: {Host: 903jp01.fr99kt.top}}}
+  - {name: 🇯🇵 日本隧道2-解锁TK-NF-GPT, server: gd.76po.com, port: 35397, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 925jp.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇸🇬 新加坡隧道1-解锁TK-GPT-NF, server: js1.76po.com, port: 59876, type: vmess, uuid: 2ddc8d92-d235-473b-9561-c1a803dca01e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /byxd, headers: {Host: 903sg01.fr99kt.top}}}
+  - {name: 🇺🇸 美国隧道-解锁TK-NF-GPT, server: 1.76po.com, port: 26691, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 1008us.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇫🇷 法国隧道-解锁TK-NF-GPT, server: 1.76po.com, port: 36287, type: trojan, password: 2ddc8d92-d235-473b-9561-c1a803dca01e, sni: 1008fr.fr99kt.top, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯隧道1-解锁TK, server: 1.76po.com, port: 13577, type: vmess, uuid: 2ddc8d92-d235-473b-9561-c1a803dca01e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /bdeyd, headers: {Host: 903ru01.fr99kt.top}}}

@@ -17,23 +17,43 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇬🇧GB-132.226.214.1-016 | 1.36MB
+- name: 🇬🇧GB-132.226.214.1-089 | 1.371MB
   server: gb-two.1234585.xyz
   port: 80
   type: ss
   cipher: aes-256-gcm
-  password: 317ac5a5-58a5-4cd7-966d-74dd530114b0
-- name: 🇬🇧GB-143.47.253.237-004 | 1.353MB
+  password: d7c76505-a451-495d-a8e2-bcd0f24beb9b
+- name: 🇬🇧GB-132.145.62.95-088 | 1.367MB
+  server: gb-one.1234585.xyz
+  port: 80
+  type: vmess
+  uuid: d7c76505-a451-495d-a8e2-bcd0f24beb9b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: gb-one.1234585.xyz
+- name: 🇬🇧GB-143.47.253.237-077 | 1.353MB
   server: gb-three.1234585.xyz
   port: 80
   type: ss
   cipher: aes-256-gcm
-  password: 317ac5a5-58a5-4cd7-966d-74dd530114b0
-- name: 🇺🇸US-142.171.123.80-001 | 1.349MB
+  password: d7c76505-a451-495d-a8e2-bcd0f24beb9b
+- name: 🇸🇬SG-13.229.44.124-081 | 1.344MB
+  server: sg-one.1234585.xyz
+  port: 80
+  type: ss
+  cipher: aes-256-gcm
+  password: d7c76505-a451-495d-a8e2-bcd0f24beb9b
+- name: 🇺🇸US-142.171.123.80-074 | 1.335MB
   server: us-two.1234585.xyz
   port: 80
   type: vmess
-  uuid: 317ac5a5-58a5-4cd7-966d-74dd530114b0
+  uuid: d7c76505-a451-495d-a8e2-bcd0f24beb9b
   alterId: 0
   cipher: auto
   tls: false
@@ -43,17 +63,11 @@ proxies:
     path: /
     headers:
       Host: us-two.1234585.xyz
-- name: 🇸🇬SG-13.229.44.124-008 | 1.344MB
-  server: sg-one.1234585.xyz
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: 317ac5a5-58a5-4cd7-966d-74dd530114b0
-- name: RELAY-104.21.34.30-018 | 1.325MB
+- name: RELAY-104.21.34.30-091 | 1.317MB
   server: 104.21.34.30
   port: 80
   type: vmess
-  uuid: 317ac5a5-58a5-4cd7-966d-74dd530114b0
+  uuid: d7c76505-a451-495d-a8e2-bcd0f24beb9b
   alterId: 0
   cipher: auto
   tls: false
@@ -63,11 +77,11 @@ proxies:
     path: /
     headers:
       Host: aq.1234585.xyz
-- name: RELAY-104.21.34.30-017 | 1.311MB
+- name: RELAY-104.21.34.30-090 | 1.303MB
   server: 104.21.34.30
   port: 80
   type: vmess
-  uuid: 317ac5a5-58a5-4cd7-966d-74dd530114b0
+  uuid: d7c76505-a451-495d-a8e2-bcd0f24beb9b
   alterId: 0
   cipher: auto
   tls: false
@@ -133,29 +147,30 @@ proxy-groups:
   interval: 300
   tolerance: 100
   proxies:
-  - 🇬🇧GB-132.226.214.1-016 | 1.36MB
+  - 🇬🇧GB-132.226.214.1-089 | 1.371MB
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇬🇧GB-143.47.253.237-004 | 1.353MB
+  - 🇬🇧GB-132.145.62.95-088 | 1.367MB
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸US-142.171.123.80-001 | 1.349MB
+  - 🇬🇧GB-143.47.253.237-077 | 1.353MB
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬SG-13.229.44.124-008 | 1.344MB
-  - RELAY-104.21.34.30-018 | 1.325MB
-  - RELAY-104.21.34.30-017 | 1.311MB
+  - 🇸🇬SG-13.229.44.124-081 | 1.344MB
+  - 🇺🇸US-142.171.123.80-074 | 1.335MB
+  - RELAY-104.21.34.30-091 | 1.317MB
+  - RELAY-104.21.34.30-090 | 1.303MB
 rules:
 - MATCH,Global ©️

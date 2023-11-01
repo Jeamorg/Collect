@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `2355`
+merge nodes w/o dup: `2065`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -550,15 +550,15 @@ merge nodes w/o dup: `2355`
 - [oneclash.cc](https://oneclash.cc), number of nodes: `32`
 - [wefound.cc](https://wefound.cc), number of nodes: `32`
 - [tony0392/clash](https://github.com/tony0392/clash), number of nodes: `76`
-- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `872`
+- [Leon406/SubCrawler](https://github.com/Leon406/SubCrawler), number of nodes: `737`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `20`
 - [Lewis-1217/FreeNodes](https://github.com/Lewis-1217/FreeNodes), number of nodes: `34`
 - [mfuu/v2ray](https://github.com/mfuu/v2ray), number of nodes: `161`
-- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `4315`
-- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `133`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `172`
+- [w1770946466/Auto_proxy](https://github.com/w1770946466/Auto_proxy), number of nodes: `1511`
+- [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `47`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `154`
 - [NiceVPN123/NiceVPN](https://github.com/NiceVPN123/NiceVPN), number of nodes: `1091`
-- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `258`
+- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `104`
 - [Godying18277/-](https://github.com/Godying18277/-), number of nodes: `15`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `26`
 

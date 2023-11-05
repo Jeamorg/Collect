@@ -128,7 +128,7 @@ class update_url():
             #     'https://raw.githubusercontent.com/cdddbc/getAirport/main/config/sublist_mining', timeout=4).text.split("\n")))))
 
             sublist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(
-                'https://raw.githubusercontent.com/Jeamcc/CollectAir/master/urllist', timeout=4).text.split("\n")))))
+                'https://raw.githubusercontent.com/Jeamorg/Collect/master/Others', timeout=4).text.split("\n")))))
 
 
             jlist = list(set(list(filter(lambda x: x != "" and str(x).startswith("http"), s.get(

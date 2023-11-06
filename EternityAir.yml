@@ -17,98 +17,7 @@ dns:
   - https://dns.google/dns-query
   - tls://dns.google:853
 proxies:
-- name: 🇰🇷KR-193.123.248.121-002 | 1.382MB
-  server: xiongda006.daxiongda.top
-  port: 33752
-  type: ss
-  cipher: aes-256-gcm
-  password: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-- name: 🇰🇷KR-193.123.248.121-010 | 1.378MB
-  server: xiongda006.daxiongda.top
-  port: 36176
-  type: ss
-  cipher: aes-256-gcm
-  password: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-- name: 🇬🇧GB-132.226.214.1-013 | 1.361MB
-  server: gb-two.1234585.xyz
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-- name: 🇰🇷KR-193.123.248.121-006 | 1.359MB
-  server: xiongda006.daxiongda.top
-  port: 12468
-  type: ss
-  cipher: aes-256-gcm
-  password: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-- name: 🇬🇧GB-132.145.62.95-012 | 1.357MB
-  server: gb-one.1234585.xyz
-  port: 80
-  type: vmess
-  uuid: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: gb-one.1234585.xyz
-- name: 🇬🇧GB-141.147.92.191-003 | 1.352MB
-  server: gb-three.1234585.xyz
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-- name: 🇨🇦CA-66.70.220.112-014 | 1.349MB
-  server: ca-one.1234585.xyz
-  port: 443
-  type: vmess
-  uuid: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ca-one.1234585.xyz
-- name: 🇸🇬SG-54.179.230.181-007 | 1.339MB
-  server: sg-one.1234585.xyz
-  port: 80
-  type: ss
-  cipher: aes-256-gcm
-  password: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-- name: 🇺🇸US-142.171.123.80-000 | 1.338MB
-  server: us-two.1234585.xyz
-  port: 80
-  type: vmess
-  uuid: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us-two.1234585.xyz
-- name: 🇰🇷KR-193.123.248.121-011 | 0.982MB
-  server: xiongda006.daxiongda.top
-  port: 44444
-  type: vmess
-  uuid: 12d51dc7-e6d6-4aa5-adfc-756ab0a406a9
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xiongda006.daxiongda.top
+- null
 proxy-groups:
 - name: Global ©️
   type: select
@@ -164,34 +73,25 @@ proxy-groups:
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇰🇷KR-193.123.248.121-002 | 1.382MB
-  - 🇰🇷KR-193.123.248.121-010 | 1.378MB
+  proxies: []
 - name: Tier 2 ⚡️
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇬🇧GB-132.226.214.1-013 | 1.361MB
-  - 🇰🇷KR-193.123.248.121-006 | 1.359MB
+  proxies: []
 - name: Tier 3 💎
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
-  proxies:
-  - 🇬🇧GB-132.145.62.95-012 | 1.357MB
-  - 🇬🇧GB-141.147.92.191-003 | 1.352MB
+  proxies: []
 - name: Tier 4 🗿
   type: url-test
   url: http://clients3.google.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇦CA-66.70.220.112-014 | 1.349MB
-  - 🇸🇬SG-54.179.230.181-007 | 1.339MB
-  - 🇺🇸US-142.171.123.80-000 | 1.338MB
-  - 🇰🇷KR-193.123.248.121-011 | 0.982MB
+  - DIRECT
 rules:
 - MATCH,Global ©️

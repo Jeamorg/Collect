@@ -547,7 +547,7 @@ merge nodes w/o dup: `301`
 - [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `30`
 - [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `14`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `85`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `180`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `165`
 - [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `144`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `21`
 

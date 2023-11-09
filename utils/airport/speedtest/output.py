@@ -8,7 +8,7 @@ out_json = './output.json'
 Eternity_Air = "./EternityAir"
 airport_all_base64 = "./sub/airport_merge_base64.txt"
 sub_all = "./sub/airport_sub_merge.txt"
-Eternity_Air_file = "./EternityAir.txt"
+Eternity_Air_file = "./Air.txt"
 
 
 def read_json(file):  # 将 output.json 内容读取为列表

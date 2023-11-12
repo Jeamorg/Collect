@@ -521,7 +521,7 @@ high-speed node quantity: `200`
 - you can import these 200 tested nodes using their subscription link into different clients. refer to `Instructions & Usage` section
 
 ### all nodes
-merge nodes w/o dup: `375`
+merge nodes w/o dup: `281`
 - [Node link Mixed (V2ray)](https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt)
 - [Node link Yaml (Clash)](https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml)
 
@@ -544,11 +544,11 @@ merge nodes w/o dup: `375`
 
 
 ### node sources
-- [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `10`
-- [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `23`
+- [Nodefree.org](https://github.com/Fukki-Z/nodefree), number of nodes: `7`
+- [hsb4657/v2ray](https://github.com/hsb4657/v2ray), number of nodes: `18`
 - [zhangkaiitugithub/passcro](https://github.com/zhangkaiitugithub/passcro), number of nodes: `71`
-- [123.57.192.169](http://123.57.192.169), number of nodes: `284`
-- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `50`
+- [123.57.192.169](http://123.57.192.169), number of nodes: `178`
+- [go4sharing/50d759ae59cd27595811a208159cf00f](https://github.com/go4sharing/sub), number of nodes: `83`
 - [ripaojiedian/freenode](https://github.com/ripaojiedian/freenode), number of nodes: `24`
 
 ## Softwares
